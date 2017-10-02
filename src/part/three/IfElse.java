@@ -11,8 +11,8 @@ public class IfElse {
         } else result = 0;
     }
 
-    public static void main(String[] args){
-        test(10,5);
+    public static void main(String[] args) {
+        test(10, 5);
         System.out.println(result);
     }
 }

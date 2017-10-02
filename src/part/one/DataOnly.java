@@ -2,11 +2,11 @@ package part.one;
 
 public class DataOnly {
 
-    private int storage(String s){
+    private int storage(String s) {
         return s.length() * 2;
     }
 
-    boolean flag(){
+    boolean flag() {
         return true;
     }
 
@@ -18,9 +18,10 @@ public class DataOnly {
         return;
     }
 
-    void nothing2(){}
+    void nothing2() {
+    }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int i = 0;
         double d = 0.0d;
         boolean b = false;
@@ -28,9 +29,9 @@ public class DataOnly {
         long l = 0L;
 
         System.out.println("i = " + i + "\n"
-                         + "d = " + d + "\n"
-                         + "b = " + b + "\n"
-                         + "c = " + c + "\n"
-                         + "l = " + l);
+                + "d = " + d + "\n"
+                + "b = " + b + "\n"
+                + "c = " + c + "\n"
+                + "l = " + l);
     }
 }

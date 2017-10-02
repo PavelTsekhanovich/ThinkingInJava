@@ -22,8 +22,8 @@ public class Bool {
         //! print("!i is " + !i);
 
         System.out.println("(i < 10) && (j < 10) is "
-                + ((i < 10) && (j < 10)) );
+                + ((i < 10) && (j < 10)));
         System.out.println("(i < 10) || (j < 10) is "
-                + ((i < 10) || (j < 10)) );
+                + ((i < 10) || (j < 10)));
     }
 }
