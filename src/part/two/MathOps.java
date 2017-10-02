@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class MathOps {
     public static void main(String[] args) {
-        // Создание и раскрутка генератора случайных чисел:
         Random rand = new Random(47);
         int i, j, k;
         // Choose value from 1 to 100:
