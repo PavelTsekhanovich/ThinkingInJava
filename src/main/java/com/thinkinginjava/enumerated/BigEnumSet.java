@@ -1,4 +1,4 @@
-//: com.thinkinginjava.enumerated/BigEnumSet.java
+package com.thinkinginjava.enumerated;//: com.thinkinginjava.enumerated/BigEnumSet.java
 
 import java.util.EnumSet;
 

@@ -1,8 +1,6 @@
 //: com.thinkinginjava.enumerated/RoShamBo6.java
-// Enums using "tables" instead of multiple dispatch.
+// Enums using "tables" instead of multiple disp
 package com.thinkinginjava.enumerated;
-
-import static com.thinkinginjava.enumerated.Outcome.*;
 
 enum RoShamBo6 implements Competitor<RoShamBo6> {
     PAPER, SCISSORS, ROCK;

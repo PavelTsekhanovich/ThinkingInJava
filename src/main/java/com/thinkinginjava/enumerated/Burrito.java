@@ -1,8 +1,6 @@
 //: com.thinkinginjava.enumerated/Burrito.java
 package com.thinkinginjava.enumerated;
 
-import static com.thinkinginjava.enumerated.Spiciness.*;
-
 public class Burrito {
     Spiciness degree;
 
