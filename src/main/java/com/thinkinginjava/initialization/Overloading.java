@@ -1,9 +1,6 @@
-package com.thinkinginjava.initialization;//: initialization/Overloading.java
-// Demonstration of both constructor
-// and ordinary method overloading.
+package com.thinkinginjava.initialization;
 
-import static net.mindview.util.Print.*;
-import static net.mindview.util.Print.print;
+import static com.thinkinginjava.Print.print;
 
 class Tree {
     int height;
