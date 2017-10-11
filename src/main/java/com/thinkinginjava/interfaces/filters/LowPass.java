@@ -1,4 +1,3 @@
-//: com.thinkinginjava.interfaces/filters/LowPass.java
 package com.thinkinginjava.interfaces.filters;
 
 public class LowPass extends Filter {

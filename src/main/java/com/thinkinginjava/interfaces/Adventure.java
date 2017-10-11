@@ -1,5 +1,4 @@
-//: com.thinkinginjava.interfaces/Adventure.java
-// Multiple com.thinkinginjava.interfaces.
+package com.thinkinginjava.interfaces;
 
 interface CanFight {
   void fight();
@@ -15,7 +14,7 @@ interface CanFly {
 
 class ActionCharacter {
   public void fight() {}
-}	
+}
 
 class Hero extends ActionCharacter
     implements CanFight, CanSwim, CanFly {
@@ -28,6 +27,7 @@ public class Adventure {
   public static void u(CanSwim x) { x.swim(); }
   public static void v(CanFly x) { x.fly(); }
   public static void w(ActionCharacter x) { x.fight(); }
+
   public static void main(String[] args) {
     Hero h = new Hero();
     t(h); // Treat it as a CanFight
@@ -35,4 +35,4 @@ public class Adventure {
     v(h); // Treat it as a CanFly
     w(h); // Treat it as an ActionCharacter
   }
-} ///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.interfaces/HorrorShow.java
-// Extending an interface with inheritance.
+package com.thinkinginjava.interfaces;
 
 interface Monster {
   void menace();
@@ -45,4 +44,4 @@ public class HorrorShow {
     v(vlad);
     w(vlad);
   }
-} ///:~
+}
