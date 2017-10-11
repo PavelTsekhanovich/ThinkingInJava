@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/Shapes.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Shapes.java
 import java.util.*;
 
 abstract class Shape {

@@ -1,6 +1,5 @@
-//: com.thinkinginjava.polymorphism/PolyConstructors.java
-// Constructors and com.thinkinginjava.polymorphism
-// don't produce what you might expect.
+package com.thinkinginjava.polymorphism;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class Glyph {

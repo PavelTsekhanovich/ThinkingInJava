@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/CovariantArrays.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/CovariantArrays.java
 
 class Fruit {}
 class Apple extends Fruit {}

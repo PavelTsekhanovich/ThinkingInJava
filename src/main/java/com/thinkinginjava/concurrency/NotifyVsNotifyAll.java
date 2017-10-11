@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/NotifyVsNotifyAll.java
+package com.thinkinginjava.concurrency;
 
 import java.util.Timer;
 import java.util.TimerTask;

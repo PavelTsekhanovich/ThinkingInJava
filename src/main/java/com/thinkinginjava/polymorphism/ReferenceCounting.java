@@ -1,5 +1,5 @@
-//: com.thinkinginjava.polymorphism/ReferenceCounting.java
-// Cleaning up shared member objects.
+package com.thinkinginjava.polymorphism;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class Shared {

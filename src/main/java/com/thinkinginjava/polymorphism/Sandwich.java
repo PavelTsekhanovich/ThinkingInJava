@@ -1,6 +1,5 @@
-//: com.thinkinginjava.polymorphism/Sandwich.java
-// Order of constructor calls.
 package com.thinkinginjava.polymorphism;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class Meal {

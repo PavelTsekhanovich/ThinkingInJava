@@ -1,5 +1,3 @@
-//: com.thinkinginjava.polymorphism/music3/Music3.java
-// An extensible program.
 package com.thinkinginjava.polymorphism.music3;
 import com.thinkinginjava.polymorphism.music.Note;
 import static com.thinkinginjava.net.mindview.util.Print.*;
@@ -60,10 +58,4 @@ public class Music3 {
     };
     tuneAll(orchestra);
   }
-} /* Output:
-Wind.play() MIDDLE_C
-Percussion.play() MIDDLE_C
-Stringed.play() MIDDLE_C
-Brass.play() MIDDLE_C
-Woodwind.play() MIDDLE_C
-*///:~
+}

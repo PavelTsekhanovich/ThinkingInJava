@@ -1,6 +1,4 @@
-package com.thinkinginjava.polymorphism;//: com.thinkinginjava.polymorphism/RTTI.java
-// Downcasting & Runtime type information (RTTI).
-// {ThrowsException}
+package com.thinkinginjava.polymorphism;
 
 class Useful {
   public void f() {}
@@ -28,4 +26,4 @@ public class RTTI {
     ((MoreUseful)x[1]).u(); // Downcast/RTTI
     ((MoreUseful)x[0]).u(); // Exception thrown
   }
-} ///:~
+}

@@ -1,6 +1,5 @@
-//: com.thinkinginjava.polymorphism/Transmogrify.java
-// Dynamically changing the behavior of an object
-// via composition (the "State" design pattern).
+package com.thinkinginjava.polymorphism;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class Actor {
