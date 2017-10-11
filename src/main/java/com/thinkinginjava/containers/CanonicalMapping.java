@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/CanonicalMapping.java
-// Demonstrates WeakHashMap.
+package com.thinkinginjava.containers;
 
 import java.util.WeakHashMap;
 
@@ -59,4 +58,4 @@ public class CanonicalMapping {
         }
         System.gc();
     }
-} /* (Execute to see output) *///:~
+}
