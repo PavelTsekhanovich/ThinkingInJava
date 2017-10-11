@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/BasicFileOutput.java
+package com.thinkinginjava.io;
 import java.io.*;
 
 public class BasicFileOutput {

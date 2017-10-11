@@ -1,5 +1,4 @@
-//: com.thinkinginjava.generics/Apply.java
-// {main: ApplyTest}
+package com.thinkinginjava.generics;
 import java.lang.reflect.*;
 import java.util.*;
 import static com.thinkinginjava.net.mindview.util.Print.*;

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/Person.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Person.java
 // A class with a Null Object.
 import com.thinkinginjava.net.mindview.util.*;
 

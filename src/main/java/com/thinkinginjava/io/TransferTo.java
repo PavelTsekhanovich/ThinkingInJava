@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/TransferTo.java
-// Using transferTo() between channels
-// {Args: TransferTo.java TransferTo.txt}
+package com.thinkinginjava.io;
 import java.nio.channels.*;
 import java.io.*;
 
@@ -17,4 +15,4 @@ public class TransferTo {
     // Or:
     // out.transferFrom(in, 0, in.size());
   }
-} ///:~
+}

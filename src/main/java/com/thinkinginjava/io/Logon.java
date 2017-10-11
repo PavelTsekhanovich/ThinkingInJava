@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/Logon.java
+package com.thinkinginjava.io;//: com.thinkinginjava.io/Logon.java
 // Demonstrates the "transient" keyword.
 import java.util.concurrent.*;
 import java.io.*;
