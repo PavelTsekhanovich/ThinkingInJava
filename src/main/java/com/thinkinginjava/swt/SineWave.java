@@ -1,10 +1,14 @@
-//: com.thinkinginjava.swt/SineWave.java
+package com.thinkinginjava.swt;//: com.thinkinginjava.swt/SineWave.java
 // SWT translation of Swing SineWave.java.
 import com.thinkinginjava.swt.util.*;
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.events.*;
 import org.eclipse.swt.layout.*;
+
+import java.awt.*;
+
+import static javafx.application.ConditionalFeature.SWT;
 
 class SineDraw extends Canvas {
   private static final int SCALEFACTOR = 200;

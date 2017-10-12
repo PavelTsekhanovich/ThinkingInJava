@@ -1,4 +1,5 @@
-//: com.thinkinginjava.interfaces/TestRandVals.java
+package com.thinkinginjava.interfaces;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 public class TestRandVals {

@@ -1,4 +1,5 @@
-//: com.thinkinginjava.innerclasses/Factories.java
+package com.thinkinginjava.innerclasses;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 interface Service {

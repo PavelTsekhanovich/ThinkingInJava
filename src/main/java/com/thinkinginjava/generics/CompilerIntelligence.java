@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/CompilerIntelligence.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/CompilerIntelligence.java
 import java.util.*;
 
 public class CompilerIntelligence {

@@ -1,4 +1,3 @@
-//: com.thinkinginjava.interfaces/nesting/NestingInterfaces.java
 package com.thinkinginjava.interfaces.nesting;
 
 class A {
@@ -16,7 +15,7 @@ class A {
   }
   class CImp implements C {
     public void f() {}
-  }	
+  }
   private class CImp2 implements C {
     public void f() {}
   }
@@ -35,7 +34,7 @@ class A {
     dRef = d;
     dRef.f();
   }
-}	
+}
 
 interface E {
   interface G {
@@ -48,7 +47,7 @@ interface E {
   void g();
   // Cannot be private within an interface:
   //! private interface I {}
-}	
+}
 
 public class NestingInterfaces {
   public class BImp implements A.B {
@@ -73,7 +72,7 @@ public class NestingInterfaces {
     class EG implements E.G {
       public void f() {}
     }
-  }	
+  }
   public static void main(String[] args) {
     A a = new A();
     // Can't access A.D:

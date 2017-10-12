@@ -1,5 +1,5 @@
-//: com.thinkinginjava.interfaces/AdaptedRandomDoubles.java
-// Creating an adapter with inheritance.
+package com.thinkinginjava.interfaces;
+
 import java.nio.*;
 import java.util.*;
 

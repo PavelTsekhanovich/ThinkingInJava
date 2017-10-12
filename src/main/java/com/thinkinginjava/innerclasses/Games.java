@@ -1,9 +1,13 @@
-//: com.thinkinginjava.innerclasses/Games.java
-// Using anonymous inner classes with the Game framework.
+package com.thinkinginjava.innerclasses;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
-interface Game { boolean move(); }
-interface GameFactory { Game getGame(); }
+interface Game {
+  boolean move();
+}
+interface GameFactory {
+  Game getGame();
+}
 
 class Checkers implements Game {
   private Checkers() {}
