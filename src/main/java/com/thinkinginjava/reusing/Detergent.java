@@ -1,12 +1,11 @@
-//: com.thinkinginjava.reusing/Detergent.java
-// Inheritance syntax & properties.
+package com.thinkinginjava.reusing;
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class Cleanser {
   private String s = "Cleanser";
   public void append(String a) { s += a; }
-  public void dilute() { append(" dilute()"); }
-  public void apply() { append(" apply()"); }
+  void dilute() { append(" dilute()"); }
+  void apply() { append(" apply()"); }
   public void scrub() { append(" scrub()"); }
   public String toString() { return s; }
   public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class Detergent extends Cleanser {
     super.scrub(); // Call base-class version
   }
   // Add methods to the interface:
-  public void foam() { append(" foam()"); }
+  private void foam() { append(" foam()"); }
   // Test the new class:
   public static void main(String[] args) {
     Detergent x = new Detergent();

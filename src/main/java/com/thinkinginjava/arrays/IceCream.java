@@ -1,4 +1,4 @@
-//: com.thinkinginjava.arrays/IceCream.java
+package com.thinkinginjava.arrays;//: com.thinkinginjava.arrays/IceCream.java
 // Returning com.thinkinginjava.arrays from methods.
 
 import java.util.Arrays;

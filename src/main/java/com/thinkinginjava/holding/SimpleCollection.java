@@ -1,4 +1,5 @@
-//: com.thinkinginjava.holding/SimpleCollection.java
+package com.thinkinginjava.holding;
+
 import java.util.*;
 
 public class SimpleCollection {

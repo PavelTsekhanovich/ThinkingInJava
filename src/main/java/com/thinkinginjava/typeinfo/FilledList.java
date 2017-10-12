@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/FilledList.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/FilledList.java
 import java.util.*;
 
 class CountedInteger {

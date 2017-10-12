@@ -1,4 +1,4 @@
-//: com.thinkinginjava.holding/AsListInference.java
+package com.thinkinginjava.holding;//: com.thinkinginjava.holding/AsListInference.java
 // Arrays.asList() makes its best guess about type.
 import java.util.*;
 

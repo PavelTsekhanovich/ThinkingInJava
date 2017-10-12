@@ -1,6 +1,5 @@
-//: com.thinkinginjava.interfaces/RandVals.java
-// Initializing interface fields with
-// non-constant initializers.
+package com.thinkinginjava.interfaces;
+
 import java.util.*;
 
 public interface RandVals {
@@ -9,4 +8,4 @@ public interface RandVals {
   long RANDOM_LONG = RAND.nextLong() * 10;
   float RANDOM_FLOAT = RAND.nextLong() * 10;
   double RANDOM_DOUBLE = RAND.nextDouble() * 10;
-} ///:~
+}

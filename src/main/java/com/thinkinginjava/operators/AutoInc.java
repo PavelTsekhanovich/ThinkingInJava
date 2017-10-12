@@ -1,3 +1,5 @@
+package com.thinkinginjava.operators;
+
 import static com.thinkinginjava.Print.print;
 
 public class AutoInc {
