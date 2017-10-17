@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/SelfBounding.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/SelfBounding.java
 
 class SelfBounded<T extends SelfBounded<T>> {
   T element;
@@ -10,6 +10,7 @@ class SelfBounded<T extends SelfBounded<T>> {
 }
 
 class A extends SelfBounded<A> {}
+
 class B extends SelfBounded<A> {} // Also OK
 
 class C extends SelfBounded<C> {
