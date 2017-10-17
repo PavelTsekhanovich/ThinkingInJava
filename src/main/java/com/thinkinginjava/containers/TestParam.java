@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/TestParam.java
-// A "data transfer object."
+package com.thinkinginjava.containers;
 
 public class TestParam {
     public final int size;

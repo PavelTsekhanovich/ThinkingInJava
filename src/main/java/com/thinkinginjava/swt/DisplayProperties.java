@@ -1,4 +1,4 @@
-//: com.thinkinginjava.swt/DisplayProperties.java
+package com.thinkinginjava.swt;//: com.thinkinginjava.swt/DisplayProperties.java
 import org.eclipse.swt.*;
 import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.layout.*;

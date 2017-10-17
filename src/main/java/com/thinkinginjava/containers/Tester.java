@@ -1,4 +1,4 @@
-//: com.thinkinginjava.containers/Tester.java
+package com.thinkinginjava.containers;//: com.thinkinginjava.containers/Tester.java
 // Applies Test objects to lists of different com.thinkinginjava.containers.
 
 public class Tester<C> {

@@ -1,4 +1,6 @@
-//: com.thinkinginjava.typeinfo/Position.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Position.java
+
+import com.thinkinginjava.typeinfo.pets.Person;
 
 class Position {
   private String title;

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/SlowMap.java
-// A Map implemented with ArrayLists.
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.net.mindview.util.Countries;
 

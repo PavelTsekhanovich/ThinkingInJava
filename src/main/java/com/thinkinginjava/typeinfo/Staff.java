@@ -1,4 +1,7 @@
-//: com.thinkinginjava.typeinfo/Staff.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Staff.java
+import com.thinkinginjava.typeinfo.pets.Person;
+
+import javax.swing.text.Position;
 import java.util.*;
 
 public class Staff extends ArrayList<Position> {

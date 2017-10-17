@@ -1,11 +1,11 @@
-//: com.thinkinginjava.arrays/ComparatorTest.java
-// Implementing a Comparator for a class.
+package com.thinkinginjava.arrays;
 
 import net.mindview.util.*;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
+import static com.thinkinginjava.Print.print;
 import static net.mindview.util.Print.*;
 
 class CompTypeComparator implements Comparator<CompType> {

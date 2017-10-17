@@ -1,4 +1,4 @@
-//: com.thinkinginjava.reusing/Lisa.java
+package com.thinkinginjava.reusing;//: com.thinkinginjava.reusing/Lisa.java
 // {CompileTimeError} (Won't compile)
 
 class Lisa extends Homer {

@@ -1,5 +1,6 @@
-//: com.thinkinginjava.swt/ShellsAreMainWindows.java
-import org.eclipse.swt.widgets.*;
+package com.thinkinginjava.swt;
+
+import jdk.nashorn.tools.Shell;
 
 public class ShellsAreMainWindows {
   static Shell[] shells = new Shell[10];

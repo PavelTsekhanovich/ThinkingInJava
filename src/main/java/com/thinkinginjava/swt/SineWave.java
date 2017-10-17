@@ -1,3 +1,4 @@
+/*
 package com.thinkinginjava.swt;//: com.thinkinginjava.swt/SineWave.java
 // SWT translation of Swing SineWave.java.
 import com.thinkinginjava.swt.util.*;
@@ -75,3 +76,4 @@ public class SineWave implements SWTApplication {
     SWTConsole.run(new SineWave(), 700, 400);
   }
 } ///:~
+*/

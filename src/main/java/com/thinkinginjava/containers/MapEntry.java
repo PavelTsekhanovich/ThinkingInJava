@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/MapEntry.java
-// A simple Map.Entry for sample Map implementations.
+package com.thinkinginjava.containers;
 
 import java.util.Map;
 

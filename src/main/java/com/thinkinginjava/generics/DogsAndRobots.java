@@ -1,5 +1,5 @@
-//: com.thinkinginjava.generics/DogsAndRobots.java
-// No latent typing in Java
+package com.thinkinginjava.generics;
+
 import com.thinkinginjava.typeinfo.pets.*;
 import static com.thinkinginjava.net.mindview.util.Print.*;
 

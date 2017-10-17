@@ -1,4 +1,5 @@
-//: com.thinkinginjava.generics/InstantiateGenericType.java
+package com.thinkinginjava.generics;
+
 import static com.thinkinginjava.net.mindview.util.Print.*;
 
 class ClassAsFactory<T> {
@@ -12,7 +13,7 @@ class ClassAsFactory<T> {
   }
 }
 
-class Employee {}	
+class Employee {}
 
 public class InstantiateGenericType {
   public static void main(String[] args) {

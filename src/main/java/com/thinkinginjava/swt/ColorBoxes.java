@@ -1,4 +1,4 @@
-//: com.thinkinginjava.swt/ColorBoxes.java
+package com.thinkinginjava.swt;//: com.thinkinginjava.swt/ColorBoxes.java
 // SWT translation of Swing ColorBoxes.java.
 import com.thinkinginjava.swt.util.*;
 import org.eclipse.swt.*;
@@ -6,6 +6,8 @@ import org.eclipse.swt.widgets.*;
 import org.eclipse.swt.events.*;
 import org.eclipse.swt.graphics.*;
 import org.eclipse.swt.layout.*;
+
+import java.awt.*;
 import java.util.concurrent.*;
 import java.util.*;
 import com.thinkinginjava.net.mindview.util.*;
