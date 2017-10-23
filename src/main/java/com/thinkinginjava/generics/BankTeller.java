@@ -1,12 +1,8 @@
-//: com.thinkinginjava.generics/BankTeller.java
-// A very simple bank teller simulation.
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.Generator;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Random;
+import java.util.*;
 
 class Customer {
     private static long counter = 1;

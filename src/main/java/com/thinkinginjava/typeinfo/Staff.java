@@ -1,4 +1,4 @@
-package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Staff.java
+/*package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Staff.java
 
 import com.thinkinginjava.typeinfo.pets.Person;
 
@@ -54,6 +54,4 @@ public class Staff extends ArrayList<Position> {
                     new Person("Bob", "Coder", "Bright Light City"));
         System.out.println(staff);
     }
-} /* Output:	
-[Position: President Person: Me Last The Top, Lonely At, Position: CTO NullPerson, Position: Marketing Manager NullPerson, Position: Product Manager NullPerson, Position: Project Lead Person: Janet Planner The Burbs, Position: Software Engineer Person: Bob Coder Bright Light City, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: Software Engineer NullPerson, Position: Test Engineer NullPerson, Position: Technical Writer NullPerson]
-*///:~
+} */

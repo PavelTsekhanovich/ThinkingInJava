@@ -1,7 +1,7 @@
-//: com.thinkinginjava.polymorphism/Shapes.java
-// Polymorphism in Java.
+package com.thinkinginjava.polymorphism;
 
 import com.thinkinginjava.polymorphism.shape.RandomShapeGenerator;
+import com.thinkinginjava.polymorphism.shape.Shape;
 
 public class Shapes {
     private static RandomShapeGenerator gen =
@@ -16,14 +16,4 @@ public class Shapes {
         for (Shape shp : s)
             shp.draw();
     }
-} /* Output:
-Triangle.draw()
-Triangle.draw()
-Square.draw()
-Triangle.draw()
-Square.draw()
-Triangle.draw()
-Square.draw()
-Triangle.draw()
-Circle.draw()
-*///:~
+}

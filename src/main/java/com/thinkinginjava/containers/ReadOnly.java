@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/ReadOnly.java
-// Using the Collections.unmodifiable methods.
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.net.mindview.util.Countries;
 

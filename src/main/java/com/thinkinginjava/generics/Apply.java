@@ -64,11 +64,11 @@ class ApplyTest {
         Apply.apply(new FilledList<Shape>(Square.class, 10),
                 Shape.class.getMethod("rotate"));
 
-        SimpleQueue<Shape> shapeQ = new SimpleQueue<Shape>();
-        for (int i = 0; i < 5; i++) {
+        //SimpleQueue<Shape> shapeQ = new SimpleQueue<Shape>();
+        /*for (int i = 0; i < 5; i++) {
             shapeQ.add(new Shape());
             shapeQ.add(new Square());
         }
-        Apply.apply(shapeQ, Shape.class.getMethod("rotate"));
+        Apply.apply(shapeQ, Shape.class.getMethod("rotate"));*/
     }
 } /* (Execute to see output) *///:~

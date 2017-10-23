@@ -1,5 +1,6 @@
-//: com.thinkinginjava.generics/EpicBattle.java
-// Demonstrating bounds in Java com.thinkinginjava.generics.
+package com.thinkinginjava.generics;
+
+import java.util.List;
 
 interface SuperPower {
 }
@@ -90,4 +91,4 @@ public class EpicBattle {
         // But you can't do this:
         // List<? extends SuperHearing & SuperSmell> dogBoys;
     }
-} ///:~
+}

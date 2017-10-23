@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/Manipulation.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/Manipulation.java
 // {CompileTimeError} (Won't compile)
 
 class Manipulator<T> {
@@ -9,9 +9,9 @@ class Manipulator<T> {
     }
 
     // Error: cannot find symbol: method f():
-    public void manipulate() {
-        obj.f();
-    }
+    //public void manipulate() {
+        //obj.f();
+    //}
 }
 
 public class Manipulation {
@@ -19,6 +19,6 @@ public class Manipulation {
         HasF hf = new HasF();
         Manipulator<HasF> manipulator =
                 new Manipulator<HasF>(hf);
-        manipulator.manipulate();
+        //manipulator.manipulate();
     }
 } ///:~

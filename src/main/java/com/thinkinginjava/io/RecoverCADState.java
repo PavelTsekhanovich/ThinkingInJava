@@ -1,9 +1,13 @@
-//: com.thinkinginjava.io/RecoverCADState.java
+package com.thinkinginjava.io;//: com.thinkinginjava.io/RecoverCADState.java
 // Restoring the state of the pretend CAD system.
 // {RunFirst: StoreCADState}
 
+import com.thinkinginjava.polymorphism.shape.Shape;
+
+import javax.sound.sampled.Line;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.util.List;
 
 public class RecoverCADState {
     @SuppressWarnings("unchecked")
@@ -13,7 +17,7 @@ public class RecoverCADState {
         // Read in the same order they were written:
         List<Class<? extends Shape>> shapeTypes =
                 (List<Class<? extends Shape>>) in.readObject();
-        Line.deserializeStaticState(in);
+        //Line.deserializeStaticState(in);
         List<Shape> shapes = (List<Shape>) in.readObject();
         System.out.println(shapes);
     }

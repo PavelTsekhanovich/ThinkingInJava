@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/TestBlockingQueues.java
-// {RunByHand}
+package com.thinkinginjava.concurrency;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

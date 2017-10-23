@@ -1,6 +1,8 @@
-//: com.thinkinginjava.holding/PetMap.java
+package com.thinkinginjava.holding;//: com.thinkinginjava.holding/PetMap.java
 
+import com.thinkinginjava.typeinfo.pets.Cat;
 import com.thinkinginjava.typeinfo.pets.Dog;
+import com.thinkinginjava.typeinfo.pets.Hamster;
 import com.thinkinginjava.typeinfo.pets.Pet;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.containers/MapPerformance.java
+package com.thinkinginjava.containers;//: com.thinkinginjava.containers/MapPerformance.java
 // Demonstrates performance differences in Maps.
 // {Args: 100 5000} Small to keep build testing short
 

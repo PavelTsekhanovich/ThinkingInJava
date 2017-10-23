@@ -1,10 +1,6 @@
-//: com.thinkinginjava.containers/ListSortSearch.java
-// Sorting and searching Lists with Collections utilities.
+package com.thinkinginjava.containers;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.ListIterator;
-import java.util.Random;
+import java.util.*;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -37,12 +33,4 @@ public class ListSortSearch {
         print("Location of " + key + " is " + index +
                 ", list.get(" + index + ") = " + list.get(index));
     }
-} /* Output:
-[one, Two, three, Four, five, six, one, one, Two, three, Four, five, six, one]
-Shuffled: [Four, five, one, one, Two, six, six, three, three, five, Four, Two, one, one]
-Trimmed: [Four, five, one, one, Two, six, six, three, three, five]
-Sorted: [Four, Two, five, five, one, one, six, six, three, three]
-Location of six is 7, list.get(7) = six
-Case-insensitive sorted: [five, five, Four, one, one, six, six, three, three, Two]
-Location of three is 7, list.get(7) = three
-*///:~
+}

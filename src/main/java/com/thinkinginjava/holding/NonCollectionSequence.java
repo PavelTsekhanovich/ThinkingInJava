@@ -1,4 +1,4 @@
-//: com.thinkinginjava.holding/NonCollectionSequence.java
+package com.thinkinginjava.holding;//: com.thinkinginjava.holding/NonCollectionSequence.java
 
 import com.thinkinginjava.typeinfo.pets.Pet;
 import com.thinkinginjava.typeinfo.pets.Pets;

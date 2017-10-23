@@ -1,7 +1,4 @@
-//: com.thinkinginjava.generics/Fill2.java
-// Using adapters to simulate latent typing.
-// {main: Fill2Test}
-
+package com.thinkinginjava.generics;
 import com.thinkinginjava.generics.coffee.Coffee;
 import com.thinkinginjava.generics.coffee.Latte;
 import com.thinkinginjava.generics.coffee.Mocha;
@@ -9,6 +6,8 @@ import com.thinkinginjava.net.mindview.util.Generator;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -60,8 +59,7 @@ class Adapter {
 
 // To adapt a specific type, you can use inheritance.
 // Make a SimpleQueue Addable using inheritance:
-class AddableSimpleQueue<T>
-        extends SimpleQueue<T> implements Addable<T> {
+abstract class AddableSimpleQueue<T> extends SimpleQueue<T> implements Addable<T> {
     public void add(T item) {
         super.add(item);
     }
@@ -81,8 +79,12 @@ class Fill2Test {
             print(c);
         print("----------------------");
         // Use an adapted class:
-        AddableSimpleQueue<Coffee> coffeeQueue =
-                new AddableSimpleQueue<Coffee>();
+        AddableSimpleQueue<Coffee> coffeeQueue = new AddableSimpleQueue<Coffee>() {
+            @Override
+            public Iterator<Coffee> iterator() {
+                return null;
+            }
+        };
         Fill2.fill(coffeeQueue, Mocha.class, 4);
         Fill2.fill(coffeeQueue, Latte.class, 1);
         for (Coffee c : coffeeQueue)

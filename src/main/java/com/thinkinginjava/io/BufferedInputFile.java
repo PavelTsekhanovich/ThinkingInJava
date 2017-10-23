@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/BufferedInputFile.java
+package com.thinkinginjava.io;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -23,4 +23,4 @@ public class BufferedInputFile {
             throws IOException {
         System.out.print(read("BufferedInputFile.java"));
     }
-} /* (Execute to see output) *///:~
+}

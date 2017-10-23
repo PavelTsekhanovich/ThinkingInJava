@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/FileOutputShortcut.java
+package com.thinkinginjava.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

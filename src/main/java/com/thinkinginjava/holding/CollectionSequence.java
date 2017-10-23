@@ -1,4 +1,4 @@
-//: com.thinkinginjava.holding/CollectionSequence.java
+package com.thinkinginjava.holding;
 
 import com.thinkinginjava.typeinfo.pets.Pet;
 import com.thinkinginjava.typeinfo.pets.Pets;
@@ -37,7 +37,4 @@ public class CollectionSequence
         InterfaceVsIterator.display(c);
         InterfaceVsIterator.display(c.iterator());
     }
-} /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-*///:~
+}

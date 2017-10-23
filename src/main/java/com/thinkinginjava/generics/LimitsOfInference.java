@@ -1,8 +1,9 @@
-//: com.thinkinginjava.generics/LimitsOfInference.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/LimitsOfInference.java
 
 import com.thinkinginjava.typeinfo.pets.Person;
 import com.thinkinginjava.typeinfo.pets.Pet;
 
+import java.util.List;
 import java.util.Map;
 
 public class LimitsOfInference {

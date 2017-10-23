@@ -1,11 +1,13 @@
-//: com.thinkinginjava.generics/CheckedList.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/CheckedList.java
 // Using Collection.checkedList().
 
+import com.thinkinginjava.typeinfo.pets.Cat;
 import com.thinkinginjava.typeinfo.pets.Dog;
 import com.thinkinginjava.typeinfo.pets.Pet;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class CheckedList {
     @SuppressWarnings("unchecked")
@@ -29,6 +31,4 @@ public class CheckedList {
         pets.add(new Dog());
         pets.add(new Cat());
     }
-} /* Output:
-java.lang.ClassCastException: Attempt to insert class com.thinkinginjava.typeinfo.pets.Cat element into collection with element type class com.thinkinginjava.typeinfo.pets.Dog
-*///:~
+}

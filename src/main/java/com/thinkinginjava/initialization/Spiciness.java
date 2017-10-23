@@ -1,5 +1,5 @@
-package com.thinkinginjava.initialization;//: initialization/Spiciness.java
+package com.thinkinginjava.initialization;
 
 public enum Spiciness {
     NOT, MILD, MEDIUM, HOT, FLAMING
-} ///:~
+}

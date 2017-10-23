@@ -1,8 +1,9 @@
-//: com.thinkinginjava.strings/InfiniteRecursion.java
+package com.thinkinginjava.strings;//: com.thinkinginjava.strings/InfiniteRecursion.java
 // Accidental recursion.
 // {RunByHand}
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class InfiniteRecursion {
     public String toString() {

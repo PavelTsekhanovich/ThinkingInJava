@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/PetCount2.java
+package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/PetCount2.java
 
 import com.thinkinginjava.typeinfo.pets.Pets;
 

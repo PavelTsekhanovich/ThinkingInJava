@@ -1,5 +1,7 @@
-//: com.thinkinginjava.generics/LatentReflection.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/LatentReflection.java
 // Using Reflection to produce latent typing.
+
+import com.thinkinginjava.typeinfo.Robot;
 
 import java.lang.reflect.Method;
 
@@ -61,7 +63,7 @@ class CommunicateReflectively {
 public class LatentReflection {
     public static void main(String[] args) {
         CommunicateReflectively.perform(new SmartDog());
-        CommunicateReflectively.perform(new Robot());
+        //CommunicateReflectively.perform(new Robot());
         CommunicateReflectively.perform(new Mime());
     }
 } /* Output:

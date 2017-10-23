@@ -1,6 +1,7 @@
-//: com.thinkinginjava.generics/ListMaker.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/ListMaker.java
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListMaker<T> {
     List<T> create() {

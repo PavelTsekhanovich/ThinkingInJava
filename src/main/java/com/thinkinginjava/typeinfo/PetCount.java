@@ -1,5 +1,4 @@
-//: com.thinkinginjava.typeinfo/PetCount.java
-// Using instanceof.
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.typeinfo.pets.*;
 

@@ -1,8 +1,9 @@
-//: com.thinkinginjava.containers/FillingLists.java
+package com.thinkinginjava.containers;//: com.thinkinginjava.containers/FillingLists.java
 // The Collections.fill() & Collections.nCopies() methods.
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 class StringAddress {
     private String s;
@@ -24,7 +25,4 @@ public class FillingLists {
         Collections.fill(list, new StringAddress("World!"));
         System.out.println(list);
     }
-} /* Output: (Sample)
-[StringAddress@82ba41 Hello, StringAddress@82ba41 Hello, StringAddress@82ba41 Hello, StringAddress@82ba41 Hello]
-[StringAddress@923e30 World!, StringAddress@923e30 World!, StringAddress@923e30 World!, StringAddress@923e30 World!]
-*///:~
+}

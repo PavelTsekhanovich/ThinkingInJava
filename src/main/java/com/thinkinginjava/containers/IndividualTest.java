@@ -1,9 +1,10 @@
-//: com.thinkinginjava.containers/IndividualTest.java
+package com.thinkinginjava.containers;//: com.thinkinginjava.containers/IndividualTest.java
 
 import com.thinkinginjava.holding.MapOfList;
 import com.thinkinginjava.typeinfo.pets.Individual;
 import com.thinkinginjava.typeinfo.pets.Pet;
 
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -16,6 +17,4 @@ public class IndividualTest {
                 pets.add(p);
         System.out.println(pets);
     }
-} /* Output:
-[Cat Elsie May, Cat Pinkola, Cat Shackleton, Cat Stanford aka Stinky el Negro, Cymric Molly, Dog Margrett, Mutt Spot, Pug Louie aka Louis Snorkelstein Dupree, Rat Fizzy, Rat Freckly, Rat Fuzzy]
-*///:~
+}

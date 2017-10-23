@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/IterableFibonacci.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/IterableFibonacci.java
 // Adapt the Fibonacci class to make it Iterable.
 
 import java.util.Iterator;

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.holding/MultiIterableClass.java
-// Adding several Adapter Methods.
+package com.thinkinginjava.holding;
 
 import java.util.*;
 

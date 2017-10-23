@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/MultipleInterfaceVariants.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/MultipleInterfaceVariants.java
 // {CompileTimeError} (Won't compile)
 
 interface Payable<T> {

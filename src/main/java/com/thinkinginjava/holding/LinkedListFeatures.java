@@ -1,5 +1,6 @@
-//: com.thinkinginjava.holding/LinkedListFeatures.java
+package com.thinkinginjava.holding;
 
+import com.thinkinginjava.typeinfo.pets.Hamster;
 import com.thinkinginjava.typeinfo.pets.Pet;
 import com.thinkinginjava.typeinfo.pets.Pets;
 import com.thinkinginjava.typeinfo.pets.Rat;
@@ -34,18 +35,4 @@ public class LinkedListFeatures {
         print("After addLast(): " + pets);
         print("pets.removeLast(): " + pets.removeLast());
     }
-} /* Output:
-[Rat, Manx, Cymric, Mutt, Pug]
-pets.getFirst(): Rat
-pets.element(): Rat
-pets.peek(): Rat
-pets.remove(): Rat
-pets.removeFirst(): Manx
-pets.poll(): Cymric
-[Mutt, Pug]
-After addFirst(): [Rat, Mutt, Pug]
-After offer(): [Rat, Mutt, Pug, Cymric]
-After add(): [Rat, Mutt, Pug, Cymric, Pug]
-After addLast(): [Rat, Mutt, Pug, Cymric, Pug, Hamster]
-pets.removeLast(): Hamster
-*///:~
+}

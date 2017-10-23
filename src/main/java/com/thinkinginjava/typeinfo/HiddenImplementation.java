@@ -23,7 +23,7 @@ public class HiddenImplementation {
         callHiddenMethod(a, "w");
     }
 
-    static void callHiddenMethod(Object a, String methodName)
+    public static void callHiddenMethod(Object a, String methodName)
             throws Exception {
         Method g = a.getClass().getDeclaredMethod(methodName);
         g.setAccessible(true);

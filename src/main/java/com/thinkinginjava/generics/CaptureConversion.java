@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/CaptureConversion.java
+package com.thinkinginjava.generics;
 
 public class CaptureConversion {
     static <T> void f1(Holder<T> holder) {
@@ -22,8 +22,4 @@ public class CaptureConversion {
         Holder<?> wildcarded = new Holder<Double>(1.0);
         f2(wildcarded);
     }
-} /* Output:
-Integer
-Object
-Double
-*///:~
+}

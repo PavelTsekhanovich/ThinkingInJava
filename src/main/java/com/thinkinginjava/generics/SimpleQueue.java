@@ -1,10 +1,9 @@
-//: com.thinkinginjava.generics/SimpleQueue.java
-// A different kind of container that is Iterable
+package com.thinkinginjava.generics;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
-public class SimpleQueue<T> implements Iterable<T> {
+public abstract class SimpleQueue<T> implements Iterable<T> {
+
     private LinkedList<T> storage = new LinkedList<T>();
 
     public void add(T t) {
@@ -15,7 +14,5 @@ public class SimpleQueue<T> implements Iterable<T> {
         return storage.poll();
     }
 
-    public Iterator<T> iterator() {
-        return storage.iterator();
-    }
-} ///:~
+    //public Iterator();
+}

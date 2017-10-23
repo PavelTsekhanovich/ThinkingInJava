@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/HijackedInterface.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/HijackedInterface.java
 // {CompileTimeError} (Won't compile)
 
 class Cat extends ComparablePet implements Comparable<Cat> {

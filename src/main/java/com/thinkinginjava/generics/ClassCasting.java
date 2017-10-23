@@ -1,7 +1,10 @@
-//: com.thinkinginjava.generics/ClassCasting.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/ClassCasting.java
+
+import apple.laf.JRSUIConstants;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.util.List;
 
 public class ClassCasting {
     @SuppressWarnings("unchecked")
@@ -11,6 +14,6 @@ public class ClassCasting {
         // Won't Compile:
 //    List<Widget> lw1 =
 //    List<Widget>.class.cast(in.readObject());
-        List<Widget> lw2 = List.class.cast(in.readObject());
+        List<JRSUIConstants.Widget> lw2 = List.class.cast(in.readObject());
     }
 } ///:~

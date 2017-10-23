@@ -1,11 +1,11 @@
-//: com.thinkinginjava.containers/CollectionMethods.java
-// Things you can do with all Collections.
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.net.mindview.util.Countries;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -45,8 +45,7 @@ public class CollectionMethods {
         print("c.contains(" + val + ") = " + c.contains(val));
         // Is a Collection in this Collection?
         print("c.containsAll(c2) = " + c.containsAll(c2));
-        Collection<String> c3 =
-                ((List<String>) c).subList(3, 5);
+        Collection<String> c3 = ((List<String>) c).subList(3, 5);
         // Keep all the elements that are in both
         // c2 and c3 (an intersection of sets):
         c2.retainAll(c3);
@@ -61,19 +60,4 @@ public class CollectionMethods {
         c.clear(); // Remove all elements
         print("after c.clear():" + c);
     }
-} /* Output:
-[ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO, ten, eleven]
-Collections.max(c) = ten
-Collections.min(c) = ALGERIA
-[ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO, ten, eleven, ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-[ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO, ten, eleven, ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-[BENIN, BOTSWANA, BULGARIA, BURKINA FASO, ten, eleven, ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-[ten, eleven]
-[ten, eleven, ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-c.contains(BOTSWANA) = true
-c.containsAll(c2) = true
-[ANGOLA, BENIN]
-c2.isEmpty() = true
-[ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-after c.clear():[]
-*///:~
+}

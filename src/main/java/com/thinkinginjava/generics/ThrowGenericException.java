@@ -1,6 +1,7 @@
-//: com.thinkinginjava.generics/ThrowGenericException.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/ThrowGenericException.java
 
 import java.util.ArrayList;
+import java.util.List;
 
 interface Processor<T, E extends Exception> {
     void process(List<T> resultCollector) throws E;

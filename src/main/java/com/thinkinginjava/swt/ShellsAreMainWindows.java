@@ -1,4 +1,4 @@
-package com.thinkinginjava.swt;
+/*package com.thinkinginjava.swt;
 
 import jdk.nashorn.tools.Shell;
 
@@ -24,4 +24,4 @@ public class ShellsAreMainWindows {
                 return true;
         return false;
     }
-} ///:~
+} */

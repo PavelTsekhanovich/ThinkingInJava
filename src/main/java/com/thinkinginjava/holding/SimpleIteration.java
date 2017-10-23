@@ -1,9 +1,10 @@
-//: com.thinkinginjava.holding/SimpleIteration.java
+package com.thinkinginjava.holding;//: com.thinkinginjava.holding/SimpleIteration.java
 
 import com.thinkinginjava.typeinfo.pets.Pet;
 import com.thinkinginjava.typeinfo.pets.Pets;
 
 import java.util.Iterator;
+import java.util.List;
 
 public class SimpleIteration {
     public static void main(String[] args) {
@@ -26,8 +27,4 @@ public class SimpleIteration {
         }
         System.out.println(pets);
     }
-} /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx 8:Cymric 9:Rat 10:EgyptianMau 11:Hamster
-[Pug, Manx, Cymric, Rat, EgyptianMau, Hamster]
-*///:~
+}

@@ -1,3 +1,5 @@
+package com.thinkinginjava.concurrency;
+
 import java.util.*;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -131,8 +133,7 @@ public class GreenhouseScheduler {
     private float lastHumidity = 50.0f;
     private int humidityDirection = +1;
     private Random rand = new Random(47);
-    List<DataPoint> data = Collections.synchronizedList(
-            new ArrayList<DataPoint>());
+    List<DataPoint> data = Collections.synchronizedList(new ArrayList<DataPoint>());
 
     class CollectData implements Runnable {
         public void run() {
@@ -154,8 +155,7 @@ public class GreenhouseScheduler {
                 // Calendar must be cloned, otherwise all
                 // DataPoints hold references to the same lastTime.
                 // For a basic object like Calendar, clone() is OK.
-                data.add(new DataPoint((Calendar) lastTime.clone(),
-                        lastTemp, lastHumidity));
+                data.add(new DataPoint((Calendar) lastTime.clone(), lastTemp, lastHumidity));
             }
         }
     }

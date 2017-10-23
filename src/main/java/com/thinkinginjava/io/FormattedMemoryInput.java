@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/FormattedMemoryInput.java
+package com.thinkinginjava.io;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -19,4 +19,4 @@ public class FormattedMemoryInput {
             System.err.println("End of stream");
         }
     }
-} /* (Execute to see output) *///:~
+}

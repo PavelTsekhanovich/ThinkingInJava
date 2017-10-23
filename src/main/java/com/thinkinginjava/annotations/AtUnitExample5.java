@@ -1,8 +1,10 @@
-//: com.thinkinginjava.annotations/AtUnitExample5.java
 package com.thinkinginjava.annotations;
 
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+import com.thinkinginjava.net.mindview.atunit.Test;
+import com.thinkinginjava.net.mindview.atunit.TestObjectCleanup;
+import com.thinkinginjava.net.mindview.atunit.TestObjectCreate;
+import com.thinkinginjava.net.mindview.atunit.TestProperty;
+import com.thinkinginjava.net.mindview.util.OSExecute;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -63,13 +65,4 @@ public class AtUnitExample5 {
         OSExecute.command(
                 "java net.mindview.atunit.AtUnit AtUnitExample5");
     }
-} /* Output:
-com.thinkinginjava.annotations.AtUnitExample5
-  . test1
-Running cleanup
-  . test2
-Running cleanup
-  . test3
-Running cleanup
-OK (3 tests)
-*///:~
+}

@@ -1,6 +1,7 @@
-//: com.thinkinginjava.generics/GenericsAndCovariance.java
+package com.thinkinginjava.generics;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class GenericsAndCovariance {
     public static void main(String[] args) {

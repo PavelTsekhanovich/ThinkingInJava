@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/FixedThreadPool.java
+package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/FixedThreadPool.java
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

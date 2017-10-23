@@ -1,4 +1,4 @@
-//: com.thinkinginjava.holding/InterfaceVsIterator.java
+package com.thinkinginjava.holding;
 
 import com.thinkinginjava.typeinfo.pets.Pet;
 import com.thinkinginjava.typeinfo.pets.Pets;
@@ -38,13 +38,4 @@ public class InterfaceVsIterator {
         display(petMap.values());
         display(petMap.values().iterator());
     }
-} /* Output:
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-4:Pug 6:Pug 3:Mutt 1:Manx 5:Cymric 7:Manx 2:Cymric 0:Rat
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-4:Pug 6:Pug 3:Mutt 1:Manx 5:Cymric 7:Manx 2:Cymric 0:Rat
-{Ralph=Rat, Eric=Manx, Robin=Cymric, Lacey=Mutt, Britney=Pug, Sam=Cymric, Spot=Pug, Fluffy=Manx}
-[Ralph, Eric, Robin, Lacey, Britney, Sam, Spot, Fluffy]
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-0:Rat 1:Manx 2:Cymric 3:Mutt 4:Pug 5:Cymric 6:Pug 7:Manx
-*///:~
+}

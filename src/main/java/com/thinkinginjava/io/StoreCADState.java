@@ -1,8 +1,9 @@
-//: com.thinkinginjava.io/StoreCADState.java
+package com.thinkinginjava.io;//: com.thinkinginjava.io/StoreCADState.java
 // Saving the state of a pretend CAD system.
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 abstract class Shape implements Serializable {

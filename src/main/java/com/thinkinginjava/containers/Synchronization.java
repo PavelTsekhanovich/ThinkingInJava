@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Synchronization.java
-// Using the Collections.synchronized methods.
+package com.thinkinginjava.containers;
 
 import java.util.*;
 
@@ -20,4 +19,4 @@ public class Synchronization {
                 Collections.synchronizedSortedMap(
                         new TreeMap<String, String>());
     }
-} ///:~
+}

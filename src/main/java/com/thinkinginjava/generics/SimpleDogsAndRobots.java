@@ -1,5 +1,7 @@
-//: com.thinkinginjava.generics/SimpleDogsAndRobots.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/SimpleDogsAndRobots.java
 // Removing the generic; code still works.
+
+import com.thinkinginjava.generics.Performs;
 
 class CommunicateSimply {
     static void perform(Performs performer) {

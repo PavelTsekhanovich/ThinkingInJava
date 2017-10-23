@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/MemoryInput.java
-
+package com.thinkinginjava.io;
 import java.io.IOException;
 import java.io.StringReader;
 
@@ -12,4 +11,4 @@ public class MemoryInput {
         while ((c = in.read()) != -1)
             System.out.print((char) c);
     }
-} /* (Execute to see output) *///:~
+}

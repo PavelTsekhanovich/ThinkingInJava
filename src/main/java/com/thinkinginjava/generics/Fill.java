@@ -1,13 +1,10 @@
-//: com.thinkinginjava.generics/Fill.java
-// Generalizing the FilledList idea
-// {main: FillTest}
+package com.thinkinginjava.generics;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 
-// Doesn't work with "anything that has an add()." There is
-// no "Addable" interface so we are narrowed to using a
-// Collection. We cannot generalize using com.thinkinginjava.generics in
 // this case.
 public class Fill {
     public static <T> void fill(Collection<T> collection,
@@ -41,8 +38,12 @@ class FillTest {
         Fill.fill(contracts, TitleTransfer.class, 2);
         for (Contract c : contracts)
             System.out.println(c);
-        SimpleQueue<Contract> contractQueue =
-                new SimpleQueue<Contract>();
+        SimpleQueue<Contract> contractQueue = new SimpleQueue<Contract>() {
+            @Override
+            public Iterator<Contract> iterator() {
+                return null;
+            }
+        };
         // Won't work. fill() is not generic enough:
         // Fill.fill(contractQueue, Contract.class, 3);
     }

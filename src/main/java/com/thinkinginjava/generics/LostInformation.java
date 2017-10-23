@@ -1,9 +1,6 @@
-//: com.thinkinginjava.generics/LostInformation.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/LostInformation.java
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 class Frob {
 }
