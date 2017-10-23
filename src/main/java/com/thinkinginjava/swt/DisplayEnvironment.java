@@ -1,4 +1,4 @@
-//: com.thinkinginjava.swt/DisplayEnvironment.java
+/*package com.thinkinginjava.swt;
 
 import com.thinkinginjava.swt.util.SWTApplication;
 import com.thinkinginjava.swt.util.SWTConsole;
@@ -6,6 +6,7 @@ import org.eclipse.swt.*;
 import org.eclipse.swt.layout.*;
 import org.eclipse.swt.widgets.*;
 
+import java.awt.*;
 import java.util.Map;
 
 public class DisplayEnvironment implements SWTApplication {
@@ -21,4 +22,4 @@ public class DisplayEnvironment implements SWTApplication {
     public static void main(String[] args) {
         SWTConsole.run(new DisplayEnvironment(), 800, 600);
     }
-} ///:~
+} */

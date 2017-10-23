@@ -1,8 +1,6 @@
-//: com.thinkinginjava.swt/HelloSWT.java
-// {Requires: org.eclipse.com.thinkinginjava.swt.widgets.Display; You must
-// install the SWT library from http://www.eclipse.org }
+/*package com.thinkinginjava.swt;
 
-import org.eclipse.swt.widgets.*;
+import jdk.nashorn.tools.Shell;
 
 public class HelloSWT {
     public static void main(String[] args) {
@@ -15,4 +13,4 @@ public class HelloSWT {
                 display.sleep();
         display.dispose();
     }
-} ///:~
+} */

@@ -1,9 +1,4 @@
-/*package com.thinkinginjava.xml;//: com.thinkinginjava.xml/Person.java
-// Use the XOM library to write and read XML
-// {Requires: nu.xom.Node; You must install
-// the XOM library from http://www.xom.nu }
-
-import nu.xom.*;
+/*package com.thinkinginjava.xml;
 
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
@@ -65,21 +60,4 @@ public class Person {
         format(new BufferedOutputStream(new FileOutputStream(
                 "People.com.thinkinginjava.xml")), doc);
     }
-} /* Output:
-[Dr. Bunsen Honeydew, Gonzo The Great, Phillip J. Fry]
-<?com.thinkinginjava.xml version="1.0" encoding="ISO-8859-1"?>
-<people>
-    <person>
-        <first>Dr. Bunsen</first>
-        <last>Honeydew</last>
-    </person>
-    <person>
-        <first>Gonzo</first>
-        <last>The Great</last>
-    </person>
-    <person>
-        <first>Phillip J.</first>
-        <last>Fry</last>
-    </person>
-</people>
-*///:~*/
+}*/

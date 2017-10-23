@@ -1,4 +1,4 @@
-package com.thinkinginjava.swt;//: com.thinkinginjava.swt/DisplayProperties.java
+/*package com.thinkinginjava.swt;
 
 import org.eclipse.swt.*;
 import org.eclipse.swt.layout.*;
@@ -23,4 +23,4 @@ public class DisplayProperties {
                 display.sleep();
         display.dispose();
     }
-} ///:~
+} */

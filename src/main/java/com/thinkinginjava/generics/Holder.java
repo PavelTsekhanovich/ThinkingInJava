@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/Holder.java
+package com.thinkinginjava.generics;
 
 public class Holder<T> {
     private T value;
@@ -39,7 +39,4 @@ public class Holder<T> {
         // fruit.set(new Fruit()); // Cannot call set()
         System.out.println(fruit.equals(d)); // OK
     }
-} /* Output: (Sample)
-java.lang.ClassCastException: Apple cannot be cast to Orange
-true
-*///:~
+}

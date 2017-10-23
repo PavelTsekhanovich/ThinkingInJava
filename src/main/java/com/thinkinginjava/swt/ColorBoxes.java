@@ -1,4 +1,4 @@
-package com.thinkinginjava.swt;//: com.thinkinginjava.swt/ColorBoxes.java
+/*package com.thinkinginjava.swt;//: com.thinkinginjava.swt/ColorBoxes.java
 // SWT translation of Swing ColorBoxes.java.
 
 import com.thinkinginjava.net.mindview.util.DaemonThreadPoolExecutor;
@@ -92,4 +92,4 @@ public class ColorBoxes implements SWTApplication {
             boxes.pause = new Integer(args[1]);
         SWTConsole.run(boxes, 500, 400);
     }
-} ///:~
+} */

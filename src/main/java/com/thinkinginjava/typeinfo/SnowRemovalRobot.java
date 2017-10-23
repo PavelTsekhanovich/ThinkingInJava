@@ -1,6 +1,7 @@
-//: com.thinkinginjava.typeinfo/SnowRemovalRobot.java
+package com.thinkinginjava.typeinfo;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class SnowRemovalRobot implements Robot {
     private String name;
@@ -17,7 +18,7 @@ public class SnowRemovalRobot implements Robot {
         return "SnowBot Series 11";
     }
 
-    public List<Operation> operations() {
+    public List<Object> operations() {
         return Arrays.asList(
                 new Operation() {
                     public String description() {
@@ -52,13 +53,4 @@ public class SnowRemovalRobot implements Robot {
     public static void main(String[] args) {
         Robot.Test.test(new SnowRemovalRobot("Slusher"));
     }
-} /* Output:
-Robot name: Slusher
-Robot model: SnowBot Series 11
-Slusher can shovel snow
-Slusher shoveling snow
-Slusher can chip ice
-Slusher chipping ice
-Slusher can clear the roof
-Slusher clearing roof
-*///:~
+}

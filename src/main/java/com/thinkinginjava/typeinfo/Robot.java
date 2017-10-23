@@ -1,13 +1,15 @@
-//: com.thinkinginjava.typeinfo/Robot.java
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.net.mindview.util.Null;
+
+import java.util.List;
 
 public interface Robot {
     String name();
 
     String model();
 
-    List<Operation> operations();
+    List<Object> operations();
 
     class Test {
         public static void test(Robot r) {
@@ -21,4 +23,4 @@ public interface Robot {
             }
         }
     }
-} ///:~
+}

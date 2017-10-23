@@ -1,7 +1,4 @@
-//: com.thinkinginjava.swt/util/SWTConsole.java
-package com.thinkinginjava.swt.util;
-
-import org.eclipse.swt.widgets.*;
+/*package com.thinkinginjava.swt.util;
 
 public class SWTConsole {
     public static void
@@ -18,4 +15,4 @@ public class SWTConsole {
         }
         display.dispose();
     }
-} ///:~
+} */

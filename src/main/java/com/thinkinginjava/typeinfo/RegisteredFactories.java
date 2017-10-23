@@ -1,9 +1,9 @@
-//: com.thinkinginjava.typeinfo/RegisteredFactories.java
-// Registering Class Factories in the base class.
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.typeinfo.factory.Factory;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 class Part {
@@ -109,15 +109,4 @@ public class RegisteredFactories {
         for (int i = 0; i < 10; i++)
             System.out.println(Part.createRandom());
     }
-} /* Output:
-GeneratorBelt
-CabinAirFilter
-GeneratorBelt
-AirFilter
-PowerSteeringBelt
-CabinAirFilter
-FuelFilter
-PowerSteeringBelt
-PowerSteeringBelt
-FuelFilter
-*///:~
+}

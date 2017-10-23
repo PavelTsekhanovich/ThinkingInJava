@@ -1,15 +1,4 @@
-//: com.thinkinginjava.swt/Menus.java
-// Fun with menus.
-
-import com.thinkinginjava.net.mindview.util.TextFile;
-import com.thinkinginjava.swt.util.SWTApplication;
-import com.thinkinginjava.swt.util.SWTConsole;
-import org.eclipse.swt.*;
-import org.eclipse.swt.widgets.*;
-
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeSet;
+/*import com.thinkinginjava.swt.util.SWTApplication;
 
 public class Menus implements SWTApplication {
     private static Shell shell;
@@ -53,4 +42,4 @@ public class Menus implements SWTApplication {
     public static void main(String[] args) {
         SWTConsole.run(new Menus(), 600, 200);
     }
-} ///:~
+} */

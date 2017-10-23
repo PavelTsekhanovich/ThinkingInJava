@@ -1,13 +1,7 @@
-package com.thinkinginjava.swt;
+/*package com.thinkinginjava.swt;
 
 import com.thinkinginjava.swt.util.SWTApplication;
-import com.thinkinginjava.swt.util.SWTConsole;
-import org.eclipse.swt.*;
-import org.eclipse.swt.browser.*;
-import org.eclipse.swt.events.*;
-import org.eclipse.swt.graphics.*;
-import org.eclipse.swt.layout.*;
-import org.eclipse.swt.widgets.*;
+import jdk.nashorn.tools.Shell;
 
 public class TabbedPane implements SWTApplication {
     private static TabFolder folder;
@@ -159,4 +153,4 @@ public class TabbedPane implements SWTApplication {
     public static void main(String[] args) {
         SWTConsole.run(new TabbedPane(), 800, 600);
     }
-} ///:~
+} */

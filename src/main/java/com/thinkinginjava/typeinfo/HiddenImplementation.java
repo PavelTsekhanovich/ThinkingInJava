@@ -1,5 +1,4 @@
-//: com.thinkinginjava.typeinfo/HiddenImplementation.java
-// Sneaking around package access.
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.typeinfo.interfacea.A;
 import com.thinkinginjava.typeinfo.packageaccess.HiddenC;
@@ -30,11 +29,4 @@ public class HiddenImplementation {
         g.setAccessible(true);
         g.invoke(a);
     }
-} /* Output:
-public C.f()
-com.thinkinginjava.typeinfo.packageaccess.C
-public C.g()
-package C.u()
-protected C.v()
-private C.w()
-*///:~
+}
