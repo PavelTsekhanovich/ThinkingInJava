@@ -1,5 +1,4 @@
-//: com.thinkinginjava.generics/ReturnGenericType.java
-
+package com.thinkinginjava.generics;
 class ReturnGenericType<T extends HasF> {
     private T obj;
 

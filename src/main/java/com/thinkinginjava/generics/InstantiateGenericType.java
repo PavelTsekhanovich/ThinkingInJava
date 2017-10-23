@@ -14,9 +14,6 @@ class ClassAsFactory<T> {
     }
 }
 
-class Employee {
-}
-
 public class InstantiateGenericType {
     public static void main(String[] args) {
         ClassAsFactory<Employee> fe =
@@ -29,7 +26,4 @@ public class InstantiateGenericType {
             print("ClassAsFactory<Integer> failed");
         }
     }
-} /* Output:
-ClassAsFactory<Employee> succeeded
-ClassAsFactory<Integer> failed
-*///:~
+}

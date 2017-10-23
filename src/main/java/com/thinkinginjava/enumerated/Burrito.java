@@ -1,4 +1,3 @@
-//: com.thinkinginjava.enumerated/Burrito.java
 package com.thinkinginjava.enumerated;
 
 public class Burrito {
@@ -13,8 +12,8 @@ public class Burrito {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Burrito(NOT));
-        System.out.println(new Burrito(MEDIUM));
-        System.out.println(new Burrito(HOT));
+        System.out.println(new Burrito(Spiciness.NOT));
+        System.out.println(new Burrito(Spiciness.MEDIUM));
+        System.out.println(new Burrito(Spiciness.HOT));
     }
 }

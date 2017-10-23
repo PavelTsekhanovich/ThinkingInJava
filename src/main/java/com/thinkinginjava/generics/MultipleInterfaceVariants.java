@@ -1,5 +1,4 @@
-package com.thinkinginjava.generics;//: com.thinkinginjava.generics/MultipleInterfaceVariants.java
-// {CompileTimeError} (Won't compile)
+package com.thinkinginjava.generics;
 
 interface Payable<T> {
 }
@@ -7,6 +6,4 @@ interface Payable<T> {
 class Employee implements Payable<Employee> {
 }
 
-class Hourly extends Employee
-        implements Payable<Hourly> {
-} ///:~
+//class Hourly extends Employee implements Payable<Hourly> {}

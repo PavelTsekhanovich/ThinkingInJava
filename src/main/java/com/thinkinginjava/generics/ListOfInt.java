@@ -1,8 +1,9 @@
-//: com.thinkinginjava.generics/ListOfInt.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/ListOfInt.java
 // Autoboxing compensates for the inability to use
 // primitives in com.thinkinginjava.generics.
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListOfInt {
     public static void main(String[] args) {

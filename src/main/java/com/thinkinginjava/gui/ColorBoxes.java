@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/ColorBoxes.java
+package com.thinkinginjava.gui;//: com.thinkinginjava.gui/ColorBoxes.java
 // A visual demonstration of threading.
 
 import javax.swing.*;

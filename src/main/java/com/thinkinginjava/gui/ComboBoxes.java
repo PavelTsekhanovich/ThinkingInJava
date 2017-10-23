@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/ComboBoxes.java
-// Using drop-down lists.
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -43,4 +42,4 @@ public class ComboBoxes extends JFrame {
     public static void main(String[] args) {
         run(new ComboBoxes(), 200, 175);
     }
-} ///:~
+}

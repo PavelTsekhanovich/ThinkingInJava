@@ -1,7 +1,6 @@
-//: com.thinkinginjava.generics/RestrictedComparablePets.java
+package com.thinkinginjava.generics;
 
-class Hamster extends ComparablePet
-        implements Comparable<ComparablePet> {
+class Hamster extends ComparablePet implements Comparable<ComparablePet> {
     public int compareTo(ComparablePet arg) {
         return 0;
     }

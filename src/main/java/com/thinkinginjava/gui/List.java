@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/List.java
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -37,8 +37,8 @@ public class List extends JFrame {
                 public void valueChanged(ListSelectionEvent e) {
                     if (e.getValueIsAdjusting()) return;
                     t.setText("");
-                    for (Object item : lst.getSelectedValues())
-                        t.append(item + "\n");
+                    //for (Object item : lst.getSelectedValues())
+                      //  t.append(item + "\n");
                 }
             };
     private int count = 0;
