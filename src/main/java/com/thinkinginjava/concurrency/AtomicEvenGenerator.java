@@ -1,7 +1,4 @@
-/*
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/AtomicEvenGenerator.java
-// Atomic classes are occasionally useful in regular code.
-// {RunByHand}
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -16,5 +13,4 @@ public class AtomicEvenGenerator extends IntGenerator {
     public static void main(String[] args) {
         EvenChecker.test(new AtomicEvenGenerator());
     }
-} ///:~
-*/
+}

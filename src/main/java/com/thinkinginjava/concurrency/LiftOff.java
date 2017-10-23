@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/LiftOff.java
-// Demonstration of the Runnable interface.
+package com.thinkinginjava.concurrency;
 
 public class LiftOff implements Runnable {
     protected int countDown = 10; // Default
@@ -24,4 +23,4 @@ public class LiftOff implements Runnable {
             Thread.yield();
         }
     }
-} ///:~
+}

@@ -1,9 +1,9 @@
-/*
-//: com.thinkinginjava.concurrency/ExchangerDemo.java
+package com.thinkinginjava.concurrency;
 
 import com.thinkinginjava.net.mindview.util.BasicGenerator;
 import com.thinkinginjava.net.mindview.util.Generator;
 
+import java.util.List;
 import java.util.concurrent.*;
 
 class ExchangerProducer<T> implements Runnable {
@@ -79,9 +79,4 @@ public class ExchangerDemo {
         TimeUnit.SECONDS.sleep(delay);
         exec.shutdownNow();
     }
-} */
-/* Output: (Sample)
-Final value: Fat id: 29999
-*//*
-//:~
-*/
+}

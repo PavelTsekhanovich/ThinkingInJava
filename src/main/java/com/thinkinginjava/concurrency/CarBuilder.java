@@ -1,4 +1,3 @@
-/*
 package com.thinkinginjava.concurrency;
 
 import java.util.HashSet;
@@ -269,7 +268,4 @@ public class CarBuilder {
         TimeUnit.SECONDS.sleep(7);
         exec.shutdownNow();
     }
-} */
-/* (Execute to see output) *//*
-//:~
-*/
+}

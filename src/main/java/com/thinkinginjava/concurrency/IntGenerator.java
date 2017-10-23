@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/IntGenerator.java
+package com.thinkinginjava.concurrency;
 
 public abstract class IntGenerator {
     private volatile boolean canceled = false;
@@ -13,4 +13,4 @@ public abstract class IntGenerator {
     public boolean isCanceled() {
         return canceled;
     }
-} ///:~
+}

@@ -71,26 +71,4 @@ public class ActiveObjectDemo {
         }
         d1.shutdown();
     }
-} /* Output: (85% match)
-All asynch calls made
-starting 0.0 + 0.0
-starting 0.2 + 0.2
-0.0
-starting 0.4 + 0.4
-0.4
-starting 0.6 + 0.6
-0.8
-starting 0.8 + 0.8
-1.2
-starting 0 + 0
-1.6
-starting 1 + 1
-0
-starting 2 + 2
-2
-starting 3 + 3
-4
-starting 4 + 4
-6
-8
-*///:~
+}

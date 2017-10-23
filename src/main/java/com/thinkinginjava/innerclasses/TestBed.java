@@ -1,18 +1,16 @@
-//: com.thinkinginjava.innerclasses/TestBed.java
-// Putting test code in a nested class.
-// {main: TestBed$Tester}
+package com.thinkinginjava.innerclasses;
+
+import java.util.Collection;
 
 public class TestBed {
     public void f() {
         System.out.println("f()");
     }
 
-    public static class Tester {
+    public static class Tester<L extends Collection<E>> {
         public static void main(String[] args) {
             TestBed t = new TestBed();
             t.f();
         }
     }
-} /* Output:
-f()
-*///:~
+}

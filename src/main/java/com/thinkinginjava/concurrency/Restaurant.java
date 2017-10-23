@@ -1,7 +1,3 @@
-/*
-//: com.thinkinginjava.concurrency/Restaurant.java
-// The producer-consumer approach to task cooperation.
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -93,20 +89,4 @@ public class Restaurant {
     public static void main(String[] args) {
         new Restaurant();
     }
-} */
-/* Output:
-Order up! Waitperson got Meal 1
-Order up! Waitperson got Meal 2
-Order up! Waitperson got Meal 3
-Order up! Waitperson got Meal 4
-Order up! Waitperson got Meal 5
-Order up! Waitperson got Meal 6
-Order up! Waitperson got Meal 7
-Order up! Waitperson got Meal 8
-Order up! Waitperson got Meal 9
-Out of food, closing
-WaitPerson interrupted
-Order up! Chef interrupted
-*//*
-//:~
-*/
+}

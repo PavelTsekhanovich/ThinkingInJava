@@ -1,6 +1,4 @@
-/*
-//: com.thinkinginjava.concurrency/Philosopher.java
-// A dining philosopher
+package com.thinkinginjava.concurrency;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -52,5 +50,4 @@ public class Philosopher implements Runnable {
     public String toString() {
         return "Philosopher " + id;
     }
-} ///:~
-*/
+}

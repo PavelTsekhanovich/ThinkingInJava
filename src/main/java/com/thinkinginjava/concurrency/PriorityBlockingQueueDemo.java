@@ -1,5 +1,4 @@
-/*
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/PriorityBlockingQueueDemo.java
+package com.thinkinginjava.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -137,7 +136,4 @@ public class PriorityBlockingQueueDemo {
         exec.execute(new PrioritizedTaskProducer(queue, exec));
         exec.execute(new PrioritizedTaskConsumer(queue));
     }
-} */
-/* (Execute to see output) *//*
-//:~
-*/
+}

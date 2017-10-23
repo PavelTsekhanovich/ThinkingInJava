@@ -1,6 +1,4 @@
-/*
-//: com.thinkinginjava.concurrency/EvenGenerator.java
-// When threads collide.
+package com.thinkinginjava.concurrency;
 
 public class EvenGenerator extends IntGenerator {
     private int currentEvenValue = 0;
@@ -14,11 +12,4 @@ public class EvenGenerator extends IntGenerator {
     public static void main(String[] args) {
         EvenChecker.test(new EvenGenerator());
     }
-} */
-/* Output: (Sample)
-Press Control-C to exit
-89476993 not even!
-89476993 not even!
-*//*
-//:~
-*/
+}

@@ -1,6 +1,4 @@
-//: com.thinkinginjava.concurrency/FixedDiningPhilosophers.java
-// Dining philosophers without deadlock.
-// {Args: 5 5 timeout}
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -33,4 +31,4 @@ public class FixedDiningPhilosophers {
         }
         exec.shutdownNow();
     }
-} /* (Execute to see output) *///:~
+}

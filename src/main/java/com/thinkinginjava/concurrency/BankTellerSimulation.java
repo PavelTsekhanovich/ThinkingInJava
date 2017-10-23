@@ -1,7 +1,4 @@
-/*
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/BankTellerSimulation.java
-// Using queues and multithreading.
-// {Args: 5}
+package com.thinkinginjava.concurrency;
 
 import java.util.LinkedList;
 import java.util.PriorityQueue;
@@ -223,24 +220,4 @@ public class BankTellerSimulation {
         }
         exec.shutdownNow();
     }
-} */
-/* Output: (Sample)
-[429][200][207] { T0 T1 }
-[861][258][140][322] { T0 T1 }
-[575][342][804][826][896][984] { T0 T1 T2 }
-[984][810][141][12][689][992][976][368][395][354] { T0 T1 T2 T3 }
-Teller 2 interrupted
-Teller 2 terminating
-Teller 1 interrupted
-Teller 1 terminating
-TellerManager interrupted
-TellerManager terminating
-Teller 3 interrupted
-Teller 3 terminating
-Teller 0 interrupted
-Teller 0 terminating
-CustomerGenerator interrupted
-CustomerGenerator terminating
-*//*
-//:~
-*/
+}

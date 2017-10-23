@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/Chopstick.java
-// Chopsticks for dining philosophers.
+package com.thinkinginjava.concurrency;
 
 public class Chopstick {
     private boolean taken = false;
@@ -14,4 +13,4 @@ public class Chopstick {
         taken = false;
         notifyAll();
     }
-} ///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/EvenChecker.java
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -35,4 +35,4 @@ public class EvenChecker implements Runnable {
     public static void test(IntGenerator gp) {
         test(gp, 10);
     }
-} ///:~
+}

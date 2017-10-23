@@ -1,6 +1,4 @@
-/*
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/HorseRace.java
-// Using CyclicBarriers.
+package com.thinkinginjava.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,7 +100,4 @@ public class HorseRace {
         }
         new HorseRace(nHorses, pause);
     }
-} */
-/* (Execute to see output) *//*
-//:~
-*/
+}

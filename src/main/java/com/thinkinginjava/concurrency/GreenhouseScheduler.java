@@ -1,9 +1,3 @@
-/*
-//: com.thinkinginjava.concurrency/GreenhouseScheduler.java
-// Rewriting com.thinkinginjava.innerclasses/GreenhouseController.java
-// to use a ScheduledThreadPoolExecutor.
-// {Args: 5000}
-
 import java.util.*;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -179,7 +173,4 @@ public class GreenhouseScheduler {
         gh.repeat(gh.new ThermostatDay(), 0, 1400);
         gh.repeat(gh.new CollectData(), 500, 500);
     }
-} */
-/* (Execute to see output) *//*
-//:~
-*/
+}
