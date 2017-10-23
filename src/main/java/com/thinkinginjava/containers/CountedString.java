@@ -1,8 +1,8 @@
-//: com.thinkinginjava.containers/CountedString.java
-// Creating a good hashCode().
+package com.thinkinginjava.containers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
@@ -58,16 +58,4 @@ public class CountedString {
             print(map.get(cstring));
         }
     }
-} /* Output: (Sample)
-{String: hi id: 4 hashCode(): 146450=3, String: hi id: 1 hashCode(): 146447=0, String: hi id: 3 hashCode(): 146449=2, String: hi id: 5 hashCode(): 146451=4, String: hi id: 2 hashCode(): 146448=1}
-Looking up String: hi id: 1 hashCode(): 146447
-0
-Looking up String: hi id: 2 hashCode(): 146448
-1
-Looking up String: hi id: 3 hashCode(): 146449
-2
-Looking up String: hi id: 4 hashCode(): 146450
-3
-Looking up String: hi id: 5 hashCode(): 146451
-4
-*///:~
+}

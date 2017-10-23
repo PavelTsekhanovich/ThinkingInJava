@@ -1,5 +1,4 @@
-//: com.thinkinginjava.generics/Generators.java
-// A utility to use with Generators.
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.generics.coffee.Coffee;
 import com.thinkinginjava.generics.coffee.CoffeeGenerator;

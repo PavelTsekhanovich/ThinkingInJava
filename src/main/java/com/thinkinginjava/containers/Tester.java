@@ -1,6 +1,8 @@
 package com.thinkinginjava.containers;//: com.thinkinginjava.containers/Tester.java
 // Applies Test objects to lists of different com.thinkinginjava.containers.
 
+import java.util.List;
+
 public class Tester<C> {
     public static int fieldWidth = 8;
     public static TestParam[] defaultParams = TestParam.array(
@@ -91,4 +93,4 @@ public class Tester<C> {
             System.out.println();
         }
     }
-} ///:~
+}

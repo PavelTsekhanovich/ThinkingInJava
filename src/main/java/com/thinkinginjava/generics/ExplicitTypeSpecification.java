@@ -1,9 +1,10 @@
-//: com.thinkinginjava.generics/ExplicitTypeSpecification.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.New;
 import com.thinkinginjava.typeinfo.pets.Person;
 import com.thinkinginjava.typeinfo.pets.Pet;
 
+import java.util.List;
 import java.util.Map;
 
 public class ExplicitTypeSpecification {
@@ -13,4 +14,4 @@ public class ExplicitTypeSpecification {
     public static void main(String[] args) {
         f(New.<Person, List<Pet>>map());
     }
-} ///:~
+}

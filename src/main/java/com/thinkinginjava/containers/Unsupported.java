@@ -1,10 +1,6 @@
-//: com.thinkinginjava.containers/Unsupported.java
-// Unsupported operations in Java com.thinkinginjava.containers.
+package com.thinkinginjava.containers;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class Unsupported {
     static void test(String msg, List<String> list) {
@@ -61,21 +57,4 @@ public class Unsupported {
                 Collections.unmodifiableList(
                         new ArrayList<String>(list)));
     }
-} /* Output:
---- Modifiable Copy ---
---- Arrays.asList() ---
-retainAll(): java.lang.UnsupportedOperationException
-removeAll(): java.lang.UnsupportedOperationException
-clear(): java.lang.UnsupportedOperationException
-add(): java.lang.UnsupportedOperationException
-addAll(): java.lang.UnsupportedOperationException
-remove(): java.lang.UnsupportedOperationException
---- unmodifiableList() ---
-retainAll(): java.lang.UnsupportedOperationException
-removeAll(): java.lang.UnsupportedOperationException
-clear(): java.lang.UnsupportedOperationException
-add(): java.lang.UnsupportedOperationException
-addAll(): java.lang.UnsupportedOperationException
-remove(): java.lang.UnsupportedOperationException
-List.set(): java.lang.UnsupportedOperationException
-*///:~
+}

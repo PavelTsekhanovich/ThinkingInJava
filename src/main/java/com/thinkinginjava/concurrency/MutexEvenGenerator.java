@@ -1,7 +1,4 @@
-/*
-//: com.thinkinginjava.concurrency/MutexEvenGenerator.java
-// Preventing thread collisions with mutexes.
-// {RunByHand}
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -25,5 +22,4 @@ public class MutexEvenGenerator extends IntGenerator {
     public static void main(String[] args) {
         EvenChecker.test(new MutexEvenGenerator());
     }
-} ///:~
-*/
+}

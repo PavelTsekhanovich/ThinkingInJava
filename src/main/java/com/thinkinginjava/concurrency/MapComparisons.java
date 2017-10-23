@@ -1,8 +1,6 @@
-/*
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/MapComparisons.java
-// {Args: 1 10 10} (Fast verification check during build)
-// Rough comparison of thread-safe Map performance.
+/*package com.thinkinginjava.concurrency;
 
+import com.thinkinginjava.innerclasses.TestBed;
 import com.thinkinginjava.net.mindview.util.CountingGenerator;
 import com.thinkinginjava.net.mindview.util.MapData;
 
@@ -91,18 +89,3 @@ public class MapComparisons {
         Tester.exec.shutdown();
     }
 } */
-/* Output: (Sample)
-Type                             Read time     Write time
-Synched HashMap 10r 0w        306052025049              0
-Synched HashMap 9r 1w         428319156207    47697347568
-readTime + writeTime =        476016503775
-Synched HashMap 5r 5w         243956877760   244012003202
-readTime + writeTime =        487968880962
-ConcurrentHashMap 10r 0w       23352654318              0
-ConcurrentHashMap 9r 1w        18833089400     1541853224
-readTime + writeTime =         20374942624
-ConcurrentHashMap 5r 5w        12037625732    11850489099
-readTime + writeTime =         23888114831
-*//*
-//:~
-*/

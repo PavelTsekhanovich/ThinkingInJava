@@ -1,5 +1,3 @@
-//: generics/DogsAndRobots.cpp
-
 class Dog {
 public:
   void speak() {}
@@ -24,4 +22,4 @@ int main() {
   Robot r;
   perform(d);
   perform(r);
-} ///:~
+}

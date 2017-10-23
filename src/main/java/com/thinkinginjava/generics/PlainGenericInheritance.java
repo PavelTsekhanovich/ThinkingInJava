@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/PlainGenericInheritance.java
+package com.thinkinginjava.generics;//: com.thinkinginjava.generics/PlainGenericInheritance.java
 
 class GenericSetter<T> { // Not self-bounded
     void set(T arg) {
@@ -20,7 +20,4 @@ public class PlainGenericInheritance {
         dgs.set(derived);
         dgs.set(base); // Compiles: overloaded, not overridden!
     }
-} /* Output:
-DerivedGS.set(Derived)
-GenericSetter.set(Base)
-*///:~
+}

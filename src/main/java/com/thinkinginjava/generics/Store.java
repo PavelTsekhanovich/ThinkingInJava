@@ -1,5 +1,4 @@
-//: com.thinkinginjava.generics/Store.java
-// Building up a complex model using generic com.thinkinginjava.containers.
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.Generator;
 
@@ -80,14 +79,4 @@ public class Store extends ArrayList<Aisle> {
     public static void main(String[] args) {
         System.out.println(new Store(14, 5, 10));
     }
-} /* Output:
-258: Test, price: $400.99
-861: Test, price: $160.99
-868: Test, price: $417.99
-207: Test, price: $268.99
-551: Test, price: $114.99
-278: Test, price: $804.99
-520: Test, price: $554.99
-140: Test, price: $530.99
-...
-*///:~
+}

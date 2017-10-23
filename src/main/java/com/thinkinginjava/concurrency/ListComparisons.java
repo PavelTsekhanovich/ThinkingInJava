@@ -1,4 +1,4 @@
-package com.thinkinginjava.concurrency;
+/*package com.thinkinginjava.concurrency;
 
 import com.thinkinginjava.containers.Tester;
 import com.thinkinginjava.innerclasses.TestBed;
@@ -83,4 +83,4 @@ public class ListComparisons {
         new CopyOnWriteArrayListTest(5, 5);
         Tester.exec.shutdown();
     }
-}
+}*/

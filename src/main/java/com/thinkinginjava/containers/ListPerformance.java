@@ -177,8 +177,7 @@ public class ListPerformance {
         ListTester.run(new Vector<Integer>(), tests);
         Tester.fieldWidth = 12;
         Tester<LinkedList<Integer>> qTest =
-                new Tester<LinkedList<Integer>>(
-                        new LinkedList<Integer>(), qTests);
+                new Tester<LinkedList<Integer>>(new LinkedList<Integer>(), qTests);
         qTest.setHeadline("Queue tests");
         qTest.timedTest();
     }

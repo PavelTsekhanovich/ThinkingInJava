@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Utilities.java
-// Simple demonstrations of the Collections utilities.
+package com.thinkinginjava.containers;
 
 import java.util.*;
 
@@ -59,24 +58,4 @@ public class Utilities {
                 Collections.list(v.elements());
         print("arrayList: " + arrayList);
     }
-} /* Output:
-[one, Two, three, Four, five, six, one]
-'list' disjoint (Four)?: false
-max: three
-min: Four
-max w/ comparator: Two
-min w/ comparator: five
-indexOfSubList: 3
-lastIndexOfSubList: 3
-replaceAll: [Yo, Two, three, Four, five, six, Yo]
-reverse: [Yo, six, five, Four, three, Two, Yo]
-rotate: [three, Two, Yo, Yo, six, five, Four]
-copy: [in, the, matrix, Yo, six, five, Four]
-swap: [Four, the, matrix, Yo, six, five, in]
-shuffled: [six, matrix, the, Four, Yo, five, in]
-fill: [pop, pop, pop, pop, pop, pop, pop]
-frequency of 'pop': 7
-dups: [snap, snap, snap]
-'list' disjoint 'dups'?: true
-arrayList: [snap, snap, snap]
-*///:~
+}

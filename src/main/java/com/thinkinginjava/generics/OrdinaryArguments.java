@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/OrdinaryArguments.java
+package com.thinkinginjava.generics;
 
 class OrdinarySetter {
     void set(Base base) {

@@ -45,9 +45,4 @@ public class DogsAndRobots {
         Communicate.perform(d);
         Communicate.perform(r);
     }
-} /* Output:
-Woof!
-Sitting
-Click!
-Clank!
-*///:~
+}

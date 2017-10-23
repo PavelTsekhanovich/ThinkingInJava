@@ -1,6 +1,7 @@
-//: com.thinkinginjava.generics/FilledListMaker.java
+package com.thinkinginjava.generics;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FilledListMaker<T> {
     List<T> create(T t, int n) {
@@ -16,6 +17,4 @@ public class FilledListMaker<T> {
         List<String> list = stringMaker.create("Hello", 4);
         System.out.println(list);
     }
-} /* Output:
-[Hello, Hello, Hello, Hello]
-*///:~
+}

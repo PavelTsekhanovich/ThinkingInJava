@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Test.java
-// Framework for performing timed tests of com.thinkinginjava.containers.
+package com.thinkinginjava.containers;
 
 public abstract class Test<C> {
     String name;
@@ -11,4 +10,4 @@ public abstract class Test<C> {
     // Override this method for different tests.
     // Returns actual number of repetitions of test.
     abstract int test(C container, TestParam tp);
-} ///:~
+}

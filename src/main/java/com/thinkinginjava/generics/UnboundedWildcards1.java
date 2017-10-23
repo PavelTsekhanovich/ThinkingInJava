@@ -1,5 +1,6 @@
-//: com.thinkinginjava.generics/UnboundedWildcards1.java
+package com.thinkinginjava.generics;
 
+import java.util.List;
 import java.util.ArrayList;
 
 public class UnboundedWildcards1 {
@@ -42,4 +43,4 @@ public class UnboundedWildcards1 {
         assign2(wildList);
         assign3(wildList);
     }
-} ///:~
+}
