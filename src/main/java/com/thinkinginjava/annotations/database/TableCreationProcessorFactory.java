@@ -1,4 +1,4 @@
-/*
+/*package com.thinkinginjava.annotations.database;/
 //: com.thinkinginjava.annotations/database/TableCreationProcessorFactory.java
 // The database example using Visitor.
 // {Exec: apt -factory

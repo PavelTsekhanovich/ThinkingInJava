@@ -1,11 +1,12 @@
-//: com.thinkinginjava.arrays/TestArrayGeneration.java
-// Test the tools that use generators to fill com.thinkinginjava.arrays.
+package com.thinkinginjava.arrays;
 
-import net.mindview.util.*;
+import com.thinkinginjava.net.mindview.util.ConvertTo;
+import com.thinkinginjava.net.mindview.util.Generated;
+import com.thinkinginjava.net.mindview.util.RandomGenerator;
 
 import java.util.Arrays;
 
-import static net.mindview.util.Print.*;
+import static com.thinkinginjava.Print.print;
 
 public class TestArrayGeneration {
     public static void main(String[] args) {
@@ -36,13 +37,4 @@ public class TestArrayGeneration {
                 Double.class, new RandomGenerator.Double(), size));
         print("a8 = " + Arrays.toString(a8));
     }
-} /* Output:
-a1 = [true, false, true, false, false, true]
-a2 = [104, -79, -76, 126, 33, -64]
-a3 = [Z, n, T, c, Q, r]
-a4 = [-13408, 22612, 15401, 15161, -28466, -12603]
-a5 = [7704, 7383, 7706, 575, 8410, 6342]
-a6 = [7674, 8804, 8950, 7826, 4322, 896]
-a7 = [0.01, 0.2, 0.4, 0.79, 0.27, 0.45]
-a8 = [0.16, 0.87, 0.7, 0.66, 0.87, 0.59]
-*///:~
+}

@@ -1,13 +1,13 @@
-//: com.thinkinginjava.concurrency/SemaphoreDemo.java
-// Testing the Pool class
+package com.thinkinginjava.concurrency;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-import static com.thinkinginjava.net.mindview.util.Print.print;
+import static com.thinkinginjava.Print.print;
 import static com.thinkinginjava.net.mindview.util.Print.printnb;
 
 // A task to check a resource out of a pool:

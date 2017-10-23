@@ -1,10 +1,4 @@
-//: com.thinkinginjava.net/mindview/atunit/AtUnitRemover.java
-// Displays @Unit com.thinkinginjava.annotations in compiled class files. If
-// first argument is "-r", @Unit com.thinkinginjava.annotations are removed.
-// {Args: ..}
-// {Requires: javassist.bytecode.ClassFile;
-// You must install the Javassist library from
-// http://sourceforge.net/projects/jboss/ }
+/*
 package com.thinkinginjava.net.mindview.atunit;
 import javassist.*;
 import javassist.expr.*;
@@ -63,4 +57,4 @@ implements ProcessFiles.Strategy {
       throw new RuntimeException(e);
     }
   }
-} ///:~
+} */

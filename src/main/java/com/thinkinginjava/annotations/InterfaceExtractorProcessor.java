@@ -1,12 +1,10 @@
-/*
-package com.thinkinginjava.annotations;
+/*package com.thinkinginjava.annotations;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import java.lang.reflect.Modifier;
 
-public class InterfaceExtractorProcessor
-        implements AnnotationProcessor {
+public class InterfaceExtractorProcessor implements AnnotationProcessor {
     private final AnnotationProcessorEnvironment env;
     private ArrayList<MethodDeclaration> interfaceMethods =
             new ArrayList<MethodDeclaration>();
@@ -57,5 +55,5 @@ public class InterfaceExtractorProcessor
             }
         }
     }
-} ///:~
+}
 */

@@ -1,4 +1,3 @@
-//: com.thinkinginjava.annotations/database/DBTable.java
 package com.thinkinginjava.annotations.database;
 
 import java.lang.annotation.ElementType;
@@ -10,4 +9,4 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface DBTable {
     public String name() default "";
-} ///:~
+}

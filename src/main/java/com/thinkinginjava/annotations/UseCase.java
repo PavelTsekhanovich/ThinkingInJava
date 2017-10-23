@@ -1,4 +1,4 @@
-//: com.thinkinginjava.annotations/UseCase.java
+package com.thinkinginjava.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -11,4 +11,4 @@ public @interface UseCase {
     public int id();
 
     public String description() default "no description";
-} ///:~
+}

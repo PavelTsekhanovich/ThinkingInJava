@@ -1,16 +1,10 @@
-//: com.thinkinginjava.annotations/InterfaceExtractorProcessorFactory.java
-// APT-based annotation processing.
-package com.thinkinginjava.annotations;
-
-import com.sun.mirror.apt.*;
-import com.sun.mirror.declaration.*;
+/*package com.thinkinginjava.annotations;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Set;
 
-public class InterfaceExtractorProcessorFactory
-        implements AnnotationProcessorFactory {
+public class InterfaceExtractorProcessorFactory implements AnnotationProcessorFactory {
     public AnnotationProcessor getProcessorFor(
             Set<AnnotationTypeDeclaration> atds,
             AnnotationProcessorEnvironment env) {
@@ -25,4 +19,4 @@ public class InterfaceExtractorProcessorFactory
     public Collection<String> supportedOptions() {
         return Collections.emptySet();
     }
-} ///:~
+} */

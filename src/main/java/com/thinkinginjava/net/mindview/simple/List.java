@@ -3,7 +3,7 @@
 package com.thinkinginjava.net.mindview.simple;
 
 public class List {
-  public List() {
-    System.out.println("com.thinkinginjava.net.mindview.simple.List");
-  }
+    public List() {
+        System.out.println("com.thinkinginjava.net.mindview.simple.List");
+    }
 } ///:~

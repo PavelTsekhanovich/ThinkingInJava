@@ -1,4 +1,4 @@
-//: com.thinkinginjava.annotations/PasswordUtils.java
+package com.thinkinginjava.annotations;
 
 import java.util.List;
 
@@ -20,4 +20,4 @@ public class PasswordUtils {
             List<String> prevPasswords, String password) {
         return !prevPasswords.contains(password);
     }
-} ///:~
+}

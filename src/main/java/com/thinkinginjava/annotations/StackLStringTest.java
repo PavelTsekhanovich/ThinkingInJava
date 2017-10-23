@@ -1,7 +1,7 @@
-/*
-//: com.thinkinginjava.annotations/StackLStringTest.java
-// Applying @Unit to generics.
 package com.thinkinginjava.annotations;
+
+import com.thinkinginjava.net.mindview.atunit.Test;
+import com.thinkinginjava.net.mindview.util.OSExecute;
 
 public class StackLStringTest extends StackL<String> {
     @Test
@@ -32,13 +32,4 @@ public class StackLStringTest extends StackL<String> {
         OSExecute.command(
                 "java net.mindview.atunit.AtUnit StackLStringTest");
     }
-} */
-/* Output:
-com.thinkinginjava.annotations.StackLStringTest
-  . _push
-  . _pop
-  . _top
-OK (3 tests)
-*//*
-//:~
-*/
+}

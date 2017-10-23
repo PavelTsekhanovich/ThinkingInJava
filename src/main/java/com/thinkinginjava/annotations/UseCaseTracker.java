@@ -1,5 +1,4 @@
-/*
-//: com.thinkinginjava.annotations/UseCaseTracker.java
+package com.thinkinginjava.annotations;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -8,6 +7,7 @@ import java.util.List;
 
 public class UseCaseTracker {
     public static void
+
     trackUseCases(List<Integer> useCases, Class<?> cl) {
         for (Method m : cl.getDeclaredMethods()) {
             UseCase uc = m.getAnnotation(UseCase.class);
@@ -27,12 +27,4 @@ public class UseCaseTracker {
         Collections.addAll(useCases, 47, 48, 49, 50);
         trackUseCases(useCases, PasswordUtils.class);
     }
-} */
-/* Output:
-Found Use Case:47 Passwords must contain at least one numeric
-Found Use Case:48 no description
-Found Use Case:49 New passwords can't equal previously used ones
-Warning: Missing use case-50
-*//*
-//:~
-*/
+}

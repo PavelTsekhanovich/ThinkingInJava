@@ -1,7 +1,10 @@
 package com.thinkinginjava.interfaces.filters;
 
 public class Waveform {
-  private static long counter;
-  private final long id = counter++;
-  public String toString() { return "Waveform " + id; }
+    private static long counter;
+    private final long id = counter++;
+
+    public String toString() {
+        return "Waveform " + id;
+    }
 }

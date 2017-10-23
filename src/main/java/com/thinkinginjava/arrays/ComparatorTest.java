@@ -1,13 +1,11 @@
 package com.thinkinginjava.arrays;
 
-import net.mindview.util.*;
+import com.thinkinginjava.net.mindview.util.Generated;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.LinkedHashSet;
 
 import static com.thinkinginjava.Print.print;
-import static net.mindview.util.Print.*;
 
 class CompTypeComparator implements Comparator<CompType> {
     public int compare(CompType o1, CompType o2) {
@@ -24,19 +22,5 @@ public class ComparatorTest {
         Arrays.sort(a, new CompTypeComparator());
         print("after sorting:");
         print(Arrays.toString(a));
-        LinkedHashSet
     }
-} /* Output:
-before sorting:
-[[i = 58, j = 55], [i = 93, j = 61], [i = 61, j = 29]
-, [i = 68, j = 0], [i = 22, j = 7], [i = 88, j = 28]
-, [i = 51, j = 89], [i = 9, j = 78], [i = 98, j = 61]
-, [i = 20, j = 58], [i = 16, j = 40], [i = 11, j = 22]
-]
-after sorting:
-[[i = 68, j = 0], [i = 22, j = 7], [i = 11, j = 22]
-, [i = 88, j = 28], [i = 61, j = 29], [i = 16, j = 40]
-, [i = 58, j = 55], [i = 20, j = 58], [i = 93, j = 61]
-, [i = 98, j = 61], [i = 9, j = 78], [i = 51, j = 89]
-]
-*///:~
+}

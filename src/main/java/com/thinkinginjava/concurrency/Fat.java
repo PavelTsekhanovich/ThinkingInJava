@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/Fat.java
-// Objects that are expensive to create.
+package com.thinkinginjava.concurrency;
 
 public class Fat {
     private volatile double d; // Prevent optimization

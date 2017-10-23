@@ -2,7 +2,7 @@ package com.thinkinginjava.operators;
 
 import java.util.Date;
 
-import static part.five.Print.print;
+import static com.thinkinginjava.Print.print;
 
 public class HelloDate {
     public static void main(String[] args) {

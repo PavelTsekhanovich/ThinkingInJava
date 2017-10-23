@@ -1,4 +1,3 @@
-/*
 package com.thinkinginjava.annotations;
 
 public class AtUnitExternalTest extends AtUnitExample1 {
@@ -15,13 +14,4 @@ public class AtUnitExternalTest extends AtUnitExample1 {
     public static void main(String[] args) throws Exception {
         //OSExecute.command("java net.mindview.atunit.AtUnit AtUnitExternalTest");
     }
-} */
-/* Output:
-com.thinkinginjava.annotations.AtUnitExternalTest
-  . _methodOne
-  . _methodTwo This is methodTwo
-
-OK (2 tests)
-*//*
-//:~
-*/
+}

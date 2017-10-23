@@ -1,7 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/ActiveObjectDemo.java
-// Can only pass constants, immutables, "disconnected
-// objects," or other active objects as arguments
-// to asynch methods.
+package com.thinkinginjava.concurrency;
 
 import java.util.List;
 import java.util.Random;

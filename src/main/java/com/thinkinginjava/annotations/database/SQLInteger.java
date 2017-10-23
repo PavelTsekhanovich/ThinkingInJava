@@ -1,4 +1,3 @@
-//: com.thinkinginjava.annotations/database/SQLInteger.java
 package com.thinkinginjava.annotations.database;
 
 import java.lang.annotation.ElementType;

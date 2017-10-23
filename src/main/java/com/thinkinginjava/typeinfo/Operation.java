@@ -1,6 +1,7 @@
 //: com.thinkinginjava.typeinfo/Operation.java
 
 public interface Operation {
-  String description();
-  void command();
+    String description();
+
+    void command();
 } ///:~

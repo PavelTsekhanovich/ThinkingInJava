@@ -1,8 +1,8 @@
 package com.thinkinginjava.generics;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class NonCovariantGenerics {
-  // Compile Error: incompatible types:
-  ArrayList<Apple> flist = new ArrayList<Apple>();
+    // Compile Error: incompatible types:
+    ArrayList<Apple> flist = new ArrayList<Apple>();
 } ///:~
