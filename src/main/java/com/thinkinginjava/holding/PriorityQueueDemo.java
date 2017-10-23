@@ -11,12 +11,10 @@ public class PriorityQueueDemo {
             priorityQueue.offer(rand.nextInt(i + 10));
         QueueDemo.printQ(priorityQueue);
 
-        List<Integer> ints = Arrays.asList(25, 22, 20,
-                18, 14, 9, 3, 1, 1, 2, 3, 9, 14, 18, 21, 23, 25);
+        List<Integer> ints = Arrays.asList(25, 22, 20, 18, 14, 9, 3, 1, 1, 2, 3, 9, 14, 18, 21, 23, 25);
         priorityQueue = new PriorityQueue<Integer>(ints);
         QueueDemo.printQ(priorityQueue);
-        priorityQueue = new PriorityQueue<Integer>(
-                ints.size(), Collections.reverseOrder());
+        priorityQueue = new PriorityQueue<Integer>(ints.size(), Collections.reverseOrder());
         priorityQueue.addAll(ints);
         QueueDemo.printQ(priorityQueue);
 

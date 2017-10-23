@@ -4,6 +4,7 @@ import net.mindview.util.*;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.LinkedHashSet;
 
 import static com.thinkinginjava.Print.print;
 import static net.mindview.util.Print.*;
@@ -23,6 +24,7 @@ public class ComparatorTest {
         Arrays.sort(a, new CompTypeComparator());
         print("after sorting:");
         print(Arrays.toString(a));
+        LinkedHashSet
     }
 } /* Output:
 before sorting:
