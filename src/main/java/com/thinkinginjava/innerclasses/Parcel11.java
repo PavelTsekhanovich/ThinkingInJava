@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel11.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel11.java
 // Nested classes (static inner classes).
 
 public class Parcel11 {

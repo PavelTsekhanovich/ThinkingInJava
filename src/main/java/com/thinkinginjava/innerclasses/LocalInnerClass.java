@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/LocalInnerClass.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/LocalInnerClass.java
 // Holds a sequence of Objects.
 
 import static com.thinkinginjava.net.mindview.util.Print.print;

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.innerclasses/DotNew.java
-// Creating an inner class directly using the .new syntax.
+package com.thinkinginjava.innerclasses;
 
 public class DotNew {
     public class Inner {

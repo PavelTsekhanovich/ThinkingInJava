@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel7.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel7.java
 // Returning an instance of an anonymous inner class.
 
 public class Parcel7 {

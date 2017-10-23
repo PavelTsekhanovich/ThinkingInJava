@@ -1,5 +1,4 @@
-//: com.thinkinginjava.innerclasses/DotThis.java
-// Qualifying access to the outer-class object.
+package com.thinkinginjava.innerclasses;
 
 public class DotThis {
     void f() {

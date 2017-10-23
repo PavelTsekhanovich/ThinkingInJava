@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/ClassInInterface.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/ClassInInterface.java
 // {main: ClassInInterface$Test}
 
 public interface ClassInInterface {

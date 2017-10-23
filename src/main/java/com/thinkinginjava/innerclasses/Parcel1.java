@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel1.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel1.java
 // Creating inner classes.
 
 public class Parcel1 {

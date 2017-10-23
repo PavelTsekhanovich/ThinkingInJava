@@ -1,8 +1,4 @@
-//: com.thinkinginjava.innerclasses/GreenhouseControls.java
-// This produces a specific application of the
-// control system, all in a single class. Inner
-// classes allow you to encapsulate different
-// functionality for each type of event.
+package com.thinkinginjava.innerclasses;
 
 import com.thinkinginjava.innerclasses.controller.Controller;
 import com.thinkinginjava.innerclasses.controller.Event;
@@ -159,4 +155,4 @@ public class GreenhouseControls extends Controller {
             return "Terminating";
         }
     }
-} ///:~
+}

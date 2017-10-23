@@ -1,4 +1,5 @@
-//: com.thinkinginjava.innerclasses/Destination.java
+package com.thinkinginjava.innerclasses;
+
 public interface Destination {
     String readLabel();
-} ///:~
+}

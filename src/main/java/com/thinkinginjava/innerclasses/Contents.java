@@ -1,4 +1,5 @@
-//: com.thinkinginjava.innerclasses/Contents.java
+package com.thinkinginjava.innerclasses;
+
 public interface Contents {
     int value();
-} ///:~
+}

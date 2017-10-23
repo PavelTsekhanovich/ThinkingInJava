@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/GreenhouseController.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/GreenhouseController.java
 // Configure and execute the greenhouse system.
 // {Args: 5000}
 

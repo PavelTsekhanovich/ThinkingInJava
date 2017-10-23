@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel3.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel3.java
 // Using .new to create instances of inner classes.
 
 public class Parcel3 {

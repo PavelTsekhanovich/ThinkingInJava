@@ -1,5 +1,7 @@
-//: com.thinkinginjava.innerclasses/Parcel7b.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel7b.java
 // Expanded version of Parcel7.java
+
+import com.thinkinginjava.innerclasses.Contents;
 
 public class Parcel7b {
     class MyContents implements Contents {

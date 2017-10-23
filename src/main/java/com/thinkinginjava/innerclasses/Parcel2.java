@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel2.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel2.java
 // Returning a reference to an inner class.
 
 public class Parcel2 {

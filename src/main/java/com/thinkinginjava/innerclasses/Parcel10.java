@@ -1,4 +1,4 @@
-//: com.thinkinginjava.innerclasses/Parcel10.java
+package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel10.java
 // Using "instance initialization" to perform
 // construction on an anonymous inner class.
 
