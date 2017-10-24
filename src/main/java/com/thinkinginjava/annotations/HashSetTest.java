@@ -26,10 +26,4 @@ public class HashSetTest {
     public static void main(String[] args) throws Exception {
         //OSExecute.command("java net.mindview.atunit.AtUnit HashSetTest");
     }
-} /* Output:
-com.thinkinginjava.annotations.HashSetTest
-  . initialization
-  . _remove
-  . _contains
-OK (3 tests)
-*///:~
+}

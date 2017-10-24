@@ -7,6 +7,4 @@ public class Dinner {
         Cookie x = new Cookie();
         //! x.bite(); // Can't access
     }
-} /* Output:
-Cookie constructor
-*///:~
+}

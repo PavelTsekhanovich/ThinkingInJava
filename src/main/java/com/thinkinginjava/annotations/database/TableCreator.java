@@ -1,6 +1,3 @@
-//: com.thinkinginjava.annotations/database/TableCreator.java
-// Reflection-based annotation processor.
-// {Args: com.thinkinginjava.annotations.database.Member}
 package com.thinkinginjava.annotations.database;
 
 import java.lang.annotation.Annotation;
@@ -76,23 +73,4 @@ public class TableCreator {
             constraints += " UNIQUE";
         return constraints;
     }
-} /* Output:
-Table Creation SQL for com.thinkinginjava.annotations.database.Member is :
-CREATE TABLE MEMBER(
-    FIRSTNAME VARCHAR(30));
-Table Creation SQL for com.thinkinginjava.annotations.database.Member is :
-CREATE TABLE MEMBER(
-    FIRSTNAME VARCHAR(30),
-    LASTNAME VARCHAR(50));
-Table Creation SQL for com.thinkinginjava.annotations.database.Member is :
-CREATE TABLE MEMBER(
-    FIRSTNAME VARCHAR(30),
-    LASTNAME VARCHAR(50),
-    AGE INT);
-Table Creation SQL for com.thinkinginjava.annotations.database.Member is :
-CREATE TABLE MEMBER(
-    FIRSTNAME VARCHAR(30),
-    LASTNAME VARCHAR(50),
-    AGE INT,
-    HANDLE VARCHAR(30) PRIMARY KEY);
-*///:~
+}

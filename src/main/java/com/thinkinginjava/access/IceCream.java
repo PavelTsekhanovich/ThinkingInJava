@@ -1,5 +1,4 @@
-package com.thinkinginjava.access;//: access/IceCream.java
-// Demonstrates "private" keyword.
+package com.thinkinginjava.access;
 
 class Sundae {
     private Sundae() {
@@ -15,4 +14,4 @@ public class IceCream {
         //! Sundae x = new Sundae();
         Sundae x = Sundae.makeASundae();
     }
-} ///:~
+}

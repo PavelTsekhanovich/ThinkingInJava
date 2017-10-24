@@ -43,11 +43,4 @@ public class AtUnitExample3 {
     public static void main(String[] args) throws Exception {
         //OSExecute.command("java net.mindview.atunit.AtUnit AtUnitExample3");
     }
-} /* Output:
-com.thinkinginjava.annotations.AtUnitExample3
-  . initialization
-  . methodOneTest
-  . m2 This is methodTwo
-
-OK (3 tests)
-*///:~
+}

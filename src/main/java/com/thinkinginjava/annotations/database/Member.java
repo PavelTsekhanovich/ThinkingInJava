@@ -1,4 +1,3 @@
-//: com.thinkinginjava.annotations/database/Member.java
 package com.thinkinginjava.annotations.database;
 
 @DBTable(name = "MEMBER")
@@ -33,4 +32,4 @@ public class Member {
     public Integer getAge() {
         return age;
     }
-} ///:~
+}

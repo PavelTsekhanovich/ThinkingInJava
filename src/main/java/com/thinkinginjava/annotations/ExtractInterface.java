@@ -1,5 +1,3 @@
-//: com.thinkinginjava.annotations/ExtractInterface.java
-// APT-based annotation processing.
 package com.thinkinginjava.annotations;
 
 import java.lang.annotation.ElementType;
@@ -11,4 +9,4 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.SOURCE)
 public @interface ExtractInterface {
     public String value();
-} ///:~
+}

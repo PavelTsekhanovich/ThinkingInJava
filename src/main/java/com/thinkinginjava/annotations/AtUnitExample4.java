@@ -73,16 +73,4 @@ public class AtUnitExample4 {
         System.out.println("starting");
         //OSExecute.command("java net.mindview.atunit.AtUnit AtUnitExample4");
     }
-} /* Output:
-starting
-com.thinkinginjava.annotations.AtUnitExample4
-  . scramble1 'All'
-lAl
-
-  . scramble2 'brontosauruses'
-tsaeborornussu
-
-  . words 'are'
-
-OK (3 tests)
-*///:~
+}

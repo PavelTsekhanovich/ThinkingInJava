@@ -38,18 +38,4 @@ public class AtUnitExample2 {
     public static void main(String[] args) throws Exception {
         //OSExecute.command("java net.mindview.atunit.AtUnit AtUnitExample2");
     }
-} /* Output:
-com.thinkinginjava.annotations.AtUnitExample2
-  . assertExample
-  . assertFailureExample java.lang.AssertionError: What a surprise!
-(failed)
-  . exceptionExample java.io.FileNotFoundException: nofile.txt (The system cannot find the file specified)
-(failed)
-  . assertAndReturn This is methodTwo
-
-(4 tests)
-
->>> 2 FAILURES <<<
-  com.thinkinginjava.annotations.AtUnitExample2: assertFailureExample
-  com.thinkinginjava.annotations.AtUnitExample2: exceptionExample
-*///:~
+}

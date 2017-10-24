@@ -17,10 +17,4 @@ public class AtUnitComposition {
     public static void main(String[] args) throws Exception {
         //OSExecute.command("java net.mindview.atunit.AtUnit AtUnitComposition");
     }
-} /* Output:
-com.thinkinginjava.annotations.AtUnitComposition
-  . _methodOne
-  . _methodTwo This is methodTwo
-
-OK (2 tests)
-*///:~
+}

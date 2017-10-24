@@ -1,7 +1,7 @@
-//: access/cookie2/Cookie.java
 package com.thinkinginjava.access.cookie2;
 
 public class Cookie {
+
     public Cookie() {
         System.out.println("Cookie constructor");
     }
@@ -9,4 +9,4 @@ public class Cookie {
     protected void bite() {
         System.out.println("bite");
     }
-} ///:~
+}

@@ -1,4 +1,4 @@
-package com.thinkinginjava.access;//: access/OrganizedByAccess.java
+package com.thinkinginjava.access;
 
 public class OrganizedByAccess {
     public void pub1() { /* ... */ }
@@ -15,4 +15,4 @@ public class OrganizedByAccess {
 
     private int i;
     // ...
-} ///:~
+}

@@ -1,4 +1,3 @@
-//: com.thinkinginjava.annotations/database/SQLString.java
 package com.thinkinginjava.annotations.database;
 
 import java.lang.annotation.ElementType;
@@ -14,4 +13,4 @@ public @interface SQLString {
     String name() default "";
 
     Constraints constraints() default @Constraints;
-} ///:~
+}

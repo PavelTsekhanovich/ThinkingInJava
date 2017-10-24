@@ -19,6 +19,4 @@ public class Multiplier {
         Multiplier m = new Multiplier();
         System.out.println("11*16 = " + m.multiply(11, 16));
     }
-} /* Output:
-11*16 = 176
-*///:~
+}

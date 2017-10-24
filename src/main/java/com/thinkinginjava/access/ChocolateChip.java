@@ -1,4 +1,4 @@
-package com.thinkinginjava.access;//: access/ChocolateChip.java
+package com.thinkinginjava.access;
 
 import com.thinkinginjava.access.dessert.Cookie;
 
@@ -15,7 +15,4 @@ public class ChocolateChip extends Cookie {
         ChocolateChip x = new ChocolateChip();
         x.chomp();
     }
-} /* Output:
-Cookie constructor
-ChocolateChip constructor
-*///:~
+}

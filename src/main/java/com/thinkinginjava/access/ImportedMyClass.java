@@ -1,4 +1,4 @@
-package com.thinkinginjava.access;//: access/ImportedMyClass.java
+package com.thinkinginjava.access;
 
 import com.thinkinginjava.access.mypackage.MyClass;
 

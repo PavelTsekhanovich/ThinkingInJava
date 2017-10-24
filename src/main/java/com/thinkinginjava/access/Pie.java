@@ -1,8 +1,7 @@
-package com.thinkinginjava.access;//: access/Pie.java
-// The other class.
+package com.thinkinginjava.access;
 
 class Pie {
     void f() {
         System.out.println("Pie.f()");
     }
-} ///:~
+}

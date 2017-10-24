@@ -1,6 +1,4 @@
-package com.thinkinginjava.access;//: access/Lunch.java
-// Demonstrates class access specifiers. Make a class
-// effectively private with private constructors:
+package com.thinkinginjava.access;
 
 class Soup1 {
     private Soup1() {
@@ -42,4 +40,4 @@ public class Lunch {
     void testSingleton() {
         Soup2.access().f();
     }
-} ///:~
+}

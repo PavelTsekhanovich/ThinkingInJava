@@ -9,9 +9,4 @@ public class PrintTest {
         print(100L);
         print(3.14159);
     }
-} /* Output:
-Available from now on!
-100
-100
-3.14159
-*///:~
+}

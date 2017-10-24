@@ -1,5 +1,3 @@
-//: access/dessert/Cookie.java
-// Creates a library.
 package com.thinkinginjava.access.dessert;
 
 public class Cookie {
@@ -10,4 +8,4 @@ public class Cookie {
     void bite() {
         System.out.println("bite");
     }
-} ///:~
+}
