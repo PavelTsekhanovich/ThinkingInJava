@@ -1,6 +1,3 @@
-//: com.thinkinginjava.exceptions/OnOffSwitch.java
-// Why use finally?
-
 public class OnOffSwitch {
     private static Switch sw = new Switch();
 

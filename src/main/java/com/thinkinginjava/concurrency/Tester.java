@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/Tester.java
-// Framework to test performance of com.thinkinginjava.concurrency com.thinkinginjava.containers.
+package com.thinkinginjava.concurrency;
 
 import com.thinkinginjava.net.mindview.util.Generated;
 import com.thinkinginjava.net.mindview.util.RandomGenerator;
@@ -87,4 +86,4 @@ public abstract class Tester<C> {
         System.out.printf("%-27s %14s %14s\n",
                 "Type", "Read time", "Write time");
     }
-} ///:~
+}

@@ -1,5 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel1.java
-// Creating inner classes.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel1 {
     class Contents {
@@ -34,6 +33,4 @@ public class Parcel1 {
         Parcel1 p = new Parcel1();
         p.ship("Tasmania");
     }
-} /* Output:
-Tasmania
-*///:~
+}

@@ -10,7 +10,6 @@ import java.util.concurrent.*;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
-// This is given to the waiter, who gives it to the chef:
 class Order { // (A data-transfer object)
     private static int counter = 0;
     private final int id = counter++;
