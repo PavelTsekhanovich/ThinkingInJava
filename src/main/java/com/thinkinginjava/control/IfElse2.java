@@ -17,8 +17,4 @@ public class IfElse2 {
         print(test(5, 10));
         print(test(5, 5));
     }
-} /* Output:
-1
--1
-0
-*///:~
+}

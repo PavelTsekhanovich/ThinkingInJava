@@ -1,5 +1,4 @@
-//: com.thinkinginjava.enumerated/TrafficLight.java
-// Enums in switch statements.
+package com.thinkinginjava.enumerated;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -38,12 +37,4 @@ public class TrafficLight {
             t.change();
         }
     }
-} /* Output:
-The traffic light is RED
-The traffic light is GREEN
-The traffic light is YELLOW
-The traffic light is RED
-The traffic light is GREEN
-The traffic light is YELLOW
-The traffic light is RED
-*///:~
+}

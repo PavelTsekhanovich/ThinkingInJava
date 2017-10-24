@@ -42,23 +42,4 @@ public class LabeledFor {
         }
         // Can't break or continue to labels here
     }
-} /* Output:
-i = 0
-continue inner
-i = 1
-continue inner
-i = 2
-continue
-i = 3
-break
-i = 4
-continue inner
-i = 5
-continue inner
-i = 6
-continue inner
-i = 7
-continue outer
-i = 8
-break outer
-*///:~
+}

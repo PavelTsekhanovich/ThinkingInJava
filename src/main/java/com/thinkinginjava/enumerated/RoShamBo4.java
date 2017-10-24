@@ -1,4 +1,3 @@
-//: com.thinkinginjava.enumerated/RoShamBo4.java
 package com.thinkinginjava.enumerated;
 
 public enum RoShamBo4 implements Competitor<RoShamBo4> {
@@ -27,4 +26,4 @@ public enum RoShamBo4 implements Competitor<RoShamBo4> {
     public static void main(String[] args) {
         RoShamBo.play(RoShamBo4.class, 20);
     }
-} /* Same output as RoShamBo2.java *///:~
+}

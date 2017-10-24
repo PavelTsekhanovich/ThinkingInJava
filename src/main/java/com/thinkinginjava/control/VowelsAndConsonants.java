@@ -28,19 +28,4 @@ public class VowelsAndConsonants {
             }
         }
     }
-} /* Output:
-y, 121: Sometimes a vowel
-n, 110: consonant
-z, 122: consonant
-b, 98: consonant
-r, 114: consonant
-n, 110: consonant
-y, 121: Sometimes a vowel
-g, 103: consonant
-c, 99: consonant
-f, 102: consonant
-o, 111: vowel
-w, 119: Sometimes a vowel
-z, 122: consonant
-...
-*///:~
+}

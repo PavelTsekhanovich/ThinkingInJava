@@ -1,5 +1,4 @@
-//: com.thinkinginjava.enumerated/UpcastEnum.java
-// No values() method if you upcast an enum
+package com.thinkinginjava.enumerated;
 
 enum Search {HITHER, YON}
 
@@ -11,7 +10,4 @@ public class UpcastEnum {
         for (Enum en : e.getClass().getEnumConstants())
             System.out.println(en);
     }
-} /* Output:
-HITHER
-YON
-*///:~
+}

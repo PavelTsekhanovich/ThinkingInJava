@@ -1,5 +1,4 @@
-//: com.thinkinginjava.enumerated/Reflection.java
-// Analyzing enums using reflection.
+package com.thinkinginjava.enumerated;
 
 import com.thinkinginjava.net.mindview.util.OSExecute;
 
@@ -39,27 +38,4 @@ public class Reflection {
         // Decompile the code for the enum:
         OSExecute.command("javap Explore");
     }
-} /* Output:
------ Analyzing class Explore -----
-Interfaces:
-Base: class java.lang.Enum
-Methods:
-[compareTo, equals, getClass, getDeclaringClass, hashCode, name, notify, notifyAll, ordinal, toString, valueOf, values, wait]
------ Analyzing class java.lang.Enum -----
-Interfaces:
-java.lang.Comparable<E>
-interface java.com.thinkinginjava.io.Serializable
-Base: class java.lang.Object
-Methods:
-[compareTo, equals, getClass, getDeclaringClass, hashCode, name, notify, notifyAll, ordinal, toString, valueOf, wait]
-Explore.containsAll(Enum)? true
-Explore.removeAll(Enum): [values]
-Compiled from "Reflection.java"
-final class Explore extends java.lang.Enum{
-    public static final Explore HERE;
-    public static final Explore THERE;
-    public static final Explore[] values();
-    public static Explore valueOf(java.lang.String);
-    static {};
 }
-*///:~

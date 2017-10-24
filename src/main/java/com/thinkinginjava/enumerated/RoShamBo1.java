@@ -1,5 +1,3 @@
-//: com.thinkinginjava.enumerated/RoShamBo1.java
-// Demonstration of multiple dispatching.
 package com.thinkinginjava.enumerated;
 
 import java.util.Random;
@@ -107,25 +105,4 @@ public class RoShamBo1 {
         for (int i = 0; i < SIZE; i++)
             match(newItem(), newItem());
     }
-} /* Output:	
-Rock vs. Rock: DRAW
-Paper vs. Rock: WIN
-Paper vs. Rock: WIN
-Paper vs. Rock: WIN
-Scissors vs. Paper: WIN
-Scissors vs. Scissors: DRAW
-Scissors vs. Paper: WIN
-Rock vs. Paper: LOSE
-Paper vs. Paper: DRAW
-Rock vs. Paper: LOSE
-Paper vs. Scissors: LOSE
-Paper vs. Scissors: LOSE
-Rock vs. Scissors: WIN
-Rock vs. Paper: LOSE
-Paper vs. Rock: WIN
-Scissors vs. Paper: WIN
-Paper vs. Scissors: LOSE
-Paper vs. Scissors: LOSE
-Paper vs. Scissors: LOSE
-Paper vs. Scissors: LOSE
-*///:~
+}

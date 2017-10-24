@@ -1,5 +1,4 @@
-//: com.thinkinginjava.enumerated/EnumClass.java
-// Capabilities of the Enum class
+package com.thinkinginjava.enumerated;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 import static com.thinkinginjava.net.mindview.util.Print.printnb;
@@ -23,23 +22,4 @@ public class EnumClass {
             print(shrub);
         }
     }
-} /* Output:
-GROUND ordinal: 0
--1 false false
-class Shrubbery
-GROUND
-----------------------
-CRAWLING ordinal: 1
-0 true true
-class Shrubbery
-CRAWLING
-----------------------
-HANGING ordinal: 2
-1 false false
-class Shrubbery
-HANGING
-----------------------
-HANGING
-CRAWLING
-GROUND
-*///:~
+}
