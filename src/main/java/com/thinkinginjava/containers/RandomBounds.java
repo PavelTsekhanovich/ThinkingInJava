@@ -1,6 +1,4 @@
-//: com.thinkinginjava.containers/RandomBounds.java
-// Does Math.random() produce 0.0 and 1.0?
-// {RunByHand}
+package com.thinkinginjava.containers;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -25,4 +23,4 @@ public class RandomBounds {
         } else
             usage();
     }
-} ///:~
+}

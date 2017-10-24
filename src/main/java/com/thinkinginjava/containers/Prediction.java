@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Prediction.java
-// Predicting the weather with groundhogs.
+package com.thinkinginjava.containers;
 
 import java.util.Random;
 
@@ -13,4 +12,4 @@ public class Prediction {
         else
             return "Early Spring!";
     }
-} ///:~
+}

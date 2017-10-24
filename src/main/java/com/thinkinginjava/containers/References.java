@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/References.java
-// Demonstrates Reference objects
+package com.thinkinginjava.containers;
 
 import java.lang.ref.*;
 import java.util.LinkedList;
@@ -67,4 +66,4 @@ public class References {
             checkQueue();
         }
     }
-} /* (Execute to see output) *///:~
+}

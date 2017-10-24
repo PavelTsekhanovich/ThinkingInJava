@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/InputFile.java
-// Paying attention to com.thinkinginjava.exceptions in constructors.
+package com.thinkinginjava.exceptions;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -48,4 +47,4 @@ public class InputFile {
             throw new RuntimeException("in.close() failed");
         }
     }
-} ///:~
+}

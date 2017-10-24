@@ -1,6 +1,4 @@
-//: com.thinkinginjava.containers/Groundhog2.java
-// A class that's used as a key in a HashMap
-// must override hashCode() and equals().
+package com.thinkinginjava.containers;
 
 public class Groundhog2 extends Groundhog {
     public Groundhog2(int n) {
@@ -15,4 +13,4 @@ public class Groundhog2 extends Groundhog {
         return o instanceof Groundhog2 &&
                 (number == ((Groundhog2) o).number);
     }
-} ///:~
+}

@@ -1,5 +1,4 @@
-package com.thinkinginjava.containers;//: com.thinkinginjava.containers/FillingLists.java
-// The Collections.fill() & Collections.nCopies() methods.
+package com.thinkinginjava.containers;
 
 import java.util.ArrayList;
 import java.util.Collections;

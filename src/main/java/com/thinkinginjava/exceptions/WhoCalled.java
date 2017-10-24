@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/WhoCalled.java
-// Programmatic access to stack trace information.
+package com.thinkinginjava.exceptions;
 
 public class WhoCalled {
     static void f() {
@@ -27,16 +26,4 @@ public class WhoCalled {
         System.out.println("--------------------------------");
         h();
     }
-} /* Output:
-f
-main
---------------------------------
-f
-g
-main
---------------------------------
-f
-g
-h
-main
-*///:~
+}

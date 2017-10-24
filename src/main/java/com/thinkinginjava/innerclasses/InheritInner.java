@@ -1,5 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/InheritInner.java
-// Inheriting an inner class.
+package com.thinkinginjava.innerclasses;
 
 class WithInner {
     class Inner {
@@ -16,4 +15,4 @@ public class InheritInner extends WithInner.Inner {
         WithInner wi = new WithInner();
         InheritInner ii = new InheritInner(wi);
     }
-} ///:~
+}

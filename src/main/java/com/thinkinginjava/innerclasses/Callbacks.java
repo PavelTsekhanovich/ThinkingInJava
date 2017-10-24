@@ -1,5 +1,3 @@
-//: com.thinkinginjava.innerclasses/Callbacks.java
-// Using inner classes for callbacks
 package com.thinkinginjava.innerclasses;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
@@ -76,13 +74,4 @@ public class Callbacks {
         caller2.go();
         caller2.go();
     }
-} /* Output:
-Other operation
-1
-1
-2
-Other operation
-2
-Other operation
-3
-*///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.exceptions/ExceptionSilencer.java
+package com.thinkinginjava.exceptions;
 
 public class ExceptionSilencer {
     public static void main(String[] args) {
@@ -10,4 +10,4 @@ public class ExceptionSilencer {
             return;
         }
     }
-} ///:~
+}

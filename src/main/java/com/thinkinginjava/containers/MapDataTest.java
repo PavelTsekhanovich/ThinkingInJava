@@ -1,4 +1,4 @@
-//: com.thinkinginjava.containers/MapDataTest.java
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.net.mindview.util.*;
 
@@ -50,10 +50,4 @@ public class MapDataTest {
         // An Iterable and a single value:
         print(MapData.map(new Letters(), "Pop"));
     }
-} /* Output:
-{1=A, 2=B, 3=C, 4=D, 5=E, 6=F, 7=G, 8=H, 9=I, 10=J, 11=K}
-{a=YNz, b=brn, c=yGc, d=FOW, e=ZnT, f=cQr, g=Gse, h=GZM}
-{a=Value, b=Value, c=Value, d=Value, e=Value, f=Value}
-{1=mJM, 2=RoE, 3=suE, 4=cUO, 5=neO, 6=EdL, 7=smw, 8=HLG}
-{1=Pop, 2=Pop, 3=Pop, 4=Pop, 5=Pop, 6=Pop, 7=Pop, 8=Pop}
-*///:~
+}

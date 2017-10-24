@@ -1,5 +1,3 @@
-//: com.thinkinginjava.enumerated/RoShamBo.java
-// Common tools for RoShamBo examples.
 package com.thinkinginjava.enumerated;
 
 import com.thinkinginjava.net.mindview.util.Enums;
@@ -17,4 +15,4 @@ public class RoShamBo {
             match(
                     Enums.random(rsbClass), Enums.random(rsbClass));
     }
-} ///:~
+}

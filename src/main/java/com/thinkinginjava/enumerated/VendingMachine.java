@@ -160,30 +160,4 @@ class FileInputGenerator implements Generator<Input> {
             return null;
         return Enum.valueOf(Input.class, input.next().trim());
     }
-} /* Output:
-25
-50
-75
-here is your CHIPS
-0
-100
-200
-here is your TOOTHPASTE
-0
-25
-35
-Your change: 35
-0
-25
-35
-Insufficient money for SODA
-35
-60
-70
-75
-Insufficient money for SODA
-75
-Your change: 75
-0
-Halted
-*///:~
+}

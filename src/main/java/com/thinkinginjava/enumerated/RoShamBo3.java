@@ -1,5 +1,3 @@
-//: com.thinkinginjava.enumerated/RoShamBo3.java
-// Using constant-specific methods.
 package com.thinkinginjava.enumerated;
 
 import static com.thinkinginjava.enumerated.Outcome.*;
@@ -50,4 +48,4 @@ public enum RoShamBo3 implements Competitor<RoShamBo3> {
     public static void main(String[] args) {
         RoShamBo.play(RoShamBo3.class, 20);
     }
-} /* Same output as RoShamBo2.java *///:~
+}

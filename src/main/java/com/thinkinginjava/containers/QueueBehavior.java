@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/QueueBehavior.java
-// Compares the behavior of some of the queues
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.net.mindview.util.Generator;
 
@@ -40,11 +39,4 @@ public class QueueBehavior {
         test(new LinkedBlockingQueue<String>(), new Gen());
         test(new PriorityBlockingQueue<String>(), new Gen());
     }
-} /* Output:
-one two three four five six seven eight nine ten
-eight five four nine one seven six ten three two
-one two three four five six seven eight nine ten
-one two three four five six seven eight nine ten
-one two three four five six seven eight nine ten
-eight five four nine one seven six ten three two
-*///:~
+}

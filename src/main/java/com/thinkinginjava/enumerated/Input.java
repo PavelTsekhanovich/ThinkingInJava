@@ -1,4 +1,3 @@
-//: com.thinkinginjava.enumerated/Input.java
 package com.thinkinginjava.enumerated;
 
 import java.util.Random;

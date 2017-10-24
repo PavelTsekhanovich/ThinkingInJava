@@ -1,4 +1,4 @@
-//: com.thinkinginjava.enumerated/OzWitch.java
+package com.thinkinginjava.enumerated;//: com.thinkinginjava.enumerated/OzWitch.java
 // The witches in the land of Oz.
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
@@ -25,9 +25,4 @@ public enum OzWitch {
         for (OzWitch witch : OzWitch.values())
             print(witch + ": " + witch.getDescription());
     }
-} /* Output:
-WEST: Miss Gulch, aka the Wicked Witch of the West
-NORTH: Glinda, the Good Witch of the North
-EAST: Wicked Witch of the East, wearer of the Ruby Slippers, crushed by Dorothy's house
-SOUTH: Good by inference, but missing
-*///:~
+}

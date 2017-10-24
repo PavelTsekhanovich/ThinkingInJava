@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/CleanupIdiom.java
-// Each disposable object must be followed by a try-finally
+package com.thinkinginjava.exceptions;
 
 class NeedsCleanup { // Construction can't fail
     private static long counter = 1;
@@ -60,10 +59,4 @@ public class CleanupIdiom {
             System.out.println(e);
         }
     }
-} /* Output:
-NeedsCleanup 1 disposed
-NeedsCleanup 3 disposed
-NeedsCleanup 2 disposed
-NeedsCleanup 5 disposed
-NeedsCleanup 4 disposed
-*///:~
+}

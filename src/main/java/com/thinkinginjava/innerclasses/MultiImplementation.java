@@ -1,7 +1,3 @@
-//: com.thinkinginjava.innerclasses/MultiImplementation.java
-// With concrete or abstract classes, inner
-// classes are the only way to produce the effect
-// of "multiple implementation inheritance."
 package com.thinkinginjava.innerclasses;
 
 class D {
@@ -29,4 +25,4 @@ public class MultiImplementation {
         takesD(z);
         takesE(z.makeE());
     }
-} ///:~
+}

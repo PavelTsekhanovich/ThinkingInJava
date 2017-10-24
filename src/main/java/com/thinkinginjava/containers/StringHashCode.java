@@ -1,4 +1,4 @@
-//: com.thinkinginjava.containers/StringHashCode.java
+package com.thinkinginjava.containers;
 
 public class StringHashCode {
     public static void main(String[] args) {
@@ -6,7 +6,4 @@ public class StringHashCode {
         System.out.println(hellos[0].hashCode());
         System.out.println(hellos[1].hashCode());
     }
-} /* Output: (Sample)
-69609650
-69609650
-*///:~
+}

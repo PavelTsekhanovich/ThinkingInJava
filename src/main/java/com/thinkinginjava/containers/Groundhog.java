@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Groundhog.java
-// Looks plausible, but doesn't work as a HashMap key.
+package com.thinkinginjava.containers;
 
 public class Groundhog {
     protected int number;
@@ -11,4 +10,4 @@ public class Groundhog {
     public String toString() {
         return "Groundhog #" + number;
     }
-} ///:~
+}

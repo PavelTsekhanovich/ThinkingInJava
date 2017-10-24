@@ -1,4 +1,4 @@
-//: com.thinkinginjava.exceptions/FullConstructors.java
+package com.thinkinginjava.exceptions;
 
 class MyException extends Exception {
     public MyException() {
@@ -32,13 +32,4 @@ public class FullConstructors {
             e.printStackTrace(System.out);
         }
     }
-} /* Output:
-Throwing MyException from f()
-MyException
-        at FullConstructors.f(FullConstructors.java:11)
-        at FullConstructors.main(FullConstructors.java:19)
-Throwing MyException from g()
-MyException: Originated in g()
-        at FullConstructors.g(FullConstructors.java:15)
-        at FullConstructors.main(FullConstructors.java:24)
-*///:~
+}
