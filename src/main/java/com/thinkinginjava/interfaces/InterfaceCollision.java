@@ -1,4 +1,3 @@
-//: com.thinkinginjava.interfaces/InterfaceCollision.java
 package com.thinkinginjava.interfaces;
 
 interface I1 {

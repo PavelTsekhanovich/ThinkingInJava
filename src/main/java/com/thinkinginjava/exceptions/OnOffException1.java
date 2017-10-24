@@ -1,3 +1,4 @@
-//: com.thinkinginjava.exceptions/OnOffException1.java
+package com.thinkinginjava.exceptions;
+
 public class OnOffException1 extends Exception {
-} ///:~
+}

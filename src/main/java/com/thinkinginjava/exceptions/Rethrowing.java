@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/Rethrowing.java
-// Demonstrating fillInStackTrace()
+package com.thinkinginjava.exceptions;
 
 public class Rethrowing {
     public static void f() throws Exception {
@@ -41,26 +40,4 @@ public class Rethrowing {
             e.printStackTrace(System.out);
         }
     }
-} /* Output:
-originating the exception in f()
-Inside g(),e.printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.g(Rethrowing.java:11)
-        at Rethrowing.main(Rethrowing.java:29)
-main: printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.g(Rethrowing.java:11)
-        at Rethrowing.main(Rethrowing.java:29)
-originating the exception in f()
-Inside h(),e.printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.f(Rethrowing.java:7)
-        at Rethrowing.h(Rethrowing.java:20)
-        at Rethrowing.main(Rethrowing.java:35)
-main: printStackTrace()
-java.lang.Exception: thrown from f()
-        at Rethrowing.h(Rethrowing.java:24)
-        at Rethrowing.main(Rethrowing.java:35)
-*///:~
+}

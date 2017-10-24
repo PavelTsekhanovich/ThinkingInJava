@@ -1,4 +1,4 @@
-//: com.thinkinginjava.exceptions/MultipleReturns.java
+package com.thinkinginjava.exceptions;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -23,23 +23,4 @@ public class MultipleReturns {
         for (int i = 1; i <= 4; i++)
             f(i);
     }
-} /* Output:
-Initialization that requires cleanup
-Point 1
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Point 3
-Performing cleanup
-Initialization that requires cleanup
-Point 1
-Point 2
-Point 3
-End
-Performing cleanup
-*///:~
+}

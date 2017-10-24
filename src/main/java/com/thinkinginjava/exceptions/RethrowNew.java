@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/RethrowNew.java
-// Rethrow a different object from the one that was caught.
+package com.thinkinginjava.exceptions;
 
 class OneException extends Exception {
     public OneException(String s) {
@@ -35,13 +34,4 @@ public class RethrowNew {
             e.printStackTrace(System.out);
         }
     }
-} /* Output:
-originating the exception in f()
-Caught in inner try, e.printStackTrace()
-OneException: thrown from f()
-        at RethrowNew.f(RethrowNew.java:15)
-        at RethrowNew.main(RethrowNew.java:20)
-Caught in outer try, e.printStackTrace()
-TwoException: from inner try
-        at RethrowNew.main(RethrowNew.java:25)
-*///:~
+}
