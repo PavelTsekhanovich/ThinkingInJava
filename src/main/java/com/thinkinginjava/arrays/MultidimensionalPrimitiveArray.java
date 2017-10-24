@@ -1,5 +1,4 @@
-//: com.thinkinginjava.arrays/MultidimensionalPrimitiveArray.java
-// Creating multidimensional com.thinkinginjava.arrays.
+package com.thinkinginjava.arrays;
 
 import java.util.Arrays;
 
@@ -11,6 +10,4 @@ public class MultidimensionalPrimitiveArray {
         };
         System.out.println(Arrays.deepToString(a));
     }
-} /* Output:
-[[1, 2, 3], [4, 5, 6]]
-*///:~
+}

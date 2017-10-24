@@ -1,6 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/DeadlockingDiningPhilosophers.java
-// Demonstrates how deadlock can be hidden in a program.
-// {Args: 0 5 timeout}
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -29,4 +27,3 @@ public class DeadlockingDiningPhilosophers {
     }
     //exec.shutdownNow();
 }
- /* (Execute to see output) *///:~

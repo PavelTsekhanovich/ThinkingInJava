@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/FastSimulation.java
+package com.thinkinginjava.concurrency;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -53,4 +53,4 @@ public class FastSimulation {
         TimeUnit.SECONDS.sleep(5);
         exec.shutdownNow();
     }
-} /* (Execute to see output) *///:~
+}

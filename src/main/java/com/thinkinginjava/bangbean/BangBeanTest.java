@@ -34,4 +34,4 @@ public class BangBeanTest extends JFrame {
     public static void main(String[] args) {
         run(new BangBeanTest(), 400, 500);
     }
-} ///:~
+}

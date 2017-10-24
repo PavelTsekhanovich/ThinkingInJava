@@ -1,4 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/AtomicityTest.java
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -32,6 +32,4 @@ public class AtomicityTest implements Runnable {
             }
         }
     }
-} /* Output: (Sample)
-191583767
-*///:~
+}

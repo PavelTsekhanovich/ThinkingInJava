@@ -1,5 +1,4 @@
-package com.thinkinginjava.arrays;//: com.thinkinginjava.arrays/StringSorting.java
-// Sorting an array of Strings.
+package com.thinkinginjava.arrays;
 
 import com.thinkinginjava.net.mindview.util.Generated;
 import com.thinkinginjava.net.mindview.util.RandomGenerator;

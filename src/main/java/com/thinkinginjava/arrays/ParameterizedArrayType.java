@@ -1,4 +1,4 @@
-//: com.thinkinginjava.arrays/ParameterizedArrayType.java
+package com.thinkinginjava.arrays;
 
 class ClassParameter<T> {
     public T[] f(T[] arg) {
@@ -23,4 +23,4 @@ public class ParameterizedArrayType {
         ints2 = MethodParameter.f(ints);
         doubles2 = MethodParameter.f(doubles);
     }
-} ///:~
+}

@@ -1,6 +1,4 @@
-//: com.thinkinginjava.concurrency/AttemptLocking.java
-// Locks in the concurrent library allow you
-// to give up on trying to acquire a lock.
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
@@ -53,10 +51,4 @@ public class AttemptLocking {
         al.untimed(); // False -- lock grabbed by task
         al.timed();   // False -- lock grabbed by task
     }
-} /* Output:
-tryLock(): true
-tryLock(2, TimeUnit.SECONDS): true
-acquired
-tryLock(): false
-tryLock(2, TimeUnit.SECONDS): false
-*///:~
+}

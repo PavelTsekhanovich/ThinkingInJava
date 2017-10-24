@@ -1,4 +1,4 @@
-//: com.thinkinginjava.arrays/RaggedArray.java
+package com.thinkinginjava.arrays;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -15,6 +15,4 @@ public class RaggedArray {
         }
         System.out.println(Arrays.deepToString(a));
     }
-} /* Output:
-[[], [[0], [0], [0, 0, 0, 0]], [[], [0, 0], [0, 0]], [[0, 0, 0], [0], [0, 0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0], []], [[0], [], [0]]]
-*///:~
+}

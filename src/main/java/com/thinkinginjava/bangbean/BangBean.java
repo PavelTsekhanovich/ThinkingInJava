@@ -1,5 +1,3 @@
-//: com.thinkinginjava.bangbean/BangBean.java
-// A graphical Bean.
 package com.thinkinginjava.bangbean;
 
 import javax.swing.*;
@@ -102,4 +100,4 @@ BangBean extends JPanel implements Serializable {
     public Dimension getPreferredSize() {
         return new Dimension(200, 200);
     }
-} ///:~
+}

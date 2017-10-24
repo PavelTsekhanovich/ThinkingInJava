@@ -19,4 +19,4 @@ public class Fat {
     public String toString() {
         return "Fat id: " + id;
     }
-} ///:~
+}

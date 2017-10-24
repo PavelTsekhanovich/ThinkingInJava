@@ -1,12 +1,13 @@
-/*
-//: com.thinkinginjava.arrays/ArraySearching.java
-// Using Arrays.binarySearch().
+package com.thinkinginjava.arrays;
 
-import net.mindview.util.*;
+import com.thinkinginjava.net.mindview.util.ConvertTo;
+import com.thinkinginjava.net.mindview.util.Generated;
+import com.thinkinginjava.net.mindview.util.Generator;
+import com.thinkinginjava.net.mindview.util.RandomGenerator;
 
 import java.util.Arrays;
 
-import static net.mindview.util.Print.*;
+import static com.thinkinginjava.Print.print;
 
 public class ArraySearching {
     public static void main(String[] args) {
@@ -26,10 +27,4 @@ public class ArraySearching {
             }
         }
     }
-} */
-/* Output:
-Sorted array: [128, 140, 200, 207, 258, 258, 278, 288, 322, 429, 511, 520, 522, 551, 555, 589, 693, 704, 809, 861, 861, 868, 916, 961, 998]
-Location of 322 is 8, a[8] = 322
-*//*
-//:~
-*/
+}

@@ -1,5 +1,3 @@
-//: com.thinkinginjava.concurrency/restaurant2/RestaurantWithQueues.java
-// {Args: 5}
 package com.thinkinginjava.concurrency.restaurant2;
 
 import com.thinkinginjava.enumerated.menu.Course;
@@ -236,19 +234,4 @@ public class RestaurantWithQueues {
         }
         exec.shutdownNow();
     }
-} /* Output: (Sample)
-WaitPerson 0 received SPRING_ROLLS delivering to Customer 1
-Customer 1 eating SPRING_ROLLS
-WaitPerson 3 received SPRING_ROLLS delivering to Customer 0
-Customer 0 eating SPRING_ROLLS
-WaitPerson 0 received BURRITO delivering to Customer 1
-Customer 1 eating BURRITO
-WaitPerson 3 received SPRING_ROLLS delivering to Customer 2
-Customer 2 eating SPRING_ROLLS
-WaitPerson 1 received SOUP delivering to Customer 3
-Customer 3 eating SOUP
-WaitPerson 3 received VINDALOO delivering to Customer 0
-Customer 0 eating VINDALOO
-WaitPerson 0 received FRUIT delivering to Customer 1
-...
-*///:~
+}

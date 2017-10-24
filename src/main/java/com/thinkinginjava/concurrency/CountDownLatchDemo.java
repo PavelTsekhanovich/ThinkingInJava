@@ -1,4 +1,4 @@
-//: com.thinkinginjava.concurrency/CountDownLatchDemo.java
+package com.thinkinginjava.concurrency;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -76,4 +76,4 @@ public class CountDownLatchDemo {
         print("Launched all tasks");
         exec.shutdown(); // Quit when all tasks complete
     }
-} /* (Execute to see output) *///:~
+}

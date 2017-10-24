@@ -1,5 +1,3 @@
-//: com.thinkinginjava.concurrency/waxomatic2/WaxOMatic2.java
-// Using Lock and Condition objects.
 package com.thinkinginjava.concurrency.waxomatic2;
 
 import java.util.concurrent.ExecutorService;
@@ -111,9 +109,4 @@ public class WaxOMatic2 {
         TimeUnit.SECONDS.sleep(5);
         exec.shutdownNow();
     }
-} /* Output: (90% match)
-Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Wax Off! Wax On! Exiting via interrupt
-Ending Wax Off task
-Exiting via interrupt
-Ending Wax On task
-*///:~
+}

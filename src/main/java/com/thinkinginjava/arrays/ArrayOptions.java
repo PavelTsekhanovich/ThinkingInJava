@@ -1,6 +1,6 @@
-/*
-import java.util.Arrays;
+package com.thinkinginjava.arrays;
 
+import java.util.Arrays;
 import static com.thinkinginjava.Print.print;
 
 public class ArrayOptions {
@@ -51,20 +51,4 @@ public class ArrayOptions {
         e = new int[]{1, 2};
         print("e.length = " + e.length);
     }
-} */
-/* Output:
-b: [null, null, null, null, null]
-a.length = 2
-b.length = 5
-c.length = 4
-d.length = 3
-a.length = 3
-f: [0, 0, 0, 0, 0]
-f.length = 5
-g.length = 4
-h.length = 3
-e.length = 3
-e.length = 2
-*//*
-//:~
-*/
+}

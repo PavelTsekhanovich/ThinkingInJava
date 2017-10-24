@@ -1,7 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/CloseResource.java
-// Interrupting a blocked task by
-// closing the underlying resource.
-// {RunByHand}
+package com.thinkinginjava.concurrency;
 
 import java.io.InputStream;
 import java.net.ServerSocket;
@@ -30,13 +27,4 @@ public class CloseResource {
         print("Closing " + System.in.getClass().getName());
         System.in.close(); // Releases blocked thread
     }
-} /* Output: (85% match)
-Waiting for read():
-Waiting for read():
-Shutting down all threads
-Closing java.com.thinkinginjava.net.SocketInputStream
-Interrupted from blocked I/O
-Exiting IOBlocked.run()
-Closing java.com.thinkinginjava.io.BufferedInputStream
-Exiting IOBlocked.run()
-*///:~
+}

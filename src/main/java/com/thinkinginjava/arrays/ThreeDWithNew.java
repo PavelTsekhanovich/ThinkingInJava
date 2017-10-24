@@ -1,4 +1,4 @@
-//: com.thinkinginjava.arrays/ThreeDWithNew.java
+package com.thinkinginjava.arrays;
 
 import java.util.Arrays;
 
@@ -8,6 +8,4 @@ public class ThreeDWithNew {
         int[][][] a = new int[2][2][4];
         System.out.println(Arrays.deepToString(a));
     }
-} /* Output:
-[[[0, 0, 0, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0]]]
-*///:~
+}

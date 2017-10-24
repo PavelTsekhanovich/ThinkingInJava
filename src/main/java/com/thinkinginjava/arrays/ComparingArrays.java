@@ -19,8 +19,4 @@ public class ComparingArrays {
                 new String("Hi"), new String("Hi")};
         print(Arrays.equals(s1, s2));
     }
-} /* Output:
-true
-false
-true
-*///:~
+}

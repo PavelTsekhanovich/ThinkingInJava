@@ -1,6 +1,4 @@
-/*
-//: com.thinkinginjava.arrays/ArrayOfGenerics.java
-// It is possible to create com.thinkinginjava.arrays of generics.
+package com.thinkinginjava.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +26,4 @@ public class ArrayOfGenerics {
         for (int i = 0; i < spheres.length; i++)
             spheres[i] = new ArrayList<BerylliumSphere>();
     }
-} ///:~
-*/
+}

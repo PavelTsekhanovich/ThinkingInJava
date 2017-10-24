@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/DaemonFromFactory.java
-// Using a Thread Factory to create daemons.
+package com.thinkinginjava.concurrency;
 
 import com.thinkinginjava.net.mindview.util.DaemonThreadFactory;
 
@@ -29,4 +28,4 @@ public class DaemonFromFactory implements Runnable {
         print("All daemons started");
         TimeUnit.MILLISECONDS.sleep(500); // Run for a while
     }
-} /* (Execute to see output) *///:~
+}
