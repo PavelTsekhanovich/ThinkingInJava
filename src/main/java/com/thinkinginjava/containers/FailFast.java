@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/FailFast.java
-// Demonstrates the "fail-fast" behavior.
+package com.thinkinginjava.containers;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,6 +16,4 @@ public class FailFast {
             System.out.println(e);
         }
     }
-} /* Output:
-java.util.ConcurrentModificationException
-*///:~
+}

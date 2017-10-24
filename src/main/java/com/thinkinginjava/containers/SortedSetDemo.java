@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/SortedSetDemo.java
-// What you can do with a TreeSet.
+package com.thinkinginjava.containers;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -31,13 +30,4 @@ public class SortedSetDemo {
         print(sortedSet.headSet(high));
         print(sortedSet.tailSet(low));
     }
-} /* Output:
-[eight, five, four, one, seven, six, three, two]
-eight
-two
-one
-two
-[one, seven, six, three]
-[eight, five, four, one, seven, six, three]
-[one, seven, six, three, two]
-*///:~
+}

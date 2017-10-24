@@ -1,4 +1,4 @@
-package com.thinkinginjava.containers;//: com.thinkinginjava.containers/IndividualTest.java
+package com.thinkinginjava.containers;
 
 import com.thinkinginjava.holding.MapOfList;
 import com.thinkinginjava.typeinfo.pets.Individual;

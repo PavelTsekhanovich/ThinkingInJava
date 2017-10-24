@@ -1,5 +1,4 @@
-package com.thinkinginjava.containers;//: com.thinkinginjava.containers/Tester.java
-// Applies Test objects to lists of different com.thinkinginjava.containers.
+package com.thinkinginjava.containers;
 
 import java.util.List;
 

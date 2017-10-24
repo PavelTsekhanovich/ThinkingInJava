@@ -42,9 +42,4 @@ public class ReadOnly {
                 Collections.unmodifiableSortedMap(
                         new TreeMap<String, String>(Countries.capitals(6)));
     }
-} /* Output:
-[ALGERIA, ANGOLA, BENIN, BOTSWANA, BULGARIA, BURKINA FASO]
-ALGERIA
-[BULGARIA, BURKINA FASO, BOTSWANA, BENIN, ANGOLA, ALGERIA]
-{BULGARIA=Sofia, BURKINA FASO=Ouagadougou, BOTSWANA=Gaberone, BENIN=Porto-Novo, ANGOLA=Luanda, ALGERIA=Algiers}
-*///:~
+}

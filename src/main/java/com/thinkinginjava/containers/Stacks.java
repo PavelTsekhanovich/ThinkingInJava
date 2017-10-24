@@ -1,5 +1,4 @@
-//: com.thinkinginjava.containers/Stacks.java
-// Demonstration of Stack Class.
+package com.thinkinginjava.containers;
 
 import java.util.LinkedList;
 import java.util.Stack;
@@ -44,11 +43,4 @@ public class Stacks {
             printnb(stack2.pop() + " ");
 
     }
-} /* Output:
-stack = [JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER]
-element 5 = JUNE
-popping elements:
-The last line NOVEMBER OCTOBER SEPTEMBER AUGUST JULY JUNE MAY APRIL MARCH FEBRUARY JANUARY lstack = [NOVEMBER, OCTOBER, SEPTEMBER, AUGUST, JULY, JUNE, MAY, APRIL, MARCH, FEBRUARY, JANUARY]
-NOVEMBER OCTOBER SEPTEMBER AUGUST JULY JUNE MAY APRIL MARCH FEBRUARY JANUARY stack2 = [NOVEMBER, OCTOBER, SEPTEMBER, AUGUST, JULY, JUNE, MAY, APRIL, MARCH, FEBRUARY, JANUARY]
-NOVEMBER OCTOBER SEPTEMBER AUGUST JULY JUNE MAY APRIL MARCH FEBRUARY JANUARY
-*///:~
+}

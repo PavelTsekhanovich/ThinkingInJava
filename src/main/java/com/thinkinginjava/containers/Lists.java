@@ -124,4 +124,4 @@ public class Lists {
         testVisual(new LinkedList<String>(Countries.names(25)));
         testLinkedList();
     }
-} /* (Execute to see output) *///:~
+}
