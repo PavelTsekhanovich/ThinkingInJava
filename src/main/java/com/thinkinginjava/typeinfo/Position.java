@@ -37,4 +37,4 @@ class Position {
     public String toString() {
         return "Position: " + title + " " + person;
     }
-} ///:~
+}

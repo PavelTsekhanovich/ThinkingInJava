@@ -47,10 +47,4 @@ class FillTest {
         // Won't work. fill() is not generic enough:
         // Fill.fill(contractQueue, Contract.class, 3);
     }
-} /* Output:
-Contract 0
-Contract 1
-Contract 2
-TitleTransfer 3
-TitleTransfer 4
-*///:~
+}
