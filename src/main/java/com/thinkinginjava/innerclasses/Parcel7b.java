@@ -1,9 +1,7 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel7b.java
-// Expanded version of Parcel7.java
-
-import com.thinkinginjava.innerclasses.Contents;
+package com.thinkinginjava.innerclasses;
 
 public class Parcel7b {
+
     class MyContents implements Contents {
         private int i = 11;
 
@@ -20,4 +18,4 @@ public class Parcel7b {
         Parcel7b p = new Parcel7b();
         Contents c = p.contents();
     }
-} ///:~
+}

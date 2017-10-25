@@ -1,4 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/TestParcel.java
+package com.thinkinginjava.innerclasses;
 
 class Parcel4 {
     private class PContents implements Contents {
@@ -38,4 +38,4 @@ public class TestParcel {
         // Illegal -- can't access private class:
         //! Parcel4.PContents pc = p.new PContents();
     }
-} ///:~
+}

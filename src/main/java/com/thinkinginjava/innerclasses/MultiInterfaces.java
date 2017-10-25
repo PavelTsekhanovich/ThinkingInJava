@@ -1,5 +1,3 @@
-//: com.thinkinginjava.innerclasses/MultiInterfaces.java
-// Two ways that a class can implement multiple com.thinkinginjava.interfaces.
 package com.thinkinginjava.innerclasses;
 
 interface A {
@@ -34,4 +32,4 @@ public class MultiInterfaces {
         takesB(x);
         takesB(y.makeB());
     }
-} ///:~
+}

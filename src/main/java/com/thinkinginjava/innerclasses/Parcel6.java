@@ -1,7 +1,7 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel6.java
-// Nesting a class within a scope.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel6 {
+
     private void internalTracking(boolean b) {
         if (b) {
             class TrackingSlip {
@@ -30,4 +30,4 @@ public class Parcel6 {
         Parcel6 p = new Parcel6();
         p.track();
     }
-} ///:~
+}

@@ -1,5 +1,3 @@
-//: com.thinkinginjava.innerclasses/controller/Controller.java
-// The reusable framework for control systems.
 package com.thinkinginjava.innerclasses.controller;
 
 import java.util.ArrayList;
@@ -24,4 +22,4 @@ public class Controller {
                     eventList.remove(e);
                 }
     }
-} ///:~
+}

@@ -1,7 +1,7 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/ClassInInterface.java
-// {main: ClassInInterface$Test}
+package com.thinkinginjava.innerclasses;
 
 public interface ClassInInterface {
+
     void howdy();
 
     class Test implements ClassInInterface {
@@ -13,6 +13,4 @@ public interface ClassInInterface {
             new Test().howdy();
         }
     }
-} /* Output:
-Howdy!
-*///:~
+}

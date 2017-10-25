@@ -1,5 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel3.java
-// Using .new to create instances of inner classes.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel3 {
     class Contents {
@@ -29,4 +28,4 @@ public class Parcel3 {
         Parcel3.Contents c = p.new Contents();
         Parcel3.Destination d = p.new Destination("Tasmania");
     }
-} ///:~
+}

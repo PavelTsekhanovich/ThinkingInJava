@@ -1,5 +1,4 @@
-//: com.thinkinginjava.innerclasses/BigEgg2.java
-// Proper inheritance of an inner class.
+package com.thinkinginjava.innerclasses;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -48,10 +47,4 @@ public class BigEgg2 extends Egg2 {
         Egg2 e2 = new BigEgg2();
         e2.g();
     }
-} /* Output:
-Egg2.Yolk()
-New Egg2()
-Egg2.Yolk()
-BigEgg2.Yolk()
-BigEgg2.Yolk.f()
-*///:~
+}

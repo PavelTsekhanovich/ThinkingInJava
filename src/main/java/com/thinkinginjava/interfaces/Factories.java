@@ -1,4 +1,4 @@
-//: com.thinkinginjava.interfaces/Factories.java
+package com.thinkinginjava.interfaces;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -62,9 +62,4 @@ public class Factories {
         // Implementations are completely interchangeable:
         serviceConsumer(new Implementation2Factory());
     }
-} /* Output:
-Implementation1 method1
-Implementation1 method2
-Implementation2 method1
-Implementation2 method2
-*///:~
+}

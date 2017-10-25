@@ -1,5 +1,3 @@
-//: com.thinkinginjava.innerclasses/controller/Event.java
-// The common methods for any control event.
 package com.thinkinginjava.innerclasses.controller;
 
 public abstract class Event {
@@ -20,4 +18,4 @@ public abstract class Event {
     }
 
     public abstract void action();
-} ///:~
+}

@@ -1,6 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/GreenhouseController.java
-// Configure and execute the greenhouse system.
-// {Args: 5000}
+package com.thinkinginjava.innerclasses;
 
 import com.thinkinginjava.innerclasses.controller.Event;
 
@@ -25,14 +23,4 @@ public class GreenhouseController {
                             new Integer(args[0])));
         gc.run();
     }
-} /* Output:
-Bing!
-Thermostat on night setting
-Light is on
-Light is off
-Greenhouse water is on
-Greenhouse water is off
-Thermostat on day setting
-Restarting system
-Terminating
-*///:~
+}

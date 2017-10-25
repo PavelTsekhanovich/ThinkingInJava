@@ -8,4 +8,4 @@ public class DotNew {
         DotNew dn = new DotNew();
         DotNew.Inner dni = dn.new Inner();
     }
-} ///:~
+}

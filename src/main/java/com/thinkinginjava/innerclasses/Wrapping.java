@@ -1,7 +1,7 @@
 package com.thinkinginjava.innerclasses;
 
-//: com.thinkinginjava.innerclasses/Wrapping.java
 public class Wrapping {
+
     private int i;
 
     public Wrapping(int x) {
@@ -11,4 +11,4 @@ public class Wrapping {
     public int value() {
         return i;
     }
-} ///:~
+}

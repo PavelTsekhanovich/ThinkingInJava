@@ -1,6 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel9.java
-// An anonymous inner class that performs
-// initialization. A briefer version of Parcel5.java.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel9 {
     // Argument must be final to use inside
@@ -19,4 +17,4 @@ public class Parcel9 {
         Parcel9 p = new Parcel9();
         Destination d = p.destination("Tasmania");
     }
-} ///:~
+}

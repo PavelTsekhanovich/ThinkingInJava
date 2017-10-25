@@ -1,7 +1,7 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel5.java
-// Nesting a class within a method.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel5 {
+
     public Destination destination(String s) {
         class PDestination implements Destination {
             private String label;
@@ -21,4 +21,4 @@ public class Parcel5 {
         Parcel5 p = new Parcel5();
         Destination d = p.destination("Tasmania");
     }
-} ///:~
+}

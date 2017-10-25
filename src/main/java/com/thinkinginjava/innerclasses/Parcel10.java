@@ -1,10 +1,8 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel10.java
-// Using "instance initialization" to perform
-// construction on an anonymous inner class.
+package com.thinkinginjava.innerclasses;
 
 public class Parcel10 {
-    public Destination
-    destination(final String dest, final float price) {
+
+    public Destination destination(final String dest, final float price) {
         return new Destination() {
             private int cost;
 
@@ -27,6 +25,4 @@ public class Parcel10 {
         Parcel10 p = new Parcel10();
         Destination d = p.destination("Tasmania", 101.395F);
     }
-} /* Output:
-Over budget!
-*///:~
+}

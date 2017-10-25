@@ -1,5 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/Parcel11.java
-// Nested classes (static inner classes).
+package com.thinkinginjava.innerclasses;
 
 public class Parcel11 {
     private static class ParcelContents implements Contents {
@@ -10,8 +9,7 @@ public class Parcel11 {
         }
     }
 
-    protected static class ParcelDestination
-            implements Destination {
+    protected static class ParcelDestination implements Destination {
         private String label;
 
         private ParcelDestination(String whereTo) {
@@ -48,4 +46,4 @@ public class Parcel11 {
         Contents c = contents();
         Destination d = destination("Tasmania");
     }
-} ///:~
+}

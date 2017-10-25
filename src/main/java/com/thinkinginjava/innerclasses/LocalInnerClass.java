@@ -1,5 +1,4 @@
-package com.thinkinginjava.innerclasses;//: com.thinkinginjava.innerclasses/LocalInnerClass.java
-// Holds a sequence of Objects.
+package com.thinkinginjava.innerclasses;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 import static com.thinkinginjava.net.mindview.util.Print.printnb;
@@ -53,17 +52,4 @@ public class LocalInnerClass {
         for (int i = 0; i < 5; i++)
             print(c2.next());
     }
-} /* Output:
-LocalCounter()
-Counter()
-Local inner 0
-Local inner 1
-Local inner 2
-Local inner 3
-Local inner 4
-Anonymous inner 5
-Anonymous inner 6
-Anonymous inner 7
-Anonymous inner 8
-Anonymous inner 9
-*///:~
+}

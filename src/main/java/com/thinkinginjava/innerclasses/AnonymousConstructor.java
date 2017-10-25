@@ -1,5 +1,4 @@
-//: com.thinkinginjava.innerclasses/AnonymousConstructor.java
-// Creating a constructor for an anonymous inner class.
+package com.thinkinginjava.innerclasses;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -28,8 +27,4 @@ public class AnonymousConstructor {
         Base base = getBase(47);
         base.f();
     }
-} /* Output:
-Base constructor, i = 47
-Inside instance initializer
-In anonymous f()
-*///:~
+}

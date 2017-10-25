@@ -1,5 +1,4 @@
-//: com.thinkinginjava.innerclasses/BigEgg.java
-// An inner class cannot be overriden like a method.
+package com.thinkinginjava.innerclasses;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -28,7 +27,4 @@ public class BigEgg extends Egg {
     public static void main(String[] args) {
         new BigEgg();
     }
-} /* Output:
-New Egg()
-Egg.Yolk()
-*///:~
+}
