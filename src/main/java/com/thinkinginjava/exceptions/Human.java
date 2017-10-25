@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/Human.java
-// Catching exception hierarchies.
+package com.thinkinginjava.exceptions;
 
 class Annoyance extends Exception {
 }
@@ -24,7 +23,4 @@ public class Human {
             System.out.println("Caught Annoyance");
         }
     }
-} /* Output:
-Caught Sneeze
-Caught Annoyance
-*///:~
+}

@@ -1,7 +1,4 @@
-//: com.thinkinginjava.exceptions/StormyInning.java
-// Overridden methods may throw only the com.thinkinginjava.exceptions
-// specified in their base-class versions, or com.thinkinginjava.exceptions
-// derived from the base-class com.thinkinginjava.exceptions.
+package com.thinkinginjava.exceptions;
 
 class BaseballException extends Exception {
 }
@@ -99,4 +96,4 @@ public class StormyInning extends Inning implements Storm {
             System.out.println("Generic baseball exception");
         }
     }
-} ///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/Cleanup.java
-// Guaranteeing proper cleanup of a resource.
+package com.thinkinginjava.exceptions;
 
 public class Cleanup {
     public static void main(String[] args) {
@@ -20,6 +19,4 @@ public class Cleanup {
             System.out.println("InputFile construction failed");
         }
     }
-} /* Output:
-dispose() successful
-*///:~
+}

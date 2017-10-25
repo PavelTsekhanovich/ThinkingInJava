@@ -1,4 +1,4 @@
-//: com.thinkinginjava.exceptions/MainException.java
+package com.thinkinginjava.exceptions;
 
 import java.io.FileInputStream;
 
@@ -12,4 +12,4 @@ public class MainException {
         // Close the file:
         file.close();
     }
-} ///:~
+}

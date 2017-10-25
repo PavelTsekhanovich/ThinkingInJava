@@ -16,8 +16,7 @@ public class AlwaysFinally {
                 print("finally in 2nd try block");
             }
         } catch (FourException e) {
-            System.out.println(
-                    "Caught FourException in 1st try block");
+            System.out.println("Caught FourException in 1st try block");
         } finally {
             System.out.println("finally in 1st try block");
         }

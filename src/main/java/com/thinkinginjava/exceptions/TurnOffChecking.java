@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/TurnOffChecking.java
-// "Turning off" Checked com.thinkinginjava.exceptions.
+package com.thinkinginjava.exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -55,9 +54,4 @@ public class TurnOffChecking {
                 }
             }
     }
-} /* Output:
-FileNotFoundException: java.com.thinkinginjava.io.FileNotFoundException
-IOException: java.com.thinkinginjava.io.IOException
-Throwable: java.lang.RuntimeException: Where am I?
-SomeOtherException: SomeOtherException
-*///:~
+}

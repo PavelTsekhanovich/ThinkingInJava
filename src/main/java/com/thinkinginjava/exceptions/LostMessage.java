@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/LostMessage.java
-// How an exception can be lost.
+package com.thinkinginjava.exceptions;
 
 class VeryImportantException extends Exception {
     public String toString() {
@@ -34,6 +33,4 @@ public class LostMessage {
             System.out.println(e);
         }
     }
-} /* Output:
-A trivial exception
-*///:~
+}

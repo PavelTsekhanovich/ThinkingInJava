@@ -1,6 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/InterruptingIdiom.java
-// General idiom for interrupting a task.
-// {Args: 1100}
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.TimeUnit;
 
@@ -66,16 +64,4 @@ public class InterruptingIdiom {
         TimeUnit.MILLISECONDS.sleep(new Integer(args[0]));
         t.interrupt();
     }
-} /* Output: (Sample)
-NeedsCleanup 1
-Sleeping
-NeedsCleanup 2
-Calculating
-Finished time-consuming operation
-Cleaning up 2
-Cleaning up 1
-NeedsCleanup 1
-Sleeping
-Cleaning up 1
-Exiting via InterruptedException
-*///:~
+}
