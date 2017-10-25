@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/ExceptionMethods.java
-// Demonstrating the Exception Methods.
+package com.thinkinginjava.exceptions;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -17,12 +16,4 @@ public class ExceptionMethods {
             e.printStackTrace(System.out);
         }
     }
-} /* Output:
-Caught Exception
-getMessage():My Exception
-getLocalizedMessage():My Exception
-toString():java.lang.Exception: My Exception
-printStackTrace():
-java.lang.Exception: My Exception
-        at ExceptionMethods.main(ExceptionMethods.java:8)
-*///:~
+}

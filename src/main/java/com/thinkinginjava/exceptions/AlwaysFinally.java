@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/AlwaysFinally.java
-// Finally is always executed.
+package com.thinkinginjava.exceptions;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -23,10 +22,4 @@ public class AlwaysFinally {
             System.out.println("finally in 1st try block");
         }
     }
-} /* Output:
-Entering first try block
-Entering second try block
-finally in 2nd try block
-Caught FourException in 1st try block
-finally in 1st try block
-*///:~
+}

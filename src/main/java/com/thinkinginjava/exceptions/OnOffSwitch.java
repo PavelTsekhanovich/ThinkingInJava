@@ -1,3 +1,5 @@
+package com.thinkinginjava.exceptions;
+
 public class OnOffSwitch {
     private static Switch sw = new Switch();
 
@@ -19,7 +21,4 @@ public class OnOffSwitch {
             sw.off();
         }
     }
-} /* Output:
-on
-off
-*///:~
+}

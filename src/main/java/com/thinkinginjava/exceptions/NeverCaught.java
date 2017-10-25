@@ -1,8 +1,7 @@
-//: com.thinkinginjava.exceptions/NeverCaught.java
-// Ignoring RuntimeExceptions.
-// {ThrowsException}
+package com.thinkinginjava.exceptions;
 
 public class NeverCaught {
+
     static void f() {
         throw new RuntimeException("From f()");
     }
@@ -14,4 +13,4 @@ public class NeverCaught {
     public static void main(String[] args) {
         g();
     }
-} ///:~
+}

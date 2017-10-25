@@ -1,4 +1,4 @@
-//: com.thinkinginjava.exceptions/Switch.java
+package com.thinkinginjava.exceptions;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -22,4 +22,4 @@ public class Switch {
     public String toString() {
         return state ? "on" : "off";
     }
-} ///:~
+}

@@ -1,6 +1,7 @@
 package com.thinkinginjava.exceptions;
 
 class MyException extends Exception {
+
     public MyException() {
     }
 

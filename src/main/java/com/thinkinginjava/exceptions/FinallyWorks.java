@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/FinallyWorks.java
-// The finally clause is always executed.
+package com.thinkinginjava.exceptions;
 
 class ThreeException extends Exception {
 }
@@ -22,9 +21,4 @@ public class FinallyWorks {
             }
         }
     }
-} /* Output:
-ThreeException
-In finally clause
-No exception
-In finally clause
-*///:~
+}

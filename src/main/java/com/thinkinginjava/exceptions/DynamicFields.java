@@ -1,6 +1,4 @@
-//: com.thinkinginjava.exceptions/DynamicFields.java
-// A Class that dynamically adds fields to itself.
-// Demonstrates exception chaining.
+package com.thinkinginjava.exceptions;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -34,8 +32,7 @@ public class DynamicFields {
         return -1;
     }
 
-    private int
-    getFieldNumber(String id) throws NoSuchFieldException {
+    private int getFieldNumber(String id) throws NoSuchFieldException {
         int fieldNum = hasField(id);
         if (fieldNum == -1)
             throw new NoSuchFieldException();
@@ -108,25 +105,4 @@ public class DynamicFields {
             e.printStackTrace(System.out);
         }
     }
-} /* Output:
-null: null
-null: null
-null: null
-
-d: A value for d
-number: 47
-number2: 48
-
-df: d: A new value for d
-number: 47
-number2: 48
-number3: 11
-
-df.getField("d") : A new value for d
-DynamicFieldsException
-        at DynamicFields.setField(DynamicFields.java:64)
-        at DynamicFields.main(DynamicFields.java:94)
-Caused by: java.lang.NullPointerException
-        at DynamicFields.setField(DynamicFields.java:66)
-        ... 1 more
-*///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.exceptions/WithFinally.java
-// Finally Guarantees cleanup.
+package com.thinkinginjava.exceptions;
 
 public class WithFinally {
     static Switch sw = new Switch();
@@ -17,7 +16,4 @@ public class WithFinally {
             sw.off();
         }
     }
-} /* Output:
-on
-off
-*///:~
+}

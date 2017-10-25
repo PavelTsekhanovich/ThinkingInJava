@@ -1,10 +1,10 @@
-//: com.thinkinginjava.exceptions/InheritingExceptions.java
-// Creating your own com.thinkinginjava.exceptions.
+package com.thinkinginjava.exceptions;
 
 class SimpleException extends Exception {
 }
 
 public class InheritingExceptions {
+
     public void f() throws SimpleException {
         System.out.println("Throw SimpleException from f()");
         throw new SimpleException();
@@ -18,7 +18,4 @@ public class InheritingExceptions {
             System.out.println("Caught it!");
         }
     }
-} /* Output:
-Throw SimpleException from f()
-Caught it!
-*///:~
+}
