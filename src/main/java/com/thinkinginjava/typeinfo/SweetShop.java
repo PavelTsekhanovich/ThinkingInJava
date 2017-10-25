@@ -1,5 +1,4 @@
-//: com.thinkinginjava.typeinfo/SweetShop.java
-// Examination of the way the class loader works.
+package com.thinkinginjava.typeinfo;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -35,12 +34,4 @@ public class SweetShop {
         new Cookie();
         print("After creating Cookie");
     }
-} /* Output:
-inside main
-Loading Candy
-After creating Candy
-Loading Gum
-After Class.forName("Gum")
-Loading Cookie
-After creating Cookie
-*///:~
+}

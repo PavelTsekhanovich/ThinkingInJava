@@ -1,5 +1,3 @@
-//: com.thinkinginjava.typeinfo/toys/ToyTest.java
-// Testing class Class.
 package com.thinkinginjava.typeinfo.toys;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
@@ -23,8 +21,7 @@ class Toy {
     }
 }
 
-class FancyToy extends Toy
-        implements HasBatteries, Waterproof, Shoots {
+class FancyToy extends Toy implements HasBatteries, Waterproof, Shoots {
     FancyToy() {
         super(1);
     }
@@ -32,8 +29,7 @@ class FancyToy extends Toy
 
 public class ToyTest {
     static void printInfo(Class cc) {
-        print("Class name: " + cc.getName() +
-                " is interface? [" + cc.isInterface() + "]");
+        print("Class name: " + cc.getName() + " is interface? [" + cc.isInterface() + "]");
         print("Simple name: " + cc.getSimpleName());
         print("Canonical name : " + cc.getCanonicalName());
     }
@@ -63,20 +59,4 @@ public class ToyTest {
         }
         printInfo(obj.getClass());
     }
-} /* Output:
-Class name: com.thinkinginjava.typeinfo.toys.FancyToy is interface? [false]
-Simple name: FancyToy
-Canonical name : com.thinkinginjava.typeinfo.toys.FancyToy
-Class name: com.thinkinginjava.typeinfo.toys.HasBatteries is interface? [true]
-Simple name: HasBatteries
-Canonical name : com.thinkinginjava.typeinfo.toys.HasBatteries
-Class name: com.thinkinginjava.typeinfo.toys.Waterproof is interface? [true]
-Simple name: Waterproof
-Canonical name : com.thinkinginjava.typeinfo.toys.Waterproof
-Class name: com.thinkinginjava.typeinfo.toys.Shoots is interface? [true]
-Simple name: Shoots
-Canonical name : com.thinkinginjava.typeinfo.toys.Shoots
-Class name: com.thinkinginjava.typeinfo.toys.Toy is interface? [false]
-Simple name: Toy
-Canonical name : com.thinkinginjava.typeinfo.toys.Toy
-*///:~
+}

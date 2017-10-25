@@ -1,11 +1,3 @@
-//: com.thinkinginjava.gui/jnlp/JnlpFileChooser.java
-// Opening files on a local machine with JNLP.
-// {Requires: javax.jnlp.FileOpenService;
-// You must have javaws.jar in your classpath}
-// To create the jnlpfilechooser.jar file, do this:
-// cd ..
-// cd ..
-// jar cvf com.thinkinginjava.gui/jnlp/jnlpfilechooser.jar com.thinkinginjava.gui/jnlp/*.class
 package com.thinkinginjava.gui.jnlp;
 
 import javax.jnlp.*;
