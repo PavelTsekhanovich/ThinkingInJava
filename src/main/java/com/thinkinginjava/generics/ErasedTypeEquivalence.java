@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/ErasedTypeEquivalence.java
+package com.thinkinginjava.generics;
 
 import java.util.ArrayList;
 
@@ -8,6 +8,4 @@ public class ErasedTypeEquivalence {
         Class c2 = new ArrayList<Integer>().getClass();
         System.out.println(c1 == c2);
     }
-} /* Output:
-true
-*///:~
+}
