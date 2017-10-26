@@ -1,6 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/New.java
-// Utilities to simplify generic container creation
-// by using type argument inference.
 package com.thinkinginjava.net.mindview.util;
 
 import java.util.*;
@@ -34,4 +31,4 @@ public class New {
         Set<String> ss = New.set();
         Queue<String> qs = New.queue();
     }
-} ///:~
+}

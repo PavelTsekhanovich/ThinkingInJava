@@ -1,4 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/TwoTuple.java
 package com.thinkinginjava.net.mindview.util;
 
 public class TwoTuple<A, B> {
@@ -13,4 +12,4 @@ public class TwoTuple<A, B> {
     public String toString() {
         return "(" + first + ", " + second + ")";
     }
-} ///:~
+}

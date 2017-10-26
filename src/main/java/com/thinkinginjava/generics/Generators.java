@@ -16,19 +16,11 @@ public class Generators {
     }
 
     public static void main(String[] args) {
-        Collection<Coffee> coffee = fill(
-                new ArrayList<Coffee>(), new CoffeeGenerator(), 4);
+        Collection<Coffee> coffee = fill(new ArrayList<Coffee>(), new CoffeeGenerator(), 4);
         for (Coffee c : coffee)
             System.out.println(c);
-        Collection<Integer> fnumbers = fill(
-                new ArrayList<Integer>(), new Fibonacci(), 12);
+        Collection<Integer> fnumbers = fill(new ArrayList<Integer>(), new Fibonacci(), 12);
         for (int i : fnumbers)
             System.out.print(i + ", ");
     }
-} /* Output:
-Americano 0
-Latte 1
-Americano 2
-Mocha 3
-1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,
-*///:~
+}

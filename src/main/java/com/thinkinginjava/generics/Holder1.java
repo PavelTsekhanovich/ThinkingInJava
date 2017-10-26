@@ -1,9 +1,10 @@
-//: com.thinkinginjava.generics/Holder1.java
+package com.thinkinginjava.generics;
 
 class Automobile {
 }
 
 public class Holder1 {
+
     private Automobile a;
 
     public Holder1(Automobile a) {
@@ -13,4 +14,4 @@ public class Holder1 {
     Automobile get() {
         return a;
     }
-} ///:~
+}

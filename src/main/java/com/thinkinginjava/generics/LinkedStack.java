@@ -1,5 +1,4 @@
-//: com.thinkinginjava.generics/LinkedStack.java
-// A stack implemented with an internal linked structure.
+package com.thinkinginjava.generics;
 
 public class LinkedStack<T> {
     private static class Node<U> {
@@ -42,8 +41,4 @@ public class LinkedStack<T> {
         while ((s = lss.pop()) != null)
             System.out.println(s);
     }
-} /* Output:
-stun!
-on
-Phasers
-*///:~
+}

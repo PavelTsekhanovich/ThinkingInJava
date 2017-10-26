@@ -1,4 +1,4 @@
-package com.thinkinginjava.generics;//: com.thinkinginjava.generics/SimplerPets.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.New;
 import com.thinkinginjava.typeinfo.pets.Person;

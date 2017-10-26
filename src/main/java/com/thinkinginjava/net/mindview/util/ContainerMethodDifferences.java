@@ -1,4 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/ContainerMethodDifferences.java
 package com.thinkinginjava.net.mindview.util;
 
 import java.lang.reflect.Method;
@@ -13,8 +12,7 @@ public class ContainerMethodDifferences {
     }
 
     static void interfaces(Class<?> type) {
-        System.out.print("Interfaces in " +
-                type.getSimpleName() + ": ");
+        System.out.print("Interfaces in " + type.getSimpleName() + ": ");
         List<String> result = new ArrayList<String>();
         for (Class<?> c : type.getInterfaces())
             result.add(c.getSimpleName());
@@ -39,8 +37,7 @@ public class ContainerMethodDifferences {
     }
 
     public static void main(String[] args) {
-        System.out.println("Collection: " +
-                methodSet(Collection.class));
+        System.out.println("Collection: " + methodSet(Collection.class));
         interfaces(Collection.class);
         difference(Set.class, Collection.class);
         difference(HashSet.class, Set.class);
@@ -57,4 +54,4 @@ public class ContainerMethodDifferences {
         difference(SortedMap.class, Map.class);
         difference(TreeMap.class, Map.class);
     }
-} ///:~
+}

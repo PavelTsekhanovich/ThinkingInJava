@@ -1,5 +1,3 @@
-//: com.thinkinginjava.generics/coffee/CoffeeGenerator.java
-// Generate different types of Coffee:
 package com.thinkinginjava.generics.coffee;
 
 import com.thinkinginjava.net.mindview.util.Generator;
@@ -7,10 +5,8 @@ import com.thinkinginjava.net.mindview.util.Generator;
 import java.util.Iterator;
 import java.util.Random;
 
-public class CoffeeGenerator
-        implements Generator<Coffee>, Iterable<Coffee> {
-    private Class[] types = {Latte.class, Mocha.class,
-            Cappuccino.class, Americano.class, Breve.class,};
+public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
+    private Class[] types = {Latte.class, Mocha.class, Cappuccino.class, Americano.class, Breve.class,};
     private static Random rand = new Random(47);
 
     public CoffeeGenerator() {
@@ -50,8 +46,6 @@ public class CoffeeGenerator
         }
     }
 
-    ;
-
     public Iterator<Coffee> iterator() {
         return new CoffeeIterator();
     }
@@ -63,15 +57,4 @@ public class CoffeeGenerator
         for (Coffee c : new CoffeeGenerator(5))
             System.out.println(c);
     }
-} /* Output:
-Americano 0
-Latte 1
-Americano 2
-Mocha 3
-Mocha 4
-Breve 5
-Americano 6
-Latte 7
-Cappuccino 8
-Cappuccino 9
-*///:~
+}

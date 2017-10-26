@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/BasicGeneratorDemo.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.BasicGenerator;
 import com.thinkinginjava.net.mindview.util.Generator;
@@ -10,10 +10,4 @@ public class BasicGeneratorDemo {
         for (int i = 0; i < 5; i++)
             System.out.println(gen.next());
     }
-} /* Output:
-CountedObject 0
-CountedObject 1
-CountedObject 2
-CountedObject 3
-CountedObject 4
-*///:~
+}

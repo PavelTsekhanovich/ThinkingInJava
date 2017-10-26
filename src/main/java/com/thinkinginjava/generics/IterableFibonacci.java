@@ -1,10 +1,8 @@
-package com.thinkinginjava.generics;//: com.thinkinginjava.generics/IterableFibonacci.java
-// Adapt the Fibonacci class to make it Iterable.
+package com.thinkinginjava.generics;
 
 import java.util.Iterator;
 
-public class IterableFibonacci
-        extends Fibonacci implements Iterable<Integer> {
+public class IterableFibonacci extends Fibonacci implements Iterable<Integer> {
     private int n;
 
     public IterableFibonacci(int count) {
@@ -32,6 +30,4 @@ public class IterableFibonacci
         for (int i : new IterableFibonacci(18))
             System.out.print(i + " ");
     }
-} /* Output:
-1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584
-*///:~
+}

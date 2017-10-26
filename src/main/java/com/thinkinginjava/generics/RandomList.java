@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/RandomList.java
+package com.thinkinginjava.generics;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -23,6 +23,4 @@ public class RandomList<T> {
         for (int i = 0; i < 11; i++)
             System.out.print(rs.select() + " ");
     }
-} /* Output:
-brown over fox quick quick dog brown The brown lazy brown
-*///:~
+}

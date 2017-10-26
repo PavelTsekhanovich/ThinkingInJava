@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/TupleTest2.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.FiveTuple;
 import com.thinkinginjava.net.mindview.util.FourTuple;
@@ -37,10 +37,4 @@ public class TupleTest2 {
         System.out.println(h());
         System.out.println(k());
     }
-} /* Output: (80% match)
-(hi, 47)
-(hi, 47)
-(Amphibian@7d772e, hi, 47)
-(Vehicle@757aef, Amphibian@d9f9c3, hi, 47)
-(Vehicle@1a46e30, Amphibian@3e25a5, hi, 47, 11.1)
-*///:~
+}

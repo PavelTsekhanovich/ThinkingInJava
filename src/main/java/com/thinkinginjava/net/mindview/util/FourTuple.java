@@ -1,4 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/FourTuple.java
 package com.thinkinginjava.net.mindview.util;
 
 public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
@@ -13,4 +12,4 @@ public class FourTuple<A, B, C, D> extends ThreeTuple<A, B, C> {
         return "(" + first + ", " + second + ", " +
                 third + ", " + fourth + ")";
     }
-} ///:~
+}

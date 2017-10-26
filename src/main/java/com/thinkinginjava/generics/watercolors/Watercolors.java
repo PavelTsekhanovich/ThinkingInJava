@@ -1,4 +1,3 @@
-//: com.thinkinginjava.generics/watercolors/Watercolors.java
 package com.thinkinginjava.generics.watercolors;
 
 public enum Watercolors {
@@ -8,4 +7,4 @@ public enum Watercolors {
     COBALT_BLUE_HUE, PERMANENT_GREEN, VIRIDIAN_HUE,
     SAP_GREEN, YELLOW_OCHRE, BURNT_SIENNA, RAW_UMBER,
     BURNT_UMBER, PAYNES_GRAY, IVORY_BLACK
-} ///:~
+}

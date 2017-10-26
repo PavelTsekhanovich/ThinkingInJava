@@ -1,15 +1,13 @@
-//: com.thinkinginjava.generics/TupleTest.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.FiveTuple;
 import com.thinkinginjava.net.mindview.util.FourTuple;
 import com.thinkinginjava.net.mindview.util.ThreeTuple;
 import com.thinkinginjava.net.mindview.util.TwoTuple;
 
-class Amphibian {
-}
+class Amphibian {}
 
-class Vehicle {
-}
+class Vehicle {}
 
 public class TupleTest {
     static TwoTuple<String, Integer> f() {
@@ -23,14 +21,12 @@ public class TupleTest {
     }
 
     static FourTuple<Vehicle, Amphibian, String, Integer> h() {
-        return
-                new FourTuple<Vehicle, Amphibian, String, Integer>(
-                        new Vehicle(), new Amphibian(), "hi", 47);
+        return new FourTuple<Vehicle, Amphibian, String, Integer>(
+                new Vehicle(), new Amphibian(), "hi", 47);
     }
 
     static FiveTuple<Vehicle, Amphibian, String, Integer, Double> k() {
-        return new
-                FiveTuple<Vehicle, Amphibian, String, Integer, Double>(
+        return new FiveTuple<Vehicle, Amphibian, String, Integer, Double>(
                 new Vehicle(), new Amphibian(), "hi", 47, 11.1);
     }
 
@@ -42,9 +38,4 @@ public class TupleTest {
         System.out.println(h());
         System.out.println(k());
     }
-} /* Output: (80% match)
-(hi, 47)
-(Amphibian@1f6a7b9, hi, 47)
-(Vehicle@35ce36, Amphibian@757aef, hi, 47)
-(Vehicle@9cab16, Amphibian@1a46e30, hi, 47, 11.1)
-*///:~
+}

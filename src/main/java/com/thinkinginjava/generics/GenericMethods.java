@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/GenericMethods.java
+package com.thinkinginjava.generics;
 
 public class GenericMethods {
     public <T> void f(T x) {
@@ -14,11 +14,4 @@ public class GenericMethods {
         gm.f('c');
         gm.f(gm);
     }
-} /* Output:
-java.lang.String
-java.lang.Integer
-java.lang.Double
-java.lang.Float
-java.lang.Character
-GenericMethods
-*///:~
+}

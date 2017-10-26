@@ -1,6 +1,7 @@
-//: com.thinkinginjava.generics/Holder2.java
+package com.thinkinginjava.generics;
 
 public class Holder2 {
+
     private Object a;
 
     public Holder2(Object a) {
@@ -23,4 +24,4 @@ public class Holder2 {
         h2.set(1); // Autoboxes to Integer
         Integer x = (Integer) h2.get();
     }
-} ///:~
+}
