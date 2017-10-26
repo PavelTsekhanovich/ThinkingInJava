@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/SimpleDynamicProxy.java
+package com.thinkinginjava.typeinfo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -39,12 +39,4 @@ class SimpleDynamicProxy {
                 new DynamicProxyHandler(real));
         consumer(proxy);
     }
-} /* Output: (95% match)	
-doSomething
-somethingElse bonobo
-**** proxy: class $Proxy0, method: public abstract void Interface.doSomething(), args: null
-doSomething
-**** proxy: class $Proxy0, method: public abstract void Interface.somethingElse(java.lang.String), args: [Ljava.lang.Object;@42e816
-  bonobo
-somethingElse bonobo
-*///:~
+}

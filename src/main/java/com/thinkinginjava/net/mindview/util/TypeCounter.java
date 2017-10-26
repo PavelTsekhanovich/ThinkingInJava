@@ -1,5 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/TypeCounter.java
-// Counts instances of a type family.
 package com.thinkinginjava.net.mindview.util;
 
 import java.util.HashMap;
@@ -42,4 +40,4 @@ public class TypeCounter extends HashMap<Class<?>, Integer> {
         result.append("}");
         return result.toString();
     }
-} ///:~
+}

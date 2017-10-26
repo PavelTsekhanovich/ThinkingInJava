@@ -1,7 +1,4 @@
-//: com.thinkinginjava.typeinfo/ShowMethods.java
-// Using reflection to show all the methods of a class,
-// even if the methods are defined in the base class.
-// {Args: ShowMethods}
+package com.thinkinginjava.typeinfo;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -30,22 +27,19 @@ public class ShowMethods {
             Constructor[] ctors = c.getConstructors();
             if (args.length == 1) {
                 for (Method method : methods)
-                    print(
-                            p.matcher(method.toString()).replaceAll(""));
+                    print(p.matcher(method.toString()).replaceAll(""));
                 for (Constructor ctor : ctors)
                     print(p.matcher(ctor.toString()).replaceAll(""));
                 lines = methods.length + ctors.length;
             } else {
                 for (Method method : methods)
                     if (method.toString().indexOf(args[1]) != -1) {
-                        print(
-                                p.matcher(method.toString()).replaceAll(""));
+                        print(p.matcher(method.toString()).replaceAll(""));
                         lines++;
                     }
                 for (Constructor ctor : ctors)
                     if (ctor.toString().indexOf(args[1]) != -1) {
-                        print(p.matcher(
-                                ctor.toString()).replaceAll(""));
+                        print(p.matcher(ctor.toString()).replaceAll(""));
                         lines++;
                     }
             }
@@ -53,16 +47,4 @@ public class ShowMethods {
             print("No such class: " + e);
         }
     }
-} /* Output:
-public static void main(String[])
-public native int hashCode()
-public final native Class getClass()
-public final void wait(long,int) throws InterruptedException
-public final void wait() throws InterruptedException
-public final native void wait(long) throws InterruptedException
-public boolean equals(Object)
-public String toString()
-public final native void notify()
-public final native void notifyAll()
-public ShowMethods()
-*///:~
+}

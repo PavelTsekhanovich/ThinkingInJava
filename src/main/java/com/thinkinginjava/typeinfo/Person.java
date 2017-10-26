@@ -1,5 +1,4 @@
-package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/Person.java
-// A class with a Null Object.
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.net.mindview.util.Null;
 
@@ -31,4 +30,4 @@ class Person {
     }
 
     public static final Person NULL = new NullPerson();
-} ///:~
+}

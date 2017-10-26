@@ -1,5 +1,4 @@
-//: com.thinkinginjava.typeinfo/SelectingMethods.java
-// Looking for particular methods in a dynamic proxy.
+package com.thinkinginjava.typeinfo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -62,10 +61,4 @@ class SelectingMethods {
         proxy.interesting("bonobo");
         proxy.boring3();
     }
-} /* Output:
-boring1
-boring2
-Proxy detected the interesting method
-interesting bonobo
-boring3
-*///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/SimpleProxyDemo.java
+package com.thinkinginjava.typeinfo;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -46,11 +46,4 @@ class SimpleProxyDemo {
         consumer(new RealObject());
         consumer(new SimpleProxy(new RealObject()));
     }
-} /* Output:
-doSomething
-somethingElse bonobo
-SimpleProxy doSomething
-doSomething
-SimpleProxy somethingElse bonobo
-somethingElse bonobo
-*///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.typeinfo/PetCount4.java
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.net.mindview.util.TypeCounter;
 import com.thinkinginjava.typeinfo.pets.Pet;
@@ -17,7 +17,4 @@ public class PetCount4 {
         print();
         print(counter);
     }
-} /* Output: (Sample)
-Rat Manx Cymric Mutt Pug Cymric Pug Manx Cymric Rat EgyptianMau Hamster EgyptianMau Mutt Mutt Cymric Mouse Pug Mouse Cymric
-{Mouse=2, Dog=6, Manx=7, EgyptianMau=2, Rodent=5, Pug=3, Mutt=3, Cymric=5, Cat=9, Hamster=1, Pet=20, Rat=2}
-*///:~
+}

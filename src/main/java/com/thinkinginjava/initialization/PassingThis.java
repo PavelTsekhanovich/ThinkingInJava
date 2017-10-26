@@ -1,4 +1,4 @@
-package com.thinkinginjava.initialization;//: initialization/PassingThis.java
+package com.thinkinginjava.initialization;
 
 class Person {
     public void eat(Apple apple) {
@@ -24,6 +24,4 @@ public class PassingThis {
     public static void main(String[] args) {
         new Person().eat(new Apple());
     }
-} /* Output:
-Yummy
-*///:~
+}
