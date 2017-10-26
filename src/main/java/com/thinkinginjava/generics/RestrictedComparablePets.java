@@ -6,10 +6,8 @@ class Hamster extends ComparablePet implements Comparable<ComparablePet> {
     }
 }
 
-// Or just:
-
 class Gecko extends ComparablePet {
     public int compareTo(ComparablePet arg) {
         return 0;
     }
-} ///:~
+}

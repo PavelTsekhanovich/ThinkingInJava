@@ -1,5 +1,3 @@
-//: com.thinkinginjava.typeinfo/pets/LiteralPetCreator.java
-// Using class literals.
 package com.thinkinginjava.typeinfo.pets;
 
 import java.util.Arrays;
@@ -26,6 +24,4 @@ public class LiteralPetCreator extends PetCreator {
     public static void main(String[] args) {
         System.out.println(types);
     }
-} /* Output:
-[class com.thinkinginjava.typeinfo.pets.Mutt, class com.thinkinginjava.typeinfo.pets.Pug, class com.thinkinginjava.typeinfo.pets.EgyptianMau, class com.thinkinginjava.typeinfo.pets.Manx, class com.thinkinginjava.typeinfo.pets.Cymric, class com.thinkinginjava.typeinfo.pets.Rat, class com.thinkinginjava.typeinfo.pets.Mouse, class com.thinkinginjava.typeinfo.pets.Hamster]
-*///:~
+}

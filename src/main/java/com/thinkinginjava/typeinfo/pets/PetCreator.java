@@ -1,5 +1,3 @@
-//: com.thinkinginjava.typeinfo/pets/PetCreator.java
-// Creates random sequences of Pets.
 package com.thinkinginjava.typeinfo.pets;
 
 import java.util.ArrayList;
@@ -36,4 +34,4 @@ public abstract class PetCreator {
         Collections.addAll(result, createArray(size));
         return result;
     }
-} ///:~
+}

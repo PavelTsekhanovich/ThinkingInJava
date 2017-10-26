@@ -1,4 +1,3 @@
-//: com.thinkinginjava.typeinfo/pets/Individual.java
 package com.thinkinginjava.typeinfo.pets;
 
 public class Individual implements Comparable<Individual> {
@@ -50,4 +49,4 @@ public class Individual implements Comparable<Individual> {
         }
         return (arg.id < id ? -1 : (arg.id == id ? 0 : 1));
     }
-} ///:~
+}

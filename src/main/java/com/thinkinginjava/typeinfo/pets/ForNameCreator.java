@@ -1,4 +1,3 @@
-//: com.thinkinginjava.typeinfo/pets/ForNameCreator.java
 package com.thinkinginjava.typeinfo.pets;
 
 import java.util.ArrayList;
@@ -37,4 +36,4 @@ public class ForNameCreator extends PetCreator {
     public List<Class<? extends Pet>> types() {
         return types;
     }
-} ///:~
+}

@@ -57,7 +57,4 @@ public class PetCount {
     public static void main(String[] args) {
         countPets(new ForNameCreator());
     }
-} /* Output:
-Rat Manx Cymric Mutt Pug Cymric Pug Manx Cymric Rat EgyptianMau Hamster EgyptianMau Mutt Mutt Cymric Mouse Pug Mouse Cymric
-{Pug=3, Cat=9, Hamster=1, Cymric=7, Mouse=2, Mutt=3, Rodent=5, Pet=20, Manx=7, EgyptianMau=7, Dog=6, Rat=2}
-*///:~
+}

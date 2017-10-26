@@ -1,5 +1,4 @@
-//: com.thinkinginjava.typeinfo/PetCount3.java
-// Using isInstance()
+package com.thinkinginjava.typeinfo;
 
 import com.thinkinginjava.net.mindview.util.MapData;
 import com.thinkinginjava.typeinfo.pets.LiteralPetCreator;
@@ -51,7 +50,4 @@ public class PetCount3 {
         print();
         print(petCount);
     }
-} /* Output:
-Rat Manx Cymric Mutt Pug Cymric Pug Manx Cymric Rat EgyptianMau Hamster EgyptianMau Mutt Mutt Cymric Mouse Pug Mouse Cymric
-{Pet=20, Dog=6, Cat=9, Rodent=5, Mutt=3, Pug=3, EgyptianMau=2, Manx=7, Cymric=5, Rat=2, Mouse=2, Hamster=1}
-*///:~
+}
