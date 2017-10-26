@@ -1,7 +1,5 @@
-package com.thinkinginjava.typeinfo;//: com.thinkinginjava.typeinfo/InnerImplementation.java
-// Private inner classes can't hide from reflection.
+package com.thinkinginjava.typeinfo;
 
-import com.thinkinginjava.typeinfo.HiddenImplementation;
 import com.thinkinginjava.typeinfo.interfacea.A;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
@@ -45,11 +43,4 @@ public class InnerImplementation {
         HiddenImplementation.callHiddenMethod(a, "v");
         HiddenImplementation.callHiddenMethod(a, "w");
     }
-} /* Output:
-public C.f()
-InnerA$C
-public C.g()
-package C.u()
-protected C.v()
-private C.w()
-*///:~
+}
