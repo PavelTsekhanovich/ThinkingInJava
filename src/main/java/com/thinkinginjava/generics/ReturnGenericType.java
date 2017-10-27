@@ -1,4 +1,5 @@
 package com.thinkinginjava.generics;
+
 class ReturnGenericType<T extends HasF> {
     private T obj;
 
@@ -9,4 +10,4 @@ class ReturnGenericType<T extends HasF> {
     public T get() {
         return obj;
     }
-} ///:~
+}

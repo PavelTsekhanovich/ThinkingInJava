@@ -1,5 +1,4 @@
-package com.thinkinginjava.generics;//: com.thinkinginjava.generics/Manipulation.java
-// {CompileTimeError} (Won't compile)
+package com.thinkinginjava.generics;/
 
 class Manipulator<T> {
     private T obj;
@@ -21,4 +20,4 @@ public class Manipulation {
                 new Manipulator<HasF>(hf);
         //manipulator.manipulate();
     }
-} ///:~
+}
