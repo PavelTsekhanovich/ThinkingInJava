@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/ArrayMaker.java
+package com.thinkinginjava.generics;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -21,6 +21,4 @@ public class ArrayMaker<T> {
         String[] stringArray = stringMaker.create(9);
         System.out.println(Arrays.toString(stringArray));
     }
-} /* Output:
-[null, null, null, null, null, null, null, null, null]
-*///:~
+}

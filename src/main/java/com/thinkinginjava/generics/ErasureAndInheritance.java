@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/ErasureAndInheritance.java
+package com.thinkinginjava.generics;
 
 class GenericBase<T> {
     private T element;
@@ -30,4 +30,4 @@ public class ErasureAndInheritance {
         Object obj = d2.get();
         d2.set(obj); // Warning here!
     }
-} ///:~
+}
