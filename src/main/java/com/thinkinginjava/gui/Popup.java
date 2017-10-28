@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/Popup.java
-// Creating popup menus with Swing.
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import java.awt.*;

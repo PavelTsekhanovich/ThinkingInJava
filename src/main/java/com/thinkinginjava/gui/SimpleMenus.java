@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/SimpleMenus.java
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -42,4 +42,4 @@ public class SimpleMenus extends JFrame {
     public static void main(String[] args) {
         run(new SimpleMenus(), 200, 150);
     }
-} ///:~
+}

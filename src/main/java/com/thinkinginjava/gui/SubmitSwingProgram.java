@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/SubmitSwingProgram.java
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import java.util.concurrent.TimeUnit;
@@ -30,4 +30,4 @@ public class SubmitSwingProgram extends JFrame {
             }
         });
     }
-} ///:~
+}

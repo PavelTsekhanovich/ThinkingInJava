@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/HelloSwing.java
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 
@@ -9,4 +9,4 @@ public class HelloSwing {
         frame.setSize(300, 100);
         frame.setVisible(true);
     }
-} ///:~
+}

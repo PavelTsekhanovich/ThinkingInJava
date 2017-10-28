@@ -1,4 +1,4 @@
-//: com.thinkinginjava.gui/Borders.java
+package com.thinkinginjava.gui;//: com.thinkinginjava.gui/Borders.java
 // Different Swing borders.
 
 import javax.swing.*;

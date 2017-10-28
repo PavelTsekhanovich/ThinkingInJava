@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/TextArea.java
-// Using the JTextArea control.
+package com.thinkinginjava.gui;
 
 import com.thinkinginjava.net.mindview.util.Countries;
 
@@ -43,4 +42,4 @@ public class TextArea extends JFrame {
     public static void main(String[] args) {
         run(new TextArea(), 475, 425);
     }
-} ///:~
+}
