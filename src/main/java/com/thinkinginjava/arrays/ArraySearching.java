@@ -11,10 +11,8 @@ import static com.thinkinginjava.Print.print;
 
 public class ArraySearching {
     public static void main(String[] args) {
-        Generator<Integer> gen =
-                new RandomGenerator.Integer(1000);
-        int[] a = ConvertTo.primitive(
-                Generated.array(new Integer[25], gen));
+        Generator<Integer> gen = new RandomGenerator.Integer(1000);
+        int[] a = ConvertTo.primitive(Generated.array(new Integer[25], gen));
         Arrays.sort(a);
         print("Sorted array: " + Arrays.toString(a));
         while (true) {
