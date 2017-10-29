@@ -29,7 +29,7 @@ public class ArrayOptions {
         print("a.length = " + a.length);
 
 
-        int[] e; // Null reference
+        int[] e;
         int[] f = new int[5];
 
         print("f: " + Arrays.toString(f));

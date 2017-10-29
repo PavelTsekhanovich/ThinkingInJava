@@ -1,5 +1,4 @@
-package com.thinkinginjava.arrays;//: com.thinkinginjava.arrays/IceCream.java
-// Returning com.thinkinginjava.arrays from methods.
+package com.thinkinginjava.arrays;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -9,8 +8,7 @@ public class IceCream {
     static final String[] FLAVORS = {
             "Chocolate", "Strawberry", "Vanilla Fudge Swirl",
             "Mint Chip", "Mocha Almond Fudge", "Rum Raisin",
-            "Praline Cream", "Mud Pie"
-    };
+            "Praline Cream", "Mud Pie"};
 
     public static String[] flavorSet(int n) {
         if (n > FLAVORS.length)
