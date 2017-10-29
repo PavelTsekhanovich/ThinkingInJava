@@ -25,6 +25,7 @@ public class CompType implements Comparable<CompType> {
         return result;
     }
 
+    @Override
     public int compareTo(CompType rv) {
         return (i < rv.i ? -1 : (i == rv.i ? 0 : 1));
     }
@@ -36,8 +37,7 @@ public class CompType implements Comparable<CompType> {
     }
 
     public static void main(String[] args) {
-        CompType[] a =
-                Generated.array(new CompType[12], generator());
+        CompType[] a = Generated.array(new CompType[12], generator());
         print("before sorting:");
         print(Arrays.toString(a));
         Arrays.sort(a);

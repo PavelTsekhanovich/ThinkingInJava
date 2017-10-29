@@ -15,8 +15,10 @@ public class ComparingArrays {
         print(Arrays.equals(a1, a2));
         String[] s1 = new String[4];
         Arrays.fill(s1, "Hi");
-        String[] s2 = {new String("Hi"), new String("Hi"),
-                new String("Hi"), new String("Hi")};
+        String[] s2 = {new String("Hi"),
+                       new String("Hi"),
+                       new String("Hi"),
+                       new String("Hi")};
         print(Arrays.equals(s1, s2));
     }
 }

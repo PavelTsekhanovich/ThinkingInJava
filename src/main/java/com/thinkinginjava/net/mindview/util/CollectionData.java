@@ -1,5 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/CollectionData.java
-// A Collection filled with data using a generator object.
 package com.thinkinginjava.net.mindview.util;
 
 import java.util.ArrayList;
@@ -15,4 +13,4 @@ public class CollectionData<T> extends ArrayList<T> {
     list(Generator<T> gen, int quantity) {
         return new CollectionData<T>(gen, quantity);
     }
-} ///:~
+}

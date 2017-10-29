@@ -1,4 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/ConvertTo.java
 package com.thinkinginjava.net.mindview.util;
 
 public class ConvertTo {
@@ -57,4 +56,4 @@ public class ConvertTo {
             result[i] = in[i];
         return result;
     }
-} ///:~
+}

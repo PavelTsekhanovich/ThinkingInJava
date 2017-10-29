@@ -1,5 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/CountingGenerator.java
-// Simple generator implementations.
 package com.thinkinginjava.net.mindview.util;
 
 public class CountingGenerator {
@@ -35,8 +33,7 @@ public class CountingGenerator {
         }
     }
 
-    public static class
-    String implements Generator<java.lang.String> {
+    public static class String implements Generator<java.lang.String> {
         private int length = 7;
         Generator<java.lang.Character> cg = new Character();
 
@@ -103,4 +100,4 @@ public class CountingGenerator {
             return result;
         }
     }
-} ///:~
+}

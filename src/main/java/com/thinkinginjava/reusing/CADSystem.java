@@ -1,5 +1,3 @@
-//: com.thinkinginjava.reusing/CADSystem.java
-// Ensuring proper cleanup.
 package com.thinkinginjava.reusing;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;

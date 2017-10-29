@@ -1,5 +1,4 @@
-//: com.thinkinginjava.arrays/AssemblingMultidimensionalArrays.java
-// Creating multidimensional com.thinkinginjava.arrays.
+package com.thinkinginjava.arrays;
 
 import java.util.Arrays;
 
@@ -14,6 +13,4 @@ public class AssemblingMultidimensionalArrays {
         }
         System.out.println(Arrays.deepToString(a));
     }
-} /* Output:
-[[0, 0, 0], [0, 1, 2], [0, 2, 4]]
-*///:~
+}
