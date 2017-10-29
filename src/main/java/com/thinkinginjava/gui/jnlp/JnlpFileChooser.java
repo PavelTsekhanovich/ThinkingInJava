@@ -1,3 +1,4 @@
+/*
 package com.thinkinginjava.gui.jnlp;
 
 import javax.jnlp.*;
@@ -91,3 +92,4 @@ public class JnlpFileChooser extends JFrame {
         fc.setVisible(true);
     }
 }
+*/

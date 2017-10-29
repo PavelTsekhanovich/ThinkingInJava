@@ -8,4 +8,4 @@ public class UseList2<W, T> {
 
     void f2(List<W> v) {
     }
-} ///:~
+}

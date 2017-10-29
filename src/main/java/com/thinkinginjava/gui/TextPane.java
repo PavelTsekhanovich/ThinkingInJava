@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/TextPane.java
-// The JTextPane control is a little editor.
+package com.thinkinginjava.gui;
 
 import com.thinkinginjava.net.mindview.util.Generator;
 import com.thinkinginjava.net.mindview.util.RandomGenerator;
@@ -31,4 +30,4 @@ public class TextPane extends JFrame {
     public static void main(String[] args) {
         run(new TextPane(), 475, 425);
     }
-} ///:~
+}
