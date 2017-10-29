@@ -1,4 +1,4 @@
-package com.thinkinginjava.generics;/
+package com.thinkinginjava.generics;
 
 class Manipulator<T> {
     private T obj;

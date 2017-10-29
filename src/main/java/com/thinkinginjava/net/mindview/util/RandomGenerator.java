@@ -1,5 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/RandomGenerator.java
-// Generators that produce random values.
 package com.thinkinginjava.net.mindview.util;
 
 import java.util.Random;

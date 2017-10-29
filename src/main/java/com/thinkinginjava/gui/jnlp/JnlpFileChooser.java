@@ -90,4 +90,4 @@ public class JnlpFileChooser extends JFrame {
         fc.setSize(400, 300);
         fc.setVisible(true);
     }
-} ///:~
+}

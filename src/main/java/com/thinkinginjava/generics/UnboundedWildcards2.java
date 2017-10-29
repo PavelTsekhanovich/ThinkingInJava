@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/UnboundedWildcards2.java
+package com.thinkinginjava.generics;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -30,4 +30,4 @@ public class UnboundedWildcards2 {
         assign2(new HashMap<String, Integer>());
         assign3(new HashMap<String, Integer>());
     }
-} ///:~
+}

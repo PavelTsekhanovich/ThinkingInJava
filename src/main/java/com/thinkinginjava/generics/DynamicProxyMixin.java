@@ -1,4 +1,4 @@
-//: com.thinkinginjava.generics/DynamicProxyMixin.java
+package com.thinkinginjava.generics;
 
 import com.thinkinginjava.net.mindview.util.TwoTuple;
 
@@ -48,7 +48,7 @@ class MixinProxy implements InvocationHandler {
 
 public class DynamicProxyMixin {
     public static void main(String[] args) {
-        Object mixin = MixinProxy.newInstance(
+       /* Object mixin = MixinProxy.newInstance(
                 tuple(new BasicImp(), Basic.class),
                 tuple(new TimeStampedImp(), TimeStamped.class),
                 tuple(new SerialNumberedImp(), SerialNumbered.class));
@@ -58,10 +58,6 @@ public class DynamicProxyMixin {
         b.set("Hello");
         System.out.println(b.get());
         System.out.println(t.getStamp());
-        System.out.println(s.getSerialNumber());
+        System.out.println(s.getSerialNumber());*/
     }
-} /* Output: (Sample)
-Hello
-1132519137015
-1
-*///:~
+}
