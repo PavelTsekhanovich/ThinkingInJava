@@ -1,7 +1,4 @@
-//: com.thinkinginjava.io/MakeDirectories.java
-// Demonstrates the use of the File class to
-// create directories and manipulate files.
-// {Args: MakeDirectoriesTest}
+package com.thinkinginjava.io;
 
 import java.io.File;
 
@@ -69,15 +66,4 @@ public class MakeDirectories {
             fileData(f);
         }
     }
-} /* Output: (80% match)
-created MakeDirectoriesTest
-Absolute path: d:\aaa-TIJ4\code\com.thinkinginjava.io\MakeDirectoriesTest
- Can read: true
- Can write: true
- getName: MakeDirectoriesTest
- getParent: null
- getPath: MakeDirectoriesTest
- length: 0
- lastModified: 1101690308831
-It's a directory
-*///:~
+}

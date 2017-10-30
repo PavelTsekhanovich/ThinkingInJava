@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/DirList.java
-// Display a directory listing using regular expressions.
-// {Args: "D.*\.java"}
+package com.thinkinginjava.io;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -9,12 +7,13 @@ import java.util.regex.Pattern;
 
 public class DirList {
     public static void main(String[] args) {
-        File path = new File(".");
+        File path = new File("/home/pavel/poplidays/lib/tomcat7/working/airbnb2/availability/original/");
         String[] list;
-        if (args.length == 0)
+        if (args.length == 0) {
             list = path.list();
-        else
+        } else {
             list = path.list(new DirFilter(args[0]));
+        }
         Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
         for (String dirItem : list)
             System.out.println(dirItem);
@@ -31,9 +30,4 @@ class DirFilter implements FilenameFilter {
     public boolean accept(File dir, String name) {
         return pattern.matcher(name).matches();
     }
-} /* Output:
-DirectoryDemo.java
-DirList.java
-DirList2.java
-DirList3.java
-*///:~
+}

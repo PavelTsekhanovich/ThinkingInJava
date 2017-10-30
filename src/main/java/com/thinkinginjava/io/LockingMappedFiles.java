@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/LockingMappedFiles.java
-// Locking portions of a mapped file.
-// {RunByHand}
+package com.thinkinginjava.io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

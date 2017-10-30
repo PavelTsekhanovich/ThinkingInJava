@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/DirList3.java
-// Building the anonymous inner class "in-place."
-// {Args: "D.*\.java"}
+package com.thinkinginjava.io;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -25,9 +23,4 @@ public class DirList3 {
         for (String dirItem : list)
             System.out.println(dirItem);
     }
-} /* Output:
-DirectoryDemo.java
-DirList.java
-DirList2.java
-DirList3.java
-*///:~
+}
