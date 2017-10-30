@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/UsingRandomAccessFile.java
+package com.thinkinginjava.io;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -29,21 +29,4 @@ public class UsingRandomAccessFile {
         rf.close();
         display();
     }
-} /* Output:
-Value 0: 0.0
-Value 1: 1.414
-Value 2: 2.828
-Value 3: 4.242
-Value 4: 5.656
-Value 5: 7.069999999999999
-Value 6: 8.484
-The end of the file
-Value 0: 0.0
-Value 1: 1.414
-Value 2: 2.828
-Value 3: 4.242
-Value 4: 5.656
-Value 5: 47.0001
-Value 6: 8.484
-The end of the file
-*///:~
+}

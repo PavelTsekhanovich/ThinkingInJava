@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/TestEOF.java
-// Testing for end of file while reading a byte at a time.
+package com.thinkinginjava.io;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -15,4 +14,4 @@ public class TestEOF {
         while (in.available() != 0)
             System.out.print((char) in.readByte());
     }
-} /* (Execute to see output) *///:~
+}

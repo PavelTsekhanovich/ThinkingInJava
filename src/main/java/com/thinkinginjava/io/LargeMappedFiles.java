@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/LargeMappedFiles.java
-// Creating a very large file using mapping.
-// {RunByHand}
+package com.thinkinginjava.io;
 
 import java.io.RandomAccessFile;
 import java.nio.MappedByteBuffer;
@@ -22,4 +20,4 @@ public class LargeMappedFiles {
         for (int i = length / 2; i < length / 2 + 6; i++)
             printnb((char) out.get(i));
     }
-} ///:~
+}

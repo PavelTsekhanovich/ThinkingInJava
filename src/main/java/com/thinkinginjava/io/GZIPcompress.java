@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/GZIPcompress.java
-// {Args: GZIPcompress.java}
+package com.thinkinginjava.io;
 
 import java.io.*;
 import java.util.zip.GZIPInputStream;
@@ -34,4 +33,4 @@ public class GZIPcompress {
         while ((s = in2.readLine()) != null)
             System.out.println(s);
     }
-} /* (Execute to see output) *///:~
+}

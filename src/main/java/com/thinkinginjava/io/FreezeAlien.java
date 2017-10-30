@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/FreezeAlien.java
-// Create a serialized output file.
+package com.thinkinginjava.io;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutput;
@@ -12,4 +11,4 @@ public class FreezeAlien {
         Alien quellek = new Alien();
         out.writeObject(quellek);
     }
-} ///:~
+}

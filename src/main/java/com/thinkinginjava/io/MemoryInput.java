@@ -1,4 +1,5 @@
 package com.thinkinginjava.io;
+
 import java.io.IOException;
 import java.io.StringReader;
 

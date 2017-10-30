@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/ChannelCopy.java
-// Copying a file using channels and buffers
-// {Args: ChannelCopy.java test.txt}
+package com.thinkinginjava.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -25,4 +23,4 @@ public class ChannelCopy {
             buffer.clear();  // Prepare for reading
         }
     }
-} ///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/ChangeSystemOut.java
-// Turn System.out into a PrintWriter.
+package com.thinkinginjava.io;
 
 import java.io.PrintWriter;
 
@@ -8,6 +7,4 @@ public class ChangeSystemOut {
         PrintWriter out = new PrintWriter(System.out, true);
         out.println("Hello, world");
     }
-} /* Output:
-Hello, world
-*///:~
+}

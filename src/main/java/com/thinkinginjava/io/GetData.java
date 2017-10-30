@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/GetData.java
-// Getting different representations from a ByteBuffer
+package com.thinkinginjava.io;
 
 import java.nio.ByteBuffer;
 
@@ -46,12 +45,4 @@ public class GetData {
         print(bb.getDouble());
         bb.rewind();
     }
-} /* Output:
-i = 1025
-H o w d y !
-12390
-99471142
-99471142
-9.9471144E7
-9.9471142E7
-*///:~
+}

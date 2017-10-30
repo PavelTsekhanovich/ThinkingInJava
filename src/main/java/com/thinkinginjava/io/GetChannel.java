@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/GetChannel.java
-// Getting channels from streams
+package com.thinkinginjava.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -30,6 +29,4 @@ public class GetChannel {
         while (buff.hasRemaining())
             System.out.print((char) buff.get());
     }
-} /* Output:
-Some text Some more
-*///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/Redirecting.java
-// Demonstrates standard I/O redirection.
+package com.thinkinginjava.io;
 
 import java.io.*;
 
@@ -23,4 +22,4 @@ public class Redirecting {
         out.close(); // Remember this!
         System.setOut(console);
     }
-} ///:~
+}

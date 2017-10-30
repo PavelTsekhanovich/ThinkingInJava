@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/Echo.java
-// How to read from standard input.
-// {RunByHand}
+package com.thinkinginjava.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,4 +14,4 @@ public class Echo {
             System.out.println(s);
         // An empty line or Ctrl-Z terminates the program
     }
-} ///:~
+}

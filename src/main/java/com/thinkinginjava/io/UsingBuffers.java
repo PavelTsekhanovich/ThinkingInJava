@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/UsingBuffers.java
+package com.thinkinginjava.io;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
@@ -27,8 +27,4 @@ public class UsingBuffers {
         symmetricScramble(cb);
         print(cb.rewind());
     }
-} /* Output:
-UsingBuffers
-sUniBgfuefsr
-UsingBuffers
-*///:~
+}

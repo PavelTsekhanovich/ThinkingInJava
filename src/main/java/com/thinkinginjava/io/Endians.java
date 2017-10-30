@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/Endians.java
-// Endian differences and data storage.
+package com.thinkinginjava.io;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -21,8 +20,4 @@ public class Endians {
         bb.asCharBuffer().put("abcdef");
         print(Arrays.toString(bb.array()));
     }
-} /* Output:
-[0, 97, 0, 98, 0, 99, 0, 100, 0, 101, 0, 102]
-[0, 97, 0, 98, 0, 99, 0, 100, 0, 101, 0, 102]
-[97, 0, 98, 0, 99, 0, 100, 0, 101, 0, 102, 0]
-*///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/FileLocking.java
+package com.thinkinginjava.io;
 
 import java.io.FileOutputStream;
 import java.nio.channels.FileLock;
@@ -16,7 +16,4 @@ public class FileLocking {
         }
         fos.close();
     }
-} /* Output:
-Locked File
-Released Lock
-*///:~
+}

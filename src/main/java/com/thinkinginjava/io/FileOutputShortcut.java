@@ -23,4 +23,4 @@ public class FileOutputShortcut {
         // Show the stored file:
         System.out.println(BufferedInputFile.read(file));
     }
-} /* (Execute to see output) *///:~
+}

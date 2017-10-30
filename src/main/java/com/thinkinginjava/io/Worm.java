@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/Worm.java
-// Demonstrates object serialization.
+package com.thinkinginjava.io;
 
 import java.io.*;
 import java.util.Random;
@@ -78,16 +77,4 @@ public class Worm implements Serializable {
         Worm w3 = (Worm) in2.readObject();
         print(s + "w3 = " + w3);
     }
-} /* Output:
-Worm constructor: 6
-Worm constructor: 5
-Worm constructor: 4
-Worm constructor: 3
-Worm constructor: 2
-Worm constructor: 1
-w = :a(853):b(119):c(802):d(788):e(199):f(881)
-Worm storage
-w2 = :a(853):b(119):c(802):d(788):e(199):f(881)
-Worm storage
-w3 = :a(853):b(119):c(802):d(788):e(199):f(881)
-*///:~
+}

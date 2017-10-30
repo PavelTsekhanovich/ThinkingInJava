@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/BufferToText.java
-// Converting text to and from ByteBuffers
+package com.thinkinginjava.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -50,9 +49,4 @@ public class BufferToText {
         buff.flip();
         System.out.println(buff.asCharBuffer());
     }
-} /* Output:
-????
-Decoded using Cp1252: Some text
-Some text
-Some text
-*///:~
+}

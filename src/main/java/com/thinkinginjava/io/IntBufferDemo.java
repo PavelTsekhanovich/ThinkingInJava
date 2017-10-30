@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/IntBufferDemo.java
-// Manipulating ints in a ByteBuffer with an IntBuffer
+package com.thinkinginjava.io;
 
 import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
@@ -22,13 +21,4 @@ public class IntBufferDemo {
             System.out.println(i);
         }
     }
-} /* Output:
-99
-11
-42
-47
-1811
-143
-811
-1016
-*///:~
+}

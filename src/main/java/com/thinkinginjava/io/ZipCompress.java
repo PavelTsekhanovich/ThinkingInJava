@@ -1,7 +1,4 @@
-//: com.thinkinginjava.io/ZipCompress.java
-// Uses Zip compression to compress any
-// number of files given on the command line.
-// {Args: ZipCompress.java}
+package com.thinkinginjava.io;
 
 import java.io.*;
 import java.util.Enumeration;
@@ -61,4 +58,4 @@ public class ZipCompress {
         }
     /* if(args.length == 1) */
     }
-} /* (Execute to see output) *///:~
+}

@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/ViewBuffers.java
+package com.thinkinginjava.io;
 
 import java.nio.*;
 
@@ -50,12 +50,4 @@ public class ViewBuffers {
         while (db.hasRemaining())
             printnb(db.position() + " -> " + db.get() + ", ");
     }
-} /* Output:
-Byte Buffer 0 -> 0, 1 -> 0, 2 -> 0, 3 -> 0, 4 -> 0, 5 -> 0, 6 -> 0, 7 -> 97,
-Char Buffer 0 ->  , 1 ->  , 2 ->  , 3 -> a,
-Float Buffer 0 -> 0.0, 1 -> 1.36E-43,
-Int Buffer 0 -> 0, 1 -> 97,
-Long Buffer 0 -> 97,
-Short Buffer 0 -> 0, 1 -> 0, 2 -> 0, 3 -> 97,
-Double Buffer 0 -> 4.8E-322,
-*///:~
+}

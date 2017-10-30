@@ -1,6 +1,3 @@
-//: com.thinkinginjava.net/mindview/util/TextFile.java
-// Static functions for reading and writing text files as
-// a single string, and treating a file as an ArrayList.
 package com.thinkinginjava.net.mindview.util;
 
 import java.io.*;
@@ -85,6 +82,4 @@ public class TextFile extends ArrayList<String> {
         // Display the capitalized words:
         System.out.println(words.headSet("a"));
     }
-} /* Output:
-[0, ArrayList, Arrays, Break, BufferedReader, BufferedWriter, Clean, Display, File, FileReader, FileWriter, IOException, Normally, Output, PrintWriter, Read, Regular, RuntimeException, Simple, Static, String, StringBuilder, System, TextFile, Tools, TreeSet, W, Write]
-*///:~
+}

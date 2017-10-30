@@ -1,7 +1,6 @@
-//: com.thinkinginjava.io/Alien.java
-// A serializable class.
+package com.thinkinginjava.io;
 
 import java.io.Serializable;
 
 public class Alien implements Serializable {
-} ///:~
+}

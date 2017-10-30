@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/StoringAndRecoveringData.java
+package com.thinkinginjava.io;
 
 import java.io.*;
 
@@ -23,9 +23,4 @@ public class StoringAndRecoveringData {
         System.out.println(in.readDouble());
         System.out.println(in.readUTF());
     }
-} /* Output:
-3.14159
-That was pi
-1.41413
-Square root of 2
-*///:~
+}
