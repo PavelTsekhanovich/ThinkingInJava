@@ -7,10 +7,10 @@ public class Redirecting {
             throws IOException {
         PrintStream console = System.out;
         BufferedInputStream in = new BufferedInputStream(
-                new FileInputStream("Redirecting.java"));
+                new FileInputStream("/Users/pavel/Documents/Java/text.txt"));
         PrintStream out = new PrintStream(
                 new BufferedOutputStream(
-                        new FileOutputStream("test.out")));
+                        new FileOutputStream("/Users/pavel/Documents/Java/textOut.txt")));
         System.setIn(in);
         System.setOut(out);
         System.setErr(out);

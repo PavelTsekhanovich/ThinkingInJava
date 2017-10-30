@@ -6,19 +6,19 @@ import java.io.PrintWriter;
 import java.io.StringReader;
 
 public class FileOutputShortcut {
-    static String file = "FileOutputShortcut.out";
+    static String file = "/Users/pavel/Documents/Java/text.txt";
 
-    public static void main(String[] args)
-            throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(
                 new StringReader(
-                        BufferedInputFile.read("FileOutputShortcut.java")));
+                        BufferedInputFile.read("/Users/pavel/Documents/Java/text.txt")));
         // Here's the shortcut:
         PrintWriter out = new PrintWriter(file);
         int lineCount = 1;
         String s;
-        while ((s = in.readLine()) != null)
+        while ((s = in.readLine()) != null) {
             out.println(lineCount++ + ": " + s);
+        }
         out.close();
         // Show the stored file:
         System.out.println(BufferedInputFile.read(file));

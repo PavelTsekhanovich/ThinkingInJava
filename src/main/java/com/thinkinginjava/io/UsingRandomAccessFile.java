@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 public class UsingRandomAccessFile {
-    static String file = "rtest.dat";
+    static String file = "/Users/pavel/Documents/Java/text.txt";
 
     static void display() throws IOException {
         RandomAccessFile rf = new RandomAccessFile(file, "r");
@@ -15,8 +15,7 @@ public class UsingRandomAccessFile {
         rf.close();
     }
 
-    public static void main(String[] args)
-            throws IOException {
+    public static void main(String[] args) throws IOException {
         RandomAccessFile rf = new RandomAccessFile(file, "rw");
         for (int i = 0; i < 7; i++)
             rf.writeDouble(i * 1.414);

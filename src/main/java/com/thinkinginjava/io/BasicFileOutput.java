@@ -3,15 +3,13 @@ package com.thinkinginjava.io;
 import java.io.*;
 
 public class BasicFileOutput {
-    static String file = "BasicFileOutput.out";
+    static String file = "/Users/pavel/Documents/Java/text.txt ";
 
-    public static void main(String[] args)
-            throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(
                 new StringReader(
-                        BufferedInputFile.read("BasicFileOutput.java")));
-        PrintWriter out = new PrintWriter(
-                new BufferedWriter(new FileWriter(file)));
+                        BufferedInputFile.read("/Users/pavel/Documents/Java/text.txt ")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)));
         int lineCount = 1;
         String s;
         while ((s = in.readLine()) != null)

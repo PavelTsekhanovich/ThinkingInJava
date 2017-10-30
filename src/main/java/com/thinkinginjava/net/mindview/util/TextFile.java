@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.TreeSet;
 
 public class TextFile extends ArrayList<String> {
-    // Read a file as a single string:
+
     public static String read(String fileName) {
         StringBuilder sb = new StringBuilder();
         try {
@@ -77,8 +77,7 @@ public class TextFile extends ArrayList<String> {
         TextFile text = new TextFile("test.txt");
         text.write("test2.txt");
         // Break into unique sorted list of words:
-        TreeSet<String> words = new TreeSet<String>(
-                new TextFile("TextFile.java", "\\W+"));
+        TreeSet<String> words = new TreeSet<String>(new TextFile("TextFile.java", "\\W+"));
         // Display the capitalized words:
         System.out.println(words.headSet("a"));
     }

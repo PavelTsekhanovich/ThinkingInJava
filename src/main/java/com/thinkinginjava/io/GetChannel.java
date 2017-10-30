@@ -11,13 +11,11 @@ public class GetChannel {
 
     public static void main(String[] args) throws Exception {
         // Write a file:
-        FileChannel fc =
-                new FileOutputStream("data.txt").getChannel();
+        FileChannel fc = new FileOutputStream("data.txt").getChannel();
         fc.write(ByteBuffer.wrap("Some text ".getBytes()));
         fc.close();
         // Add to the end of the file:
-        fc =
-                new RandomAccessFile("data.txt", "rw").getChannel();
+        fc = new RandomAccessFile("data.txt", "rw").getChannel();
         fc.position(fc.size()); // Move to the end
         fc.write(ByteBuffer.wrap("Some more".getBytes()));
         fc.close();

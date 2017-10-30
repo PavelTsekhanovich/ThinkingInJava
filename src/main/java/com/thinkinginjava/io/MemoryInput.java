@@ -4,12 +4,11 @@ import java.io.IOException;
 import java.io.StringReader;
 
 public class MemoryInput {
-    public static void main(String[] args)
-            throws IOException {
-        StringReader in = new StringReader(
-                BufferedInputFile.read("MemoryInput.java"));
+    public static void main(String[] args) throws IOException {
+        StringReader in = new StringReader(BufferedInputFile.read("com.thinkinginjava.io.MemoryInput"));
         int c;
-        while ((c = in.read()) != -1)
+        while ((c = in.read()) != -1) {
             System.out.print((char) c);
+        }
     }
 }
