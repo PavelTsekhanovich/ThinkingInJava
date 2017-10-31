@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/SimplePriorities.java
-// Shows the use of thread priorities.
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
