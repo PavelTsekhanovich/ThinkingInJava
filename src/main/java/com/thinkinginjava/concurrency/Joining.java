@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/Joining.java
-// Understanding join().
+package com.thinkinginjava.concurrency;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -53,9 +52,4 @@ public class Joining {
                 doc = new Joiner("Doc", grumpy);
         grumpy.interrupt();
     }
-} /* Output:
-Grumpy was interrupted. isInterrupted(): false
-Doc join completed
-Sleepy has awakened
-Dopey join completed
-*///:~
+}
