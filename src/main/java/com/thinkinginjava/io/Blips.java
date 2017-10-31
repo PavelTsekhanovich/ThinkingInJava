@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/Blips.java
-// Simple use of Externalizable & a pitfall.
+package com.thinkinginjava.io;
 
 import java.io.*;
 
@@ -26,13 +25,11 @@ class Blip2 implements Externalizable {
         print("Blip2 Constructor");
     }
 
-    public void writeExternal(ObjectOutput out)
-            throws IOException {
+    public void writeExternal(ObjectOutput out) throws IOException {
         print("Blip2.writeExternal");
     }
 
-    public void readExternal(ObjectInput in)
-            throws IOException, ClassNotFoundException {
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
         print("Blip2.readExternal");
     }
 }
@@ -58,14 +55,4 @@ public class Blips {
 //! print("Recovering b2:");
 //! b2 = (Blip2)in.readObject();
     }
-} /* Output:
-Constructing objects:
-Blip1 Constructor
-Blip2 Constructor
-Saving objects:
-Blip1.writeExternal
-Blip2.writeExternal
-Recovering b1:
-Blip1 Constructor
-Blip1.readExternal
-*///:~
+}

@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/Button2b.java
-// Using anonymous inner classes.
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,4 +31,4 @@ public class Button2b extends JFrame {
     public static void main(String[] args) {
         run(new Button2b(), 200, 150);
     }
-} ///:~
+}

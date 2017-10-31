@@ -1,4 +1,4 @@
-//: com.thinkinginjava.io/MyWorld.java
+package com.thinkinginjava.io;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -56,21 +56,4 @@ public class MyWorld {
         print("animals2: " + animals2);
         print("animals3: " + animals3);
     }
-} /* Output: (Sample)
-animals: [Bosco the dog[Animal@addbf1], House@42e816
-, Ralph the hamster[Animal@9304b1], House@42e816
-, Molly the cat[Animal@190d11], House@42e816
-]
-animals1: [Bosco the dog[Animal@de6f34], House@156ee8e
-, Ralph the hamster[Animal@47b480], House@156ee8e
-, Molly the cat[Animal@19b49e6], House@156ee8e
-]
-animals2: [Bosco the dog[Animal@de6f34], House@156ee8e
-, Ralph the hamster[Animal@47b480], House@156ee8e
-, Molly the cat[Animal@19b49e6], House@156ee8e
-]
-animals3: [Bosco the dog[Animal@10d448], House@e0e1c6
-, Ralph the hamster[Animal@6ca1c], House@e0e1c6
-, Molly the cat[Animal@1bf216a], House@e0e1c6
-]
-*///:~
+}

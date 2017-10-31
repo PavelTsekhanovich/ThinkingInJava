@@ -1,5 +1,4 @@
-//: com.thinkinginjava.io/Blip3.java
-// Reconstructing an externalizable object.
+package com.thinkinginjava.io;
 
 import java.io.*;
 
@@ -25,16 +24,14 @@ public class Blip3 implements Externalizable {
         return s + i;
     }
 
-    public void writeExternal(ObjectOutput out)
-            throws IOException {
+    public void writeExternal(ObjectOutput out) throws IOException {
         print("Blip3.writeExternal");
         // You must do this:
         out.writeObject(s);
         out.writeInt(i);
     }
 
-    public void readExternal(ObjectInput in)
-            throws IOException, ClassNotFoundException {
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
         print("Blip3.readExternal");
         // You must do this:
         s = (String) in.readObject();
@@ -58,14 +55,4 @@ public class Blip3 implements Externalizable {
         b3 = (Blip3) in.readObject();
         print(b3);
     }
-} /* Output:
-Constructing objects:
-Blip3(String x, int a)
-A String 47
-Saving object:
-Blip3.writeExternal
-Recovering b3:
-Blip3 Constructor
-Blip3.readExternal
-A String 47
-*///:~
+}

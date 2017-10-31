@@ -1,5 +1,4 @@
-package com.thinkinginjava.io;//: com.thinkinginjava.io/Logon.java
-// Demonstrates the "transient" keyword.
+package com.thinkinginjava.io;
 
 import java.io.*;
 import java.util.Date;
@@ -37,14 +36,4 @@ public class Logon implements Serializable {
         a = (Logon) in.readObject();
         print("logon a = " + a);
     }
-} /* Output: (Sample)
-logon a = logon info:
-   username: Hulk
-   date: Sat Nov 19 15:03:26 MST 2005
-   password: myLittlePony
-Recovering object at Sat Nov 19 15:03:28 MST 2005
-logon a = logon info:
-   username: Hulk
-   date: Sat Nov 19 15:03:26 MST 2005
-   password: null
-*///:~
+}

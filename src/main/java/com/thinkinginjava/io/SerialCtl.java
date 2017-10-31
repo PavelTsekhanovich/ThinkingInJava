@@ -1,6 +1,4 @@
-//: com.thinkinginjava.io/SerialCtl.java
-// Controlling serialization by adding your own
-// writeObject() and readObject() methods.
+package com.thinkinginjava.io;
 
 import java.io.*;
 
@@ -17,20 +15,17 @@ public class SerialCtl implements Serializable {
         return a + "\n" + b;
     }
 
-    private void writeObject(ObjectOutputStream stream)
-            throws IOException {
+    private void writeObject(ObjectOutputStream stream) throws IOException {
         stream.defaultWriteObject();
         stream.writeObject(b);
     }
 
-    private void readObject(ObjectInputStream stream)
-            throws IOException, ClassNotFoundException {
+    private void readObject(ObjectInputStream stream) throws IOException, ClassNotFoundException {
         stream.defaultReadObject();
         b = (String) stream.readObject();
     }
 
-    public static void main(String[] args)
-            throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         SerialCtl sc = new SerialCtl("Test1", "Test2");
         System.out.println("Before:\n" + sc);
         ByteArrayOutputStream buf = new ByteArrayOutputStream();
@@ -42,11 +37,4 @@ public class SerialCtl implements Serializable {
         SerialCtl sc2 = (SerialCtl) in.readObject();
         System.out.println("After:\n" + sc2);
     }
-} /* Output:
-Before:
-Not Transient: Test1
-Transient: Test2
-After:
-Not Transient: Test1
-Transient: Test2
-*///:~
+}

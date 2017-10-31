@@ -1,5 +1,4 @@
-//: com.thinkinginjava.gui/Progress.java
-// Using sliders, progress bars and progress monitors.
+package com.thinkinginjava.gui;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -38,4 +37,4 @@ public class Progress extends JFrame {
     public static void main(String[] args) {
         run(new Progress(), 300, 200);
     }
-} ///:~
+}
