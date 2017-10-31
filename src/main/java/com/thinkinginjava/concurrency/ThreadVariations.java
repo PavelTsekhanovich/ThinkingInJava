@@ -1,11 +1,9 @@
-//: com.thinkinginjava.concurrency/ThreadVariations.java
-// Creating threads with inner classes.
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.TimeUnit;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
-// Using a named inner class:
 class InnerThread1 {
     private int countDown = 5;
     private Inner inner;
@@ -170,4 +168,4 @@ public class ThreadVariations {
         new InnerRunnable2("InnerRunnable2");
         new ThreadMethod("ThreadMethod").runTask();
     }
-} /* (Execute to see output) *///:~
+}

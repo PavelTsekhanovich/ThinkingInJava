@@ -20,7 +20,7 @@ public class SimplePriorities implements Runnable {
         Thread.currentThread().setPriority(priority);
         while (true) {
             // An expensive, interruptable operation:
-            for (int i = 1; i < 100000; i++) {
+            for (int i = 1; i < 100000000; i++) {
                 d += (Math.PI + Math.E) / (double) i;
                 if (i % 1000 == 0)
                     Thread.yield();
@@ -39,16 +39,4 @@ public class SimplePriorities implements Runnable {
                 new SimplePriorities(Thread.MAX_PRIORITY));
         exec.shutdown();
     }
-} /* Output: (70% match)
-Thread[pool-1-thread-6,10,main]: 5
-Thread[pool-1-thread-6,10,main]: 4
-Thread[pool-1-thread-6,10,main]: 3
-Thread[pool-1-thread-6,10,main]: 2
-Thread[pool-1-thread-6,10,main]: 1
-Thread[pool-1-thread-3,1,main]: 5
-Thread[pool-1-thread-2,1,main]: 5
-Thread[pool-1-thread-1,1,main]: 5
-Thread[pool-1-thread-5,1,main]: 5
-Thread[pool-1-thread-4,1,main]: 5
-...
-*///:~
+}

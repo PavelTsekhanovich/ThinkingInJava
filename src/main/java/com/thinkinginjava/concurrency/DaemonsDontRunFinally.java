@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/DaemonsDontRunFinally.java
-// Daemon threads don't run the finally clause
+package com.thinkinginjava.concurrency;
 
 import java.util.concurrent.TimeUnit;
 
@@ -24,6 +23,4 @@ public class DaemonsDontRunFinally {
         t.setDaemon(true);
         t.start();
     }
-} /* Output:
-Starting ADaemon
-*///:~
+}
