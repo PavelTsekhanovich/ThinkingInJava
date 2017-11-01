@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
-// Performs some portion of a task:
 class TaskPortion implements Runnable {
     private static int counter = 0;
     private final int id = counter++;

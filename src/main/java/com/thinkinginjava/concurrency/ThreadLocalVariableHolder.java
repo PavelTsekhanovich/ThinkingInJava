@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/ThreadLocalVariableHolder.java
-// Automatically giving each thread its own storage.
+package com.thinkinginjava.concurrency;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -22,8 +21,7 @@ class Accessor implements Runnable {
     }
 
     public String toString() {
-        return "#" + id + ": " +
-                ThreadLocalVariableHolder.get();
+        return "#" + id + ": " + ThreadLocalVariableHolder.get();
     }
 }
 
@@ -52,16 +50,4 @@ public class ThreadLocalVariableHolder {
         TimeUnit.SECONDS.sleep(3);  // Run for a while
         exec.shutdownNow();         // All Accessors will quit
     }
-} /* Output: (Sample)
-#0: 9259
-#1: 556
-#2: 6694
-#3: 1862
-#4: 962
-#0: 9260
-#1: 557
-#2: 6695
-#3: 1863
-#4: 963
-...
-*///:~
+}

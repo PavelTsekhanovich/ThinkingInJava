@@ -91,8 +91,7 @@ public class DelayQueueDemo {
     public static void main(String[] args) {
         Random rand = new Random(47);
         ExecutorService exec = Executors.newCachedThreadPool();
-        DelayQueue<DelayedTask> queue =
-                new DelayQueue<DelayedTask>();
+        DelayQueue<DelayedTask> queue = new DelayQueue<DelayedTask>();
         // Fill with tasks that have random delays:
         for (int i = 0; i < 20; i++)
             queue.put(new DelayedTask(rand.nextInt(5000)));

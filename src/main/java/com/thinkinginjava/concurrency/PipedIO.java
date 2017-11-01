@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/PipedIO.java
-// Using pipes for inter-task I/O
+package com.thinkinginjava.concurrency;
 
 import java.io.IOException;
 import java.io.PipedReader;
@@ -64,7 +63,4 @@ public class PipedIO {
         TimeUnit.SECONDS.sleep(4);
         exec.shutdownNow();
     }
-} /* Output: (65% match)
-Read: A, Read: B, Read: C, Read: D, Read: E, Read: F, Read: G, Read: H, Read: I, Read: J, Read: K, Read: L, Read: M, java.lang.InterruptedException: sleep interrupted Sender sleep interrupted
-java.com.thinkinginjava.io.InterruptedIOException Receiver read exception
-*///:~
+}

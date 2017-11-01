@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 import static com.thinkinginjava.Print.print;
 import static com.thinkinginjava.net.mindview.util.Print.printnb;
 
-// A task to check a resource out of a pool:
 class CheckoutTask<T> implements Runnable {
     private static int counter = 0;
     private final int id = counter++;
@@ -74,4 +73,4 @@ public class SemaphoreDemo {
             pool.checkIn(f); // Second checkIn ignored
         exec.shutdown();
     }
-} /* (Execute to see output) *///:~
+}

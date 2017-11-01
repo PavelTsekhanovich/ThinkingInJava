@@ -1,5 +1,4 @@
-//: com.thinkinginjava.concurrency/SyncObject.java
-// Synchronizing on another object.
+package com.thinkinginjava.concurrency;
 
 import static com.thinkinginjava.net.mindview.util.Print.print;
 
@@ -33,15 +32,4 @@ public class SyncObject {
         }.start();
         ds.g();
     }
-} /* Output: (Sample)
-g()
-f()
-g()
-f()
-g()
-f()
-g()
-f()
-g()
-f()
-*///:~
+}

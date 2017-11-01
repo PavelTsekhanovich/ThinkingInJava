@@ -1,6 +1,4 @@
-package com.thinkinginjava.concurrency;//: com.thinkinginjava.concurrency/Pool.java
-// Using a Semaphore inside a Pool, to restrict
-// the number of tasks that can use a resource.
+package com.thinkinginjava.concurrency;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,4 +52,4 @@ public class Pool<T> {
         }
         return false; // Wasn't checked out
     }
-} ///:~
+}

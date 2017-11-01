@@ -12,8 +12,7 @@ import java.util.concurrent.TimeUnit;
 import static com.thinkinginjava.net.mindview.util.Print.print;
 import static com.thinkinginjava.net.mindview.util.Print.printnb;
 
-class PrioritizedTask implements
-        Runnable, Comparable<PrioritizedTask> {
+class PrioritizedTask implements Runnable, Comparable<PrioritizedTask> {
     private Random rand = new Random(47);
     private static int counter = 0;
     private final int id = counter++;

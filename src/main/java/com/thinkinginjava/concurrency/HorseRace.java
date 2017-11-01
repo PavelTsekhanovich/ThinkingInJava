@@ -44,8 +44,9 @@ class Horse implements Runnable {
 
     public String tracks() {
         StringBuilder s = new StringBuilder();
-        for (int i = 0; i < getStrides(); i++)
+        for (int i = 0; i < getStrides(); i++) {
             s.append("*");
+        }
         s.append(id);
         return s.toString();
     }
@@ -54,8 +55,7 @@ class Horse implements Runnable {
 public class HorseRace {
     static final int FINISH_LINE = 75;
     private List<Horse> horses = new ArrayList<Horse>();
-    private ExecutorService exec =
-            Executors.newCachedThreadPool();
+    private ExecutorService exec = Executors.newCachedThreadPool();
     private CyclicBarrier barrier;
 
     public HorseRace(int nHorses, final int pause) {
