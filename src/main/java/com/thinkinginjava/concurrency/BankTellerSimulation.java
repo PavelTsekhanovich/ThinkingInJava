@@ -9,7 +9,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-// Read-only objects don't require synchronization:
 class Customer {
     private final int serviceTime;
 
